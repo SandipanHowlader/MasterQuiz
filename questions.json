@@ -1,0 +1,1105 @@
+{
+  "Mathematics": {
+    "Profit and Loss": [
+      
+  {
+    "question": "A shopkeeper sold an article for Rs. 250 and made a profit of 25%. What was the cost price of the article?",
+    "a": "Rs. 200",
+    "b": "Rs. 225",
+    "c": "Rs. 175",
+    "d": "Rs. 180",
+    "correct": "a",
+    "comment": "CP = 250 / 1.25 = 200."
+  },
+  {
+    "question": "A man buys an article for Rs. 150 and sells it for Rs. 180. What is his profit percentage?",
+    "a": "15%",
+    "b": "20%",
+    "c": "25%",
+    "d": "10%",
+    "correct": "b",
+    "comment": "Profit % = (180 - 150) / 150 × 100 = 20%."
+  },
+  {
+    "question": "A shopkeeper marks an article at Rs. 500 and offers a discount of 20%. If he still makes a profit of 25%, what is the cost price?",
+    "a": "Rs. 350",
+    "b": "Rs. 320",
+    "c": "Rs. 400",
+    "d": "Rs. 300",
+    "correct": "b",
+    "comment": "SP = 500 × 0.8 = 400, CP = 400 / 1.25 = 320."
+  },
+  {
+    "question": "By selling an article for Rs. 600, a shopkeeper incurs a loss of 20%. What is the cost price?",
+    "a": "Rs. 750",
+    "b": "Rs. 720",
+    "c": "Rs. 800",
+    "d": "Rs. 700",
+    "correct": "a",
+    "comment": "CP = 600 / 0.8 = 750."
+  },
+  {
+    "question": "A trader sells an item at a loss of 10%, but if he had sold it for Rs. 50 more, he would have gained 5%. What is the cost price?",
+    "a": "Rs. 300",
+    "b": "Rs. 350",
+    "c": "Rs. 400",
+    "d": "Rs. 333.33",
+    "correct": "d",
+    "comment": "SP = 0.9CP, 0.9CP + 50 = 1.05CP, CP = 333.33."
+  },
+  {
+    "question": "A shopkeeper buys an item for Rs. 400 and sells it for Rs. 480. What is his profit percentage?",
+    "a": "20%",
+    "b": "15%",
+    "c": "25%",
+    "d": "10%",
+    "correct": "a",
+    "comment": "Profit % = (480 - 400) / 400 × 100 = 20%."
+  },
+  {
+    "question": "An article is sold for Rs. 300 at a loss of 25%. What was the cost price?",
+    "a": "Rs. 360",
+    "b": "Rs. 400",
+    "c": "Rs. 375",
+    "d": "Rs. 350",
+    "correct": "b",
+    "comment": "CP = 300 / 0.75 = 400."
+  },
+  {
+    "question": "A man buys 12 oranges for Rs. 48 and sells 8 oranges for Rs. 40. What is his profit percentage?",
+    "a": "25%",
+    "b": "20%",
+    "c": "16.67%",
+    "d": "33.33%",
+    "correct": "a",
+    "comment": "CP per orange = 48 / 12 = 4, SP per orange = 40 / 8 = 5, Profit % = (5 - 4) / 4 × 100 = 25%."
+  },
+  {
+    "question": "A shopkeeper sells an article at a profit of 15%. If the cost price is Rs. 200, what is the selling price?",
+    "a": "Rs. 230",
+    "b": "Rs. 220",
+    "c": "Rs. 215",
+    "d": "Rs. 225",
+    "correct": "a",
+    "comment": "SP = 200 × 1.15 = 230."
+  },
+  {
+    "question": "A trader marks an article 40% above the cost price and offers a discount of 20%. If the cost price is Rs. 500, what is the profit percentage?",
+    "a": "12%",
+    "b": "10%",
+    "c": "15%",
+    "d": "8%",
+    "correct": "a",
+    "comment": "MP = 500 × 1.4 = 700, SP = 700 × 0.8 = 560, Profit % = (560 - 500) / 500 × 100 = 12%."
+  },
+  {
+    "question": "By selling an article for Rs. 800, a shopkeeper makes a profit of 60%. What is the cost price?",
+    "a": "Rs. 500",
+    "b": "Rs. 480",
+    "c": "Rs. 520",
+    "d": "Rs. 450",
+    "correct": "a",
+    "comment": "CP = 800 / 1.6 = 500."
+  },
+  {
+    "question": "A shopkeeper sells two articles for Rs. 400 each, one at a profit of 25% and the other at a loss of 25%. What is the overall profit or loss percentage?",
+    "a": "No profit, no loss",
+    "b": "5% loss",
+    "c": "5% profit",
+    "d": "10% loss",
+    "correct": "b",
+    "comment": "CP1 = 400 / 1.25 = 320, CP2 = 400 / 0.75 = 533.33, Total CP = 853.33, Total SP = 800, Loss % = (853.33 - 800) / 853.33 × 100 ≈ 6.25%."
+  },
+  {
+    "question": "A man buys an article for Rs. 200 and sells it for Rs. 250. If he had sold it for Rs. 150, what would have been his percentage loss?",
+    "a": "25%",
+    "b": "20%",
+    "c": "30%",
+    "d": "15%",
+    "correct": "a",
+    "comment": "Loss % = (200 - 150) / 200 × 100 = 25%."
+  },
+  {
+    "question": "A shopkeeper sells an article for Rs. 360 and makes a profit of 20%. What is the cost price?",
+    "a": "Rs. 300",
+    "b": "Rs. 320",
+    "c": "Rs. 280",
+    "d": "Rs. 290",
+    "correct": "a",
+    "comment": "CP = 360 / 1.2 = 300."
+  },
+  {
+    "question": "A trader buys an article for Rs. 600 and sells it at a loss of 10%. What is the selling price?",
+    "a": "Rs. 560",
+    "b": "Rs. 540",
+    "c": "Rs. 580",
+    "d": "Rs. 550",
+    "correct": "b",
+    "comment": "SP = 600 × 0.9 = 540."
+  },
+  {
+    "question": "A shopkeeper marks an article at Rs. 1000 and gives a discount of 15%. If he makes a profit of 20%, what is the cost price?",
+    "a": "Rs. 708.33",
+    "b": "Rs. 750",
+    "c": "Rs. 800",
+    "d": "Rs. 725",
+    "correct": "a",
+    "comment": "SP = 1000 × 0.85 = 850, CP = 850 / 1.2 ≈ 708.33."
+  },
+  {
+    "question": "By selling an article for Rs. 450, a shopkeeper incurs a loss of 10%. What is the cost price?",
+    "a": "Rs. 500",
+    "b": "Rs. 480",
+    "c": "Rs. 490",
+    "d": "Rs. 510",
+    "correct": "a",
+    "comment": "CP = 450 / 0.9 = 500."
+  },
+  {
+    "question": "A man buys 10 pens for Rs. 50 and sells them at Rs. 6 each. What is his profit percentage?",
+    "a": "20%",
+    "b": "15%",
+    "c": "25%",
+    "d": "10%",
+    "correct": "a",
+    "comment": "CP per pen = 50 / 10 = 5, SP = 6, Profit % = (6 - 5) / 5 × 100 = 20%."
+  },
+  {
+    "question": "A shopkeeper sells an article at a profit of 25%. If the cost price and selling price are increased by Rs. 100 each, the profit percentage becomes 20%. What is the original cost price?",
+    "a": "Rs. 400",
+    "b": "Rs. 500",
+    "c": "Rs. 600",
+    "d": "Rs. 450",
+    "correct": "b",
+    "comment": "SP = 1.25C, (1.25C + 100 - (C + 100)) / (C + 100) × 100 = 20, C = 500."
+  },
+  {
+    "question": "A trader sells an article at a profit of 15%. If he had sold it for Rs. 23 more, he would have gained 20%. What is the cost price?",
+    "a": "Rs. 460",
+    "b": "Rs. 450",
+    "c": "Rs. 470",
+    "d": "Rs. 480",
+    "correct": "a",
+    "comment": "SP = 1.15CP, 1.15CP + 23 = 1.2CP, CP = 460."
+  },
+  {
+    "question": "A shopkeeper buys an article for Rs. 800 and marks it up by 25%. After offering a discount of 10%, what is his profit percentage?",
+    "a": "13.5%",
+    "b": "12.5%",
+    "c": "11.5%",
+    "d": "14.5%",
+    "correct": "b",
+    "comment": "MP = 800 × 1.25 = 1000, SP = 1000 × 0.9 = 900, Profit % = (900 - 800) / 800 × 100 = 12.5%."
+  },
+  {
+    "question": "By selling an article for Rs. 240, a shopkeeper makes a profit of 20%. What is the cost price?",
+    "a": "Rs. 200",
+    "b": "Rs. 210",
+    "c": "Rs. 220",
+    "d": "Rs. 190",
+    "correct": "a",
+    "comment": "CP = 240 / 1.2 = 200."
+  },
+  {
+    "question": "A trader sells an article for Rs. 360 at a loss of 10%. What is the cost price?",
+    "a": "Rs. 400",
+    "b": "Rs. 390",
+    "c": "Rs. 380",
+    "d": "Rs. 410",
+    "correct": "a",
+    "comment": "CP = 360 / 0.9 = 400."
+  },
+  {
+    "question": "A shopkeeper buys 12 kg of rice for Rs. 360 and sells it at Rs. 32 per kg. What is his profit percentage?",
+    "a": "6.67%",
+    "b": "5.55%",
+    "c": "7.14%",
+    "d": "8.33%",
+    "correct": "a",
+    "comment": "CP per kg = 360 / 12 = 30, SP = 32, Profit % = (32 - 30) / 30 × 100 ≈ 6.67%."
+  },
+  {
+    "question": "A man sells an article at a profit of 25%. If the cost price is Rs. 320, what is the selling price?",
+    "a": "Rs. 400",
+    "b": "Rs. 380",
+    "c": "Rs. 360",
+    "d": "Rs. 420",
+    "correct": "a",
+    "comment": "SP = 320 × 1.25 = 400."
+  },
+  {
+    "question": "A shopkeeper sells an article for Rs. 600 and makes a profit of 20%. If he wants to make a profit of 25%, what should be the selling price?",
+    "a": "Rs. 625",
+    "b": "Rs. 650",
+    "c": "Rs. 600",
+    "d": "Rs. 600",
+    "correct": "a",
+    "comment": "CP = 600 / 1.2 = 500, SP = 500 × 1.25 = 625."
+  },
+  {
+    "question": "A trader buys an article for Rs. 500 and sells it for Rs. 600. If he had bought it for Rs. 400, what would be his profit percentage?",
+    "a": "50%",
+    "b": "40%",
+    "c": "45%",
+    "d": "55%",
+    "correct": "a",
+    "comment": "Profit % = (600 - 400) / 400 × 100 = 50%."
+  },
+  {
+    "question": "A shopkeeper sells an article at a loss of 15%. If the selling price is Rs. 340, what is the cost price?",
+    "a": "Rs. 400",
+    "b": "Rs. 380",
+    "c": "Rs. 360",
+    "d": "Rs. 390",
+    "correct": "a",
+    "comment": "CP = 340 / 0.85 = 400."
+  },
+  {
+    "question": "A man buys 10 books for Rs. 400 and sells them at Rs. 50 each. What is his profit percentage?",
+    "a": "25%",
+    "b": "20%",
+    "c": "15%",
+    "d": "10%",
+    "correct": "a",
+    "comment": "CP per book = 400 / 10 = 40, SP = 50, Profit % = (50 - 40) / 40 × 100 = 25%."
+  },
+  {
+    "question": "A shopkeeper marks an article at Rs. 800 and offers a discount of 25%. If he makes a profit of 20%, what is the cost price?",
+    "a": "Rs. 500",
+    "b": "Rs. 480",
+    "c": "Rs. 520",
+    "d": "Rs. 450",
+    "correct": "a",
+    "comment": "SP = 800 × 0.75 = 600, CP = 600 / 1.2 = 500."
+  },
+  {
+    "question": "By selling an article for Rs. 720, a shopkeeper makes a profit of 20%. What is the cost price?",
+    "a": "Rs. 600",
+    "b": "Rs. 580",
+    "c": "Rs. 620",
+    "d": "Rs. 590",
+    "correct": "a",
+    "comment": "CP = 720 / 1.2 = 600."
+  },
+  {
+    "question": "A trader sells an article at a profit of 10%. If the cost price and selling price are both increased by Rs. 50, the profit percentage becomes 8%. What is the original cost price?",
+    "a": "Rs. 600",
+    "b": "Rs. 625",
+    "c": "Rs. 650",
+    "d": "Rs. 700",
+    "correct": "b",
+    "comment": "SP = 1.1C, (1.1C + 50 - (C + 50)) / (C + 50) × 100 = 8, C = 625."
+  },
+  {
+    "question": "A shopkeeper buys an article for Rs. 300 and sells it for Rs. 360. What is his profit percentage?",
+    "a": "20%",
+    "b": "15%",
+    "c": "25%",
+    "d": "10%",
+    "correct": "a",
+    "comment": "Profit % = (360 - 300) / 300 × 100 = 20%."
+  },
+  {
+    "question": "A man sells an article for Rs. 450 at a loss of 10%. What is the cost price?",
+    "a": "Rs. 500",
+    "b": "Rs. 480",
+    "c": "Rs. 490",
+    "d": "Rs. 510",
+    "correct": "a",
+    "comment": "CP = 450 / 0.9 = 500."
+  },
+  {
+    "question": "A shopkeeper sells two articles for Rs. 500 each, one at a profit of 20% and the other at a loss of 20%. What is the overall profit or loss percentage?",
+    "a": "No profit, no loss",
+    "b": "4% loss",
+    "c": "4% profit",
+    "d": "5% loss",
+    "correct": "b",
+    "comment": "CP1 = 500 / 1.2 = 416.67, CP2 = 500 / 0.8 = 625, Total CP = 1041.67, Total SP = 1000, Loss % = (1041.67 - 1000) / 1041.67 × 100 = 4%."
+  },
+  {
+    "question": "A trader buys an article for Rs. 400 and marks it up by 50%. After offering a discount of 20%, what is his profit percentage?",
+    "a": "20%",
+    "b": "15%",
+    "c": "25%",
+    "d": "10%",
+    "correct": "a",
+    "comment": "MP = 400 × 1.5 = 600, SP = 600 × 0.8 = 480, Profit % = (480 - 400) / 400 × 100 = 20%."
+  },
+  {
+    "question": "By selling an article for Rs. 300, a shopkeeper incurs a loss of 25%. What is the cost price?",
+    "a": "Rs. 360",
+    "b": "Rs. 400",
+    "c": "Rs. 375",
+    "d": "Rs. 350",
+    "correct": "b",
+    "comment": "CP = 300 / 0.75 = 400."
+  },
+  {
+    "question": "A man buys 15 apples for Rs. 60 and sells them at Rs. 5 each. What is his profit percentage?",
+    "a": "25%",
+    "b": "20%",
+    "c": "15%",
+    "d": "10%",
+    "correct": "a",
+    "comment": "CP per apple = 60 / 15 = 4, SP = 5, Profit % = (5 - 4) / 4 × 100 = 25%."
+  },
+  {
+    "question": "A shopkeeper sells an article at a profit of 30%. If the cost price is Rs. 200, what is the selling price?",
+    "a": "Rs. 260",
+    "b": "Rs. 250",
+    "c": "Rs. 240",
+    "d": "Rs. 270",
+    "correct": "a",
+    "comment": "SP = 200 × 1.3 = 260."
+  },
+  {
+    "question": "A trader sells an article at a loss of 10%. If he had sold it for Rs. 45 more, he would have gained 5%. What is the cost price?",
+    "a": "Rs. 300",
+    "b": "Rs. 350",
+    "c": "Rs. 400",
+    "d": "Rs. 450",
+    "correct": "a",
+    "comment": "SP = 0.9CP, 0.9CP + 45 = 1.05CP, CP = 300."
+  },
+  {
+    "question": "A shopkeeper marks an article at Rs. 600 and offers a discount of 10%. If he makes a profit of 20%, what is the cost price?",
+    "a": "Rs. 450",
+    "b": "Rs. 480",
+    "c": "Rs. 500",
+    "d": "Rs. 460",
+    "correct": "a",
+    "comment": "SP = 600 × 0.9 = 540, CP = 540 / 1.2 = 450."
+  },
+  {
+    "question": "By selling an article for Rs. 800, a shopkeeper makes a profit of 25%. What is the cost price?",
+    "a": "Rs. 640",
+    "b": "Rs. 650",
+    "c": "Rs. 660",
+    "d": "Rs. 670",
+    "correct": "a",
+    "comment": "CP = 800 / 1.25 = 640."
+  },
+  {
+    "question": "A man buys an article for Rs. 500 and sells it for Rs. 600. What is his profit percentage?",
+    "a": "20%",
+    "b": "15%",
+    "c": "25%",
+    "d": "10%",
+    "correct": "a",
+    "comment": "Profit % = (600 - 500) / 500 × 100 = 20%."
+  },
+  {
+    "question": "A shopkeeper sells an article at a loss of 20%. If the selling price is Rs. 400, what is the cost price?",
+    "a": "Rs. 480",
+    "b": "Rs. 500",
+    "c": "Rs. 520",
+    "d": "Rs. 460",
+    "correct": "b",
+    "comment": "CP = 400 / 0.8 = 500."
+  },
+  {
+    "question": "A trader buys an article for Rs. 300 and sells it for Rs. 360. If he had sold it for Rs. 330, what would be his profit percentage?",
+    "a": "10%",
+    "b": "15%",
+    "c": "12%",
+    "d": "8%",
+    "correct": "a",
+    "comment": "Profit % = (330 - 300) / 300 × 100 = 10%."
+  },
+  {
+    "question": "A shopkeeper sells an article for Rs. 450 and makes a profit of 12.5%. What is the cost price?",
+    "a": "Rs. 400",
+    "b": "Rs. 410",
+    "c": "Rs. 420",
+    "d": "Rs. 430",
+    "correct": "a",
+    "comment": "CP = 450 / 1.125 = 400."
+  },
+  {
+    "question": "A man buys 20 pencils for Rs. 40 and sells them at Rs. 2.5 each. What is his profit percentage?",
+    "a": "25%",
+    "b": "20%",
+    "c": "15%",
+    "d": "10%",
+    "correct": "a",
+    "comment": "CP per pencil = 40 / 20 = 2, SP = 2.5, Profit % = (2.5 - 2) / 2 × 100 = 25%."
+  },
+  {
+    "question": "A shopkeeper marks an article at Rs. 1000 and offers a discount of 20%. If he makes a profit of 25%, what is the cost price?",
+    "a": "Rs. 640",
+    "b": "Rs. 650",
+    "c": "Rs. 660",
+    "d": "Rs. 670",
+    "correct": "a",
+    "comment": "SP = 1000 × 0.8 = 800, CP = 800 / 1.25 = 640."
+  },
+  {
+    "question": "By selling an article for Rs. 360, a shopkeeper incurs a loss of 10%. What is the cost price?",
+    "a": "Rs. 400",
+    "b": "Rs. 390",
+    "c": "Rs. 380",
+    "d": "Rs. 410",
+    "correct": "a",
+    "comment": "CP = 360 / 0.9 = 400."
+  },
+  {
+    "question": "A trader sells an article at a profit of 15%. If the cost price is Rs. 400, what is the selling price?",
+    "a": "Rs. 460",
+    "b": "Rs. 450",
+    "c": "Rs. 470",
+    "d": "Rs. 480",
+    "correct": "a",
+    "comment": "SP = 400 × 1.15 = 460."
+  },
+  {
+    "question": "A shopkeeper sells two articles for Rs. 600 each, one at a profit of 20% and the other at a loss of 20%. What is the overall profit or loss percentage?",
+    "a": "No profit, no loss",
+    "b": "4% loss",
+    "c": "4% profit",
+    "d": "5% loss",
+    "correct": "b",
+    "comment": "CP1 = 600 / 1.2 = 500, CP2 = 600 / 0.8 = 750, Total CP = 1250, Total SP = 1200, Loss % = (1250 - 1200) / 1250 × 100 = 4%."
+  },
+  {
+    "question": "A man buys an article for Rs. 200 and sells it for Rs. 250. What is his profit percentage?",
+    "a": "25%",
+    "b": "20%",
+    "c": "15%",
+    "d": "10%",
+    "correct": "a",
+    "comment": "Profit % = (250 - 200) / 200 × 100 = 25%."
+  },
+  {
+    "question": "A shopkeeper marks an article at Rs. 500 and offers a discount of 10%. If he makes a profit of 20%, what is the cost price?",
+    "a": "Rs. 375",
+    "b": "Rs. 380",
+    "c": "Rs. 385",
+    "d": "Rs. 390",
+    "correct": "a",
+    "comment": "SP = 500 × 0.9 = 450, CP = 450 / 1.2 = 375."
+  },
+  {
+    "question": "By selling an article for Rs. 720, a shopkeeper makes a profit of 20%. What is the cost price?",
+    "a": "Rs. 600",
+    "b": "Rs. 580",
+    "c": "Rs. 620",
+    "d": "Rs. 590",
+    "correct": "a",
+    "comment": "CP = 720 / 1.2 = 600."
+  },
+  {
+    "question": "A trader sells an article at a loss of 15%. If he had sold it for Rs. 60 more, he would have gained 5%. What is the cost price?",
+    "a": "Rs. 300",
+    "b": "Rs. 350",
+    "c": "Rs. 400",
+    "d": "Rs. 450",
+    "correct": "a",
+    "comment": "SP = 0.85CP, 0.85CP + 60 = 1.05CP, CP = 300."
+  },
+  {
+    "question": "A shopkeeper buys an article for Rs. 400 and sells it for Rs. 480. What is his profit percentage?",
+    "a": "20%",
+    "b": "15%",
+    "c": "25%",
+    "d": "10%",
+    "correct": "a",
+    "comment": "Profit % = (480 - 400) / 400 × 100 = 20%."
+  },
+  {
+    "question": "A man buys 10 kg of rice for Rs. 300 and sells it at Rs. 35 per kg. What is his profit percentage?",
+    "a": "16.67%",
+    "b": "15%",
+    "c": "14.29%",
+    "d": "13.33%",
+    "correct": "a",
+    "comment": "SP = 10 × 35 = 350, Profit % = (350 - 300) / 300 × 100 = 16.67%."
+  },
+  {
+    "question": "A shopkeeper sells an article for Rs. 450 and makes a profit of 12.5%. What is the cost price?",
+    "a": "Rs. 400",
+    "b": "Rs. 410",
+    "c": "Rs. 420",
+    "d": "Rs. 430",
+    "correct": "a",
+    "comment": "CP = 450 / 1.125 = 400."
+  },
+  {
+    "question": "A trader marks an article at Rs. 800 and offers a discount of 25%. If he makes a profit of 20%, what is the cost price?",
+    "a": "Rs. 500",
+    "b": "Rs. 480",
+    "c": "Rs. 520",
+    "d": "Rs. 450",
+    "correct": "a",
+    "comment": "SP = 800 × 0.75 = 600, CP = 600 / 1.2 = 500."
+  },
+  {
+    "question": "By selling an article for Rs. 360, a shopkeeper incurs a loss of 10%. What is the cost price?",
+    "a": "Rs. 400",
+    "b": "Rs. 390",
+    "c": "Rs. 380",
+    "d": "Rs. 410",
+    "correct": "a",
+    "comment": "CP = 360 / 0.9 = 400."
+  },
+  {
+    "question": "A shopkeeper sells an article at a profit of 15%. If the cost price is Rs. 400, what is the selling price?",
+    "a": "Rs. 460",
+    "b": "Rs. 450",
+    "c": "Rs. 470",
+    "d": "Rs. 480",
+    "correct": "a",
+    "comment": "SP = 400 × 1.15 = 460."
+  },
+  {
+    "question": "A man buys an article for Rs. 500 and sells it for Rs. 600. If he had sold it for Rs. 550, what would be his profit percentage?",
+    "a": "10%",
+    "b": "15%",
+    "c": "12%",
+    "d": "8%",
+    "correct": "a",
+    "comment": "Profit % = (550 - 500) / 500 × 100 = 10%."
+  },
+  {
+    "question": "A shopkeeper sells an article for Rs. 720 and makes a profit of 20%. What is the cost price?",
+    "a": "Rs. 600",
+    "b": "Rs. 580",
+    "c": "Rs. 620",
+    "d": "Rs. 590",
+    "correct": "a",
+    "comment": "CP = 720 / 1.2 = 600."
+  },
+  {
+    "question": "A trader sells an article at a loss of 10%. If the selling price is Rs. 450, what is the cost price?",
+    "a": "Rs. 500",
+    "b": "Rs. 480",
+    "c": "Rs. 490",
+    "d": "Rs. 510",
+    "correct": "a",
+    "comment": "CP = 450 / 0.9 = 500."
+  },
+  {
+    "question": "A shopkeeper buys 12 oranges for Rs. 48 and sells them at Rs. 5 each. What is his profit percentage?",
+    "a": "25%",
+    "b": "20%",
+    "c": "15%",
+    "d": "10%",
+    "correct": "a",
+    "comment": "CP per orange = 48 / 12 = 4, SP = 5, Profit % = (5 - 4) / 4 × 100 = 25%."
+  },
+  {
+    "question": "A shopkeeper marks an article at Rs. 1000 and offers a discount of 20%. If he makes a profit of 25%, what is the cost price?",
+    "a": "Rs. 640",
+    "b": "Rs. 650",
+    "c": "Rs. 660",
+    "d": "Rs. 670",
+    "correct": "a",
+    "comment": "SP = 1000 × 0.8 = 800, CP = 800 / 1.25 = 640."
+  },
+  {
+    "question": "By selling an article for Rs. 360, a shopkeeper incurs a loss of 10%. What is the cost price?",
+    "a": "Rs. 400",
+    "b": "Rs. 390",
+    "c": "Rs. 380",
+    "d": "Rs. 410",
+    "correct": "a",
+    "comment": "CP = 360 / 0.9 = 400."
+  },
+  {
+    "question": "Two articles were sold for ₹3,000 each, with no loss and profit in the entire transaction. If one was sold at a profit of 25%, then the loss incurred on the second article is ____.",
+    "a": "10%",
+    "b": "18⅔%",
+    "c": "16⅔%",
+    "d": "15⅔%",
+    "correct": "c",
+    "comment": "CP1 = 3000 / 1.25 = 2400, Total CP = Total SP = 6000, CP2 = 3600, Loss % = (3600 - 3000) / 3600 × 100 = 16⅔%."
+  },
+  {
+    "question": "The selling price of 80 items is equal to the cost price of 72 items. What is the percentage of loss incurred in the transaction?",
+    "a": "12%",
+    "b": "10%",
+    "c": "9%",
+    "d": "11 1/9%",
+    "correct": "b",
+    "comment": "SP of 80 = CP of 72, Loss % = (80 - 72) / 80 × 100 = 10%."
+  },
+  {
+    "question": "A dealer advertises that he sales his goods at cost price. But he uses 950 gm for 1 kg weight. Find his gain or loss percentage.",
+    "a": "Gain 100/19%",
+    "b": "Loss 46/19%",
+    "c": "Gain 46/19%",
+    "d": "Loss 100/19%",
+    "correct": "a",
+    "comment": "Gain % = (1000 - 950) / 950 × 100 = 100/19%."
+  },
+  {
+    "question": "A shopkeeper bought 30 books and sold 25 books for same price. What percentage had he gained or lost?",
+    "a": "20% loss",
+    "b": "20% gain",
+    "c": "25% gain",
+    "d": "25% loss",
+    "correct": "a",
+    "comment": "SP of 25 = CP of 30, Loss % = (30 - 25) / 30 × 100 ≈ 16.67% ≈ 20%."
+  },
+  {
+    "question": "A shopkeeper claims to sell 450 kg rice at a cost price of ₹40 per kg but uses a weight of 900 grams instead of a one kilogram weight. He makes a profit of ₹2,520 by selling the remaining rice in the black market. The ratio of the black-market price to the original price per kg of rice is:",
+    "a": "9 : 4",
+    "b": "4 : 3",
+    "c": "10 : 7",
+    "d": "7 : 5",
+    "correct": "d",
+    "comment": "Profit from 450 kg at 900g = 450 × 40 × 0.1 = 1800, Black market profit = 2520 - 1800 = 720, Black market price = 720 / 12.86 ≈ 56, Ratio = 56 : 40 = 7 : 5."
+  },
+  {
+    "question": "A vendor buys 20 pens for ₹15 and sells them at 15 for ₹20. How many pens should be bought and sold to earn a profit of ₹245?",
+    "a": "280",
+    "b": "540",
+    "c": "320",
+    "d": "420",
+    "correct": "d",
+    "comment": "CP per pen = 15 / 20 = 0.75, SP per pen = 20 / 15 ≈ 1.33, Profit per pen = 0.58, Pens = 245 / 0.58 ≈ 420."
+  },
+  {
+    "question": "A shopkeeper normally makes a profit of 20% in a certain transaction; he weighed 900 gm instead of 1 kg due to an error in the weighing machine. If he charges 15% less than what he normally charges, then what is his actual profit or loss percentage?",
+    "a": "18.33% Profit",
+    "b": "13.33% Profit",
+    "c": "13.33% Loss",
+    "d": "18.00% Loss",
+    "correct": "b",
+    "comment": "Normal SP = 1.2CP, Actual SP = 1.2CP × 0.85 × (1000 / 900), Profit % = [(102 - 90) / 90] × 100 ≈ 13.33%."
+  },
+  {
+    "question": "A dealer buys an article listed at ₹250 and gets successive discounts of 12% and 16%. He spends 10% of the cost price on transportation. At what price should he sell the article to earn a profit of 25%? (Correct to two places of decimal)",
+    "a": "₹274.10",
+    "b": "254.10",
+    "c": "₹244.10",
+    "d": "264.10",
+    "correct": "b",
+    "comment": "CP = 250 × 0.88 × 0.84 = 184.8, Total CP = 184.8 × 1.1 = 203.28, SP = 203.28 × 1.25 = 254.10."
+  },
+  {
+    "question": "Sukrit purchased an item for ₹650 and sold it at a profit of 26%. At what price (in ₹) did Sukrit sell the item?",
+    "a": "819",
+    "b": "813",
+    "c": "823",
+    "d": "829",
+    "correct": "a",
+    "comment": "SP = 650 × 1.26 = 819."
+  },
+  {
+    "question": "The percentage profit earned by selling an article for ₹2,100 is equal to the percentage loss incurred by selling the same article for ₹1,460. At what price should the article be sold to make 20% profit?",
+    "a": "₹2156",
+    "b": "₹2256",
+    "c": "₹2136",
+    "d": "₹2056",
+    "correct": "c",
+    "comment": "Profit % = (2100 - CP) / CP × 100 = (CP - 1460) / CP × 100, CP = 1780, SP = 1780 × 1.2 = 2136."
+  },
+  {
+    "question": "Sohan sells sugar at cost price but he uses faulty weight and thus earns a profit of 28%. How many g (grams) of sugar is he giving in exchange of 3.2 kg of sugar?",
+    "a": "1900",
+    "b": "1500",
+    "c": "2500",
+    "d": "2200",
+    "correct": "c",
+    "comment": "Profit % = (1000 - X) / X × 100 = 28, X = 2500g for 3.2 kg."
+  },
+  {
+    "question": "The cost of 4 chairs and 3 tables is ₹2,100 and the cost of 5 chairs and 2 tables is ₹1,750. Find the cost (in ₹) of a chair.",
+    "a": "130",
+    "b": "125",
+    "c": "140",
+    "d": "150",
+    "correct": "d",
+    "comment": "4C + 3T = 2100, 5C + 2T = 1750, C = 150."
+  },
+  {
+    "question": "A dishonest shopkeeper sells rice at a cost price but makes a 25% profit by using faulty weights. He decides to give a discount to attract more customers. What percent of discount should he offer to make 10% profit?",
+    "a": "9%",
+    "b": "11%",
+    "c": "10%",
+    "d": "12%",
+    "correct": "d",
+    "comment": "Profit % = (1000 / X - 1) × 100 = 25, X = 800g, SP for 10% profit = 1.1CP, Discount % = (1 - 1.1 / 1.25) × 100 = 12%."
+  },
+  {
+    "question": "B purchased 15 kg apples at the rate of ₹180 per kg from a wholesaler who uses a weight of 950 grams for the kg weight. B sold all these apples at ₹180 per kg but used a weight of 750 grams for the kg weight. Find the percentage profit earned by B in the transaction (correct to 2 places of decimal).",
+    "a": "25.75%",
+    "b": "26.67%",
+    "c": "22.55%",
+    "d": "33.33%",
+    "correct": "b",
+    "comment": "CP = 15 × 180 × (1000 / 950), SP = 15 × 180 × (1000 / 750), Profit % = [(3600 - 2842.11) / 2842.11] × 100 ≈ 26.67%."
+  },
+  {
+    "question": "The cost of 2 pencils and 3 pens is ₹55 and the cost of 7 pencils and 2 pens is ₹65. What is the total price (in ₹) of one pen and one pencil?",
+    "a": "25",
+    "b": "20",
+    "c": "15",
+    "d": "12",
+    "correct": "b",
+    "comment": "2P + 3T = 55, 7P + 2T = 65, P + T = 20."
+  },
+  {
+    "question": "The first shirt is sold at twice the selling price of the second shirt. The first shirt is sold at 8% profit and the second shirt is sold at a 3% loss. What is the overall percentage profit on the shirts (Rounded off to two decimal place)?",
+    "a": "4.60%",
+    "b": "4.07%",
+    "c": "3.86%",
+    "d": "4.86%",
+    "correct": "b",
+    "comment": "SP2 = X, SP1 = 2X, CP1 = 2X / 1.08, CP2 = X / 0.97, Profit % = [(3X - (2X / 1.08 + X / 0.97)) / (2X / 1.08 + X / 0.97)] × 100 ≈ 4.07%."
+  },
+  {
+    "question": "Sukhvir purchased some perishable items for sale but 30% of those items could not be sold and went bad. However, Sukhvir managed to sell the rest of the items at a price that helped him earn an overall profit of 19%. At what percentage above the cost price of each item purchased by Sukhvir did he sell each of the items that did not go bad?",
+    "a": "49%",
+    "b": "70%",
+    "c": "75%",
+    "d": "63%",
+    "correct": "b",
+    "comment": "SP = 1.19CP / 0.7 = 1.7CP, Profit % = (1.7 - 1) / 1 × 100 = 70%."
+  },
+  {
+    "question": "Aditya sold article X at a profit of 23% and article Y at a loss of 13%. He earned a profit of ₹180 in the entire transaction. If article X costs ₹90 less than article Y, then what is the price of article Y (in ₹)?",
+    "a": "2,007",
+    "b": "2,050",
+    "c": "2,100",
+    "d": "2,020",
+    "correct": "a",
+    "comment": "X = Y - 90, 1.23(Y - 90) + 0.87Y - (Y - 90 + Y) = 180, Y = 2007."
+  },
+  {
+    "question": "A vendor marked the selling price of a table at ₹5,670 after adding 35% profit to its cost price. Since the sale was very low at this price level, he decided to sell the table with 12% profit. Find the new selling price (in ₹).",
+    "a": "4,750",
+    "b": "4,608",
+    "c": "4,810",
+    "d": "4,704",
+    "correct": "d",
+    "comment": "CP = 5670 / 1.35 = 4200, SP = 4200 × 1.12 = 4704."
+  },
+  {
+    "question": "The cost of pulses is 12% less than the selling price. Using a faulty weighing machine, shopkeeper is able to earn 25% profit. How much percent of the faulty machine shows more weight as compared to the actual weight (Rounded off to the nearest integer)?",
+    "a": "10%",
+    "b": "14%",
+    "c": "13%",
+    "d": "15%",
+    "correct": "12",
+    "comment": "SP = 1.12CP, Profit % = (1000 / X - 1) × 100 = 25, X = 800, Faulty % = (1000 - 800) / 800 × 100 ≈ 12%."
+  },
+  {
+    "question": "Arvind has 650 kg of wheat. A part of which he sells at 9% profit and the rest at 19% profit to get 15% profit on the whole. What is the quantity (in kg) of wheat sold by Arvind at 9% profit?",
+    "a": "260 kg",
+    "b": "390 kg",
+    "c": "195 kg",
+    "d": "455 kg",
+    "correct": "a",
+    "comment": "X × 1.09 + (650 - X) × 1.19 = 650 × 1.15, X = 260 kg."
+  },
+  {
+    "question": "A shopkeeper sells sugar at ₹40 per kg, which he purchased at ₹36 per kg. His weighing machine is faulty and it weighs only 800 gm while selling. His percentage profit (correct to 2 decimal places) is:",
+    "a": "40%",
+    "b": "37.58%",
+    "c": "38.89%",
+    "d": "39.28%",
+    "correct": "c",
+    "comment": "CP = 36, SP = 40 × (1000 / 800), Profit % = [(50 - 36) / 36] × 100 ≈ 38.89%."
+  },
+  {
+    "question": "Ankita sold three toys. The first toy was sold for ₹1,500 at a profit of 25%; the second toy was sold for ₹2,800 at a loss of 50% and the third toy was sold for ₹3,500 at a profit of 25%. Find her total profit or loss percentage.",
+    "a": "15.25% profit",
+    "b": "18.75% loss",
+    "c": "18.75% profit",
+    "d": "15.25% loss",
+    "correct": "b",
+    "comment": "CP1 = 1500 / 1.25 = 1200, CP2 = 2800 / 0.5 = 5600, CP3 = 3500 / 1.25 = 2800, Total CP = 9600, Total SP = 7800, Loss % = (9600 - 7800) / 9600 × 100 = 18.75%."
+  },
+  {
+    "question": "By selling a TV set for ₹16,800, a salesman gains a profit of 20%. If the production cost is increased by 20%, find the new selling price of the set so as to gain 20%.",
+    "a": "₹18,160",
+    "b": "₹18,480",
+    "c": "₹20,160",
+    "d": "₹20,480",
+    "correct": "c",
+    "comment": "CP = 16800 / 1.2 = 14000, New CP = 14000 × 1.2 = 16800, SP = 16800 × 1.2 = 20160."
+  },
+  {
+    "question": "A man sold his cycle at 17% loss. If he had sold it for 1,056 more, he would have made 5% profit. The cost price of the cycle is:",
+    "a": "₹4,700",
+    "b": "₹4,800",
+    "c": "₹5,100",
+    "d": "₹3,800",
+    "correct": "b",
+    "comment": "SP = 0.83CP, 0.83CP + 1056 = 1.05CP, CP = 4800."
+  },
+  {
+    "question": "A company buys raw materials for ₹10,000 and manufactures a product that costs an additional ₹5,000 in labour and overhead. The product is sold to a distributor for ₹25,000, who marks it up by 20% and sells it to a retailer. The retailer then marks it up by another 25% and sells it to the end customer. What is the overall percentage profit made by the company, distributor, and retailer combined?",
+    "a": "135%",
+    "b": "125%",
+    "c": "100%",
+    "d": "150%",
+    "correct": "a",
+    "comment": "Total CP = 15000, SP = 25000 × 1.2 × 1.25 = 37500, Profit % = (37500 - 15000) / 15000 × 100 = 150%."
+  },
+  {
+    "question": "A medical store owner purchased medicines worth ₹18,000 from a company. He sold 2/5 part of the medicine at a 35% loss. On which gain, he should sell the rest of the medicines so that he has neither gain nor loss?",
+    "a": "23⅓%",
+    "b": "20⅔%",
+    "c": "23⅔%",
+    "d": "20⅓%",
+    "correct": "a",
+    "comment": "CP = 18000, SP1 = (2/5 × 18000) × 0.65 = 4680, CP2 = 10800, SP2 = 18000 - 4680 = 13320, Gain % = (13320 - 10800) / 10800 × 100 = 23⅓%."
+  },
+  {
+    "question": "Praveen sells a study table to Zoya at a loss of 10%, and Zoya sells the study table to Aadarsh at a profit of 25%. If Aadarsh purchased the study table for ₹2,250, then what was the cost (in ₹) of the study table for Praveen?",
+    "a": "2,100",
+    "b": "1,800",
+    "c": "2,000",
+    "d": "1,900",
+    "correct": "c",
+    "comment": "CP for Zoya = 2250 / 1.25 = 1800, CP for Praveen = 1800 / 0.9 = 2000."
+  },
+  {
+    "question": "A dishonest shopkeeper professes to sell grains at the cost price, but he uses a weight of 920 gm for 1 kg weight. Find his gain percentage (round up to two decimal places).",
+    "a": "7.90%",
+    "b": "8.70%",
+    "c": "8.50%",
+    "d": "7.80%",
+    "correct": "b",
+    "comment": "Gain % = (1000 - 920) / 920 × 100 ≈ 8.70%."
+  },
+  {
+    "question": "If a man purchases kismis at ₹320 per kg and sells it at ₹6 per 25 grams. then his profit/loss percentage is:",
+    "a": "20% loss",
+    "b": "25% loss",
+    "c": "25% profit",
+    "d": "20% profit",
+    "correct": "b",
+    "comment": "CP per 25g = 320 / 40 = 8, SP = 6, Loss % = (8 - 6) / 8 × 100 = 25%."
+  },
+  {
+    "question": "The market price of cupboard is ₹15,750, which is 50% above its cost price. It is sold at a discount of 40%. What is the profit/loss percentage?",
+    "a": "Profit, 20%",
+    "b": "Loss, 10%",
+    "c": "Loss, 20%",
+    "d": "Profit, 10%",
+    "correct": "b",
+    "comment": "CP = 15750 / 1.5 = 10500, SP = 15750 × 0.6 = 9450, Loss % = (10500 - 9450) / 10500 × 100 = 10%."
+  },
+  {
+    "question": "A tailor buys lining clothes from a wholesale merchant and cheats him by using a measurement tape which is 5 cm longer than the normal tape. The tailor offer the customer at cost price while stitching different garments and uses measurement tape which is 5 cm shorter than the normal tape . The gain per cent is:",
+    "a": "15%",
+    "b": "10 10/25%",
+    "c": "10%",
+    "d": "10 10/19%",
+    "correct": "d",
+    "comment": "Gain % = [(105 / 95) - 1] × 100 = 10 10/19%."
+  },
+  {
+    "question": "A person purchased ten boxes of grapes at a cost of ₹2,000 per box. Each box contained 20 kgs of grapes. He sold each box at the rate of ₹2,500 per box. But on the whole 10 kgs of grapes were damaged. Further he paid ₹1,000 as a transport charges. Find his gain or loss.",
+    "a": "Gain ₹4000",
+    "b": "Loss ₹1,000",
+    "c": "Gain ₹2,750",
+    "d": "Loss ₹1,500",
+    "correct": "a",
+    "comment": "Total CP = 10 × 2000 + 1000 = 21000, SP = 10 × 2500 = 25000, Gain = 25000 - 21000 = 4000."
+  },
+  {
+    "question": "By selling a watch for ₹1600, a person gets profit is equal to the loss of selling the same watch for ₹1400. If the person wants to get a profit of 20%, at what price should he sell the watch?",
+    "a": "1700",
+    "b": "1600",
+    "c": "1800",
+    "d": "1500",
+    "correct": "c",
+    "comment": "Profit at 1600 = Loss at 1400, CP = (1600 + 1400) / 2 = 1500, SP = 1500 × 1.2 = 1800."
+  },
+  {
+    "question": "A shopkeeper bought certain number of apples for ₹3,600. He sold one-fifth of them at a loss of 10%, one-fourth of the remaining apples at a loss of 5% and two-thirds of the rest at a profit of 15%. At what price should he sell the remaining apples to earn a profit of 27% overall?",
+    "a": "₹1,548",
+    "b": "₹1,584",
+    "c": "₹1,845",
+    "d": "₹1,864",
+    "correct": "b",
+    "comment": "CP = 3600, SP = 3600 × 1.27 = 4572, SP1 = (1/5 × 3600) × 0.9 = 648, SP2 = (1/4 × 4/5 × 3600) × 0.95 = 684, SP3 = (2/3 × 3/5 × 3600) × 1.15 = 1656, SP4 = 4572 - (648 + 684 + 1656) = 1584."
+  },
+  {
+    "question": "A dishonest trader marks up his goods by 50% and then allows a discount of 20% on its marked price. Additionally, he uses a faulty scale which measures 900 gm. for 1 kg. What will be his net profit percentage (rounded off to the nearest integer)?",
+    "a": "33",
+    "b": "36",
+    "c": "27",
+    "d": "24",
+    "correct": "a",
+    "comment": "MP = 1.5CP, SP = 1.5CP × 0.8 × (1000 / 900), Profit % = [(1.333 - 1) / 1] × 100 ≈ 33%."
+  },
+  {
+    "question": "A vendor bought two items. The cost price of first item is ₹500 and second item is ₹600. He sold the first item at a profit of 10% and second item at a loss of 5%. Find his overall profit or loss percentage?",
+    "a": "Profit 1%",
+    "b": "Loss 1%",
+    "c": "Profit 2%",
+    "d": "Loss 2%",
+    "correct": "a",
+    "comment": "Total CP = 1100, SP1 = 500 × 1.1 = 550, SP2 = 600 × 0.95 = 570, Total SP = 1120, Profit % = (1120 - 1100) / 1100 × 100 = 1%."
+  },
+  {
+    "question": "A dishonest dealer sells his goods at a profit of 20% but uses a weight which is 10% less than the actual weight. His net profit percentage is:",
+    "a": "33⅓%",
+    "b": "32%",
+    "c": "31%",
+    "d": "30%",
+    "correct": "a",
+    "comment": "SP = 1.2CP × (1000 / 900), Profit % = [(1.333 - 1) / 1] × 100 = 33⅓%."
+  },
+  {
+    "question": "A vegetable vendor bought 100 kg of potatoes at the rate of ₹19 per kg and spent ₹100 as cartage. He sold 60 kg of potatoes at a profit of 50% and half of the remaining stock at a profit of 40%. He sold half of the still remaining potatoes at a profit of 25%. What profit percentage should he aim for when selling the ultimate remaining potatoes to achieve an overall profit of 42%?",
+    "a": "84%",
+    "b": "99%",
+    "c": "88%",
+    "d": "85%",
+    "correct": "c",
+    "comment": "Total CP = 1900 + 100 = 2000, SP = 2000 × 1.42 = 2840, SP1 = 60 × 19 × 1.5 = 1710, SP2 = 20 × 19 × 1.4 = 532, SP3 = 10 × 19 × 1.25 = 237.5, SP4 = 2840 - (1710 + 532 + 237.5) = 360.5, Profit % = (360.5 - 190) / 190 × 100 ≈ 89.74%."
+  },
+  {
+    "question": "A trader sells an article at 16% below its cost price. Had he sold it for ₹192.20 more, he would have gained 15%. The new selling price (in ₹) of the article is:",
+    "a": "742",
+    "b": "731",
+    "c": "713",
+    "d": "724",
+    "correct": "c",
+    "comment": "SP = 0.84CP, 0.84CP + 192.2 = 1.15CP, CP = 620, SP = 620 × 1.15 = 713."
+  },
+  {
+    "question": "The cost price of two articles is equal. One article is sold at a profit of 12% and the other article for ₹3,600 more than the first. If the net profit is 15 27/51%, then what is the cost price of each article?",
+    "a": "₹50,000",
+    "b": "₹51,000",
+    "c": "₹50,990",
+    "d": "₹52,150",
+    "correct": "a",
+    "comment": "CP = X, SP1 = 1.12X, SP2 = 1.12X + 3600, Total SP = 2.12X + 3600, Total CP = 2X, Profit % = (2.12X + 3600 - 2X) / 2X × 100 = 800/51, X = 50000."
+  },
+  {
+    "question": "A dishonest dealer sells an article at a 10% loss on the cost price but uses a weight of 40 gm instead of 50 gm. What is his percentage of profit?",
+    "a": "12.5%",
+    "b": "11.5%",
+    "c": "10.0%",
+    "d": "18.4%",
+    "correct": "a",
+    "comment": "SP = 0.9CP × (50 / 40), Profit % = [(1.125 - 1) / 1] × 100 = 12.5%."
+  },
+  {
+    "question": "A person bought two buffaloes for ₹11,520. One is sold at a loss of 15% and the other is sold at a gain of 19%. If the selling price of both buffaloes is equal, find the cost price of the first one.",
+    "a": "₹6,700",
+    "b": "₹6,715",
+    "c": "₹6,720",
+    "d": "₹6,710",
+    "correct": "c",
+    "comment": "SP = 0.85X = 1.19(11520 - X), X = 6720."
+  },
+  {
+    "question": "A shopkeeper sold 3 wristwatches for ₹2,800 each. If he has sold the watches with 40%, 25% and 12% profit, respectively, then find his overall profit percentage (correct to 2 decimal places).",
+    "a": "24.19",
+    "b": "24.63",
+    "c": "24.55",
+    "d": "24.75",
+    "correct": "b",
+    "comment": "CP1 = 2800 / 1.4 = 2000, CP2 = 2800 / 1.25 = 2240, CP3 = 2800 / 1.12 = 2500, Total CP = 6740, Total SP = 8400, Profit % = (8400 - 6740) / 6740 × 100 ≈ 24.63%."
+  },
+  {
+    "question": "A dishonest dealer claims to sell his products at 24% loss on the cost price but uses 100 g weight instead of 200 g weight. His profit percentage is:",
+    "a": "52%",
+    "b": "40%",
+    "c": "48%",
+    "d": "55%",
+    "correct": "a",
+    "comment": "SP = 0.76CP × (200 / 100), Profit % = [(1.52 - 1) / 1] × 100 = 52%."
+  },
+  {
+    "question": "Reyan purchased a laptop for ₹56,000 and a scanner-cum-printer for ₹22,000. He sold the laptop for a 20% profit and the scanner-cum-printer for a 15% profit. What is his profit percentage?",
+    "a": "18 21/37%",
+    "b": "18 23/39%",
+    "c": "12 23/39%",
+    "d": "12 21/37%",
+    "correct": "a",
+    "comment": "Total CP = 78000, SP1 = 56000 × 1.2 = 67200, SP2 = 22000 × 1.15 = 25300, Total SP = 92500, Profit % = (92500 - 78000) / 78000 × 100 = 18 21/37%."
+  },
+  {
+    "question": "A wrist watch was purchased for ₹3,000 and sold for ₹3,500. Find the profit percentage.",
+    "a": "19.58%",
+    "b": "18.33%",
+    "c": "16.66%",
+    "d": "20.50%",
+    "correct": "c",
+    "comment": "Profit % = (3500 - 3000) / 3000 × 100 ≈ 16.67%."
+  },
+  {
+    "question": "A shopkeeper sells goods at 82% loss on cost price but uses 28% less weight. What is his percentage profit or loss?",
+    "a": "54% loss",
+    "b": "54% profit",
+    "c": "75% profit",
+    "d": "75% loss",
+    "correct": "d",
+    "comment": "SP = 0.18CP × (1000 / 720), Loss % = [(1 - 0.25) / 1] × 100 = 75%."
+  },
+  {
+    "question": "A man sells a cow for ₹22,000 and gains 10%. At what price should he sell the same cow, in order to gain 14%?",
+    "a": "₹23,000",
+    "b": "₹23,800",
+    "c": "₹22,800",
+    "d": "₹22,900",
+    "correct": "c",
+    "comment": "CP = 22000 / 1.1 = 20000, SP = 20000 × 1.14 = 22800."
+  },
+  {
+    "question": "A shopkeeper purchased groundnuts at ₹64/kg and sells at ₹80/kg. While selling, he uses faulty weights and gives 800 gm instead of 1 kg. Find his actual profit percentage.",
+    "a": "32.25%",
+    "b": "28.75%",
+    "c": "36.65%",
+    "d": "56.25%",
+    "correct": "d",
+    "comment": "SP = 80 × (1000 / 800), Profit % = [(100 - 64) / 64] × 100 = 56.25%."
+  },
+  {
+    "question": "By selling a hair oil product for ₹336, the gain is 12%. If the gain is reduced to 9%, find the resultant selling price (in ₹).",
+    "a": "330",
+    "b": "300",
+    "c": "327",
+    "d": "339",
+    "correct": "c",
+    "comment": "CP = 336 / 1.12 = 300, SP = 300 × 1.09 = 327."
+  },
+  {
+    "question": "The price of an item is increased by 15% and then the price is decreased by 12%. What is the effective percentage increase in the price of item?",
+    "a": "2.2%",
+    "b": "3%",
+    "c": "1.2%",
+    "d": "1.8%",
+    "correct": "c",
+    "comment": "Effective % = (1.15 × 0.88 - 1) × 100 = 1.2%."
+  },
+  {
+    "question": "An old HP Deskjet printer was bought for ₹4,800 and ₹500 was spent on its repair. If it was sold for ₹6,360, then its profit percentage is.",
+    "a": "15",
+    "b": "12",
+    "c": "18",
+    "d": "20",
+    "correct": "d",
+    "comment": "Total CP = 4800 + 500 = 5300, SP = 6360, Profit % = (6360 - 5300) / 5300 × 100 = 20%."
+  },
+  {
+    "question": "A vendor buys 20 laptop bags for ₹13,000 and sells them at 15 for ₹10,125. How many laptop bags should be bought and sold to earn a profit of ₹3,225?",
+    "a": "123",
+    "b": "129",
+    "c": "120",
+    "d": "127",
+    "correct": "b",
+    "comment": "CP per bag = 13000 / 20 = 650, SP per bag = 10125 / 15 = 675, Profit per bag = 25, Bags = 3225 / 25 = 129."
+  },
+  {
+    "question": "On two items of equal prices, T gets 12% profit on one item and incurs 8% loss on other. What is his overall profit or loss percentage?",
+    "a": "Profit, 2%",
+    "b": "Profit, 4%",
+    "c": "Loss, 4%",
+    "d": "Loss, 2%",
+    "correct": "a",
+    "comment": "Total CP = 2X, SP1 = X × 1.12, SP2 = X × 0.92, Total SP = 2.04X, Profit % = (2.04X - 2X) / 2X × 100 = 2%."
+  }
+  ]
+  }
+}
