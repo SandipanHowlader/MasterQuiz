@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuizMaster Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- START PAGE -->
+    <div id="startPage" class="page card">
+      <h1>👋 Welcome to QuizMaster!</h1>
+      <input type="text" id="userName" placeholder="Enter your name" />
+      <button id="startBtn">Start</button>
+    </div>
+
+    <!-- SUBJECT PAGE -->
+    <div id="subjectPage" class="page card" style="display:none;">
+      <h2 id="greeting"></h2>
+      <h3>Select a Subject</h3>
+      <div id="subjects" class="list"></div>
+      <button class="backBtn" onclick="goBackToStart()">⬅ Back</button>
+    </div>
+
+    <!-- CHAPTER PAGE -->
+    <div id="chapterPage" class="page card" style="display:none;">
+      <h2 id="subjectTitle"></h2>
+      <h3>Select a Chapter</h3>
+      <div id="chapters" class="list"></div>
+      <button class="backBtn" onclick="goBackToSubjects()">⬅ Back</button>
+    </div>
+
+    <!-- QUIZ PAGE -->
+    <div id="quizPage" class="page card" style="display:none;">
+      <div id="quiz"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
