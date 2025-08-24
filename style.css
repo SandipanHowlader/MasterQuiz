@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(135deg, #7995ca, #70c8b1);
+  background: linear-gradient(135deg, #9048b4, #559283);
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -16,7 +16,7 @@ body {
 
 /* Cards */
 .card {
-  background: #eef3f4;
+  background: #f4e2f0;
   border-radius: 16px;
   padding: 30px;
   text-align: center;
