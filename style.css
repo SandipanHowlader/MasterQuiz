@@ -1,5 +1,5 @@
 body {
-  background: #f5f7fb;
+  background: #122343;
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -16,7 +16,7 @@ body {
 
 /* Cards */
 .card {
-  background: #fff;
+  background: #c7cff2;
   border-radius: 16px;
   padding: 30px;
   text-align: center;
