@@ -1,5 +1,233 @@
 {
   "Mathematics": {
+     "Number System": [
+  {
+    "question": "Which one of the following is not correct?",
+    "a": "1 is neither prime nor composite",
+    "b": "0 is neither positive nor negative",
+    "c": "If p × q is even, then p and q are always even",
+    "d": "√2 is an irrational number",
+    "correct": "c",
+    "comment": "p × q even implies at least one is even, not both."
+  },
+  {
+    "question": "If n is a natural number, then √n is",
+    "a": "Always a natural number",
+    "b": "Always a rational number",
+    "c": "Always an irrational number",
+    "d": "Either a natural number or an irrational number",
+    "correct": "d",
+    "comment": "√n is natural for perfect squares, irrational otherwise."
+  },
+  {
+    "question": "Which one of the following is correct?",
+    "a": "Decimal expansion of a rational number is terminating",
+    "b": "Decimal expansion of a rational number is non-terminating",
+    "c": "Decimal expansion of an irrational number is terminating and non-repeating",
+    "d": "Decimal expansion of an irrational number is non-terminating and non-repeating",
+    "correct": "d",
+    "comment": "Irrational numbers have non-terminating, non-repeating decimals."
+  },
+  {
+    "question": "All prime numbers up to 110 are multiplied together. What is the unit digit in this product?",
+    "a": "0",
+    "b": "3",
+    "c": "5",
+    "d": "None of the above",
+    "correct": "a",
+    "comment": "Product includes 5*2, making unit digit 0."
+  },
+  {
+    "question": "What is the value of x for which x, x+1 and x+3 are all prime numbers?",
+    "a": "0",
+    "b": "1",
+    "c": "2",
+    "d": "101",
+    "correct": "c",
+    "comment": "x=2, 2, 3, 5 are all prime."
+  },
+  {
+    "question": "If N²−33, N²−31 and N²−29 are prime numbers, then what is the number of possible values of N, where N is an integer?",
+    "a": "1",
+    "b": "2",
+    "c": "6",
+    "d": "None of these",
+    "correct": "b",
+    "comment": "Only pair of prime no. with a gap of 2 is 3,5,7; N²−33=3, N²=36, N=(-6,6) ."
+  },
+  {
+    "question": "The sum of three prime numbers is 100. If one of them exceeds another by 36, then one of the numbers is",
+    "a": "17",
+    "b": "29",
+    "c": "43",
+    "d": "None of the above",
+    "correct": "d",
+    "comment": "2+x+(x+36)=100, x=31."
+  },
+  {
+    "question": "Consider the following statements:\n1. Of two consecutive integers one is even.\n2. Square of an odd integer is of the form 8n +1.\nWhich of the above statements is/are correct?",
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2",
+    "correct": "c",
+    "comment": "Both statements hold true for integers."
+  },
+  {
+    "question": "Which one of the following rational numbers has non-terminating and repeating decimal expansion?",
+    "a": "15/1600",
+    "b": "23/8",
+    "c": "35/50",
+    "d": "17/6",
+    "correct": "d",
+    "comment": "17/6 = 2.833..., non-terminating and repeating."
+  },
+  {
+    "question": "Consider the following statements in respect of two integers p and q (both >1) which are relatively prime:\n1. Both p and q may be odd numbers.\n2. Both p and q may be prime numbers.\n3. One of p and q may be composite number.\nWhich of the above statements is/are correct?",
+    "a": "1 and 2 only",
+    "b": "1 and 3 only",
+    "c": "2 and 3 only",
+    "d": "1,2 and 3",
+    "correct": "d",
+    "comment": "All combinations are possible for relatively prime numbers."
+  },
+  {
+    "question": "Which of the following statements is not true?",
+    "a": "The difference of two prime numbers, both greater than 2, is divisible by 2",
+    "b": "For two different integers m, n and a prime number p, if p divides the product m x n, then P divides either m or n",
+    "c": "If a number is of the form 6n - 1 (n being a natural number), then it is a prime number.",
+    "d": "There is only one set of three prime numbers such that there is a gap of 2 between two adjacent prime numbers",
+    "correct": "c",
+    "comment": "Not necessarily true."
+  },
+  {
+    "question": "'AB' is a 2 digit prime number where A is not equal to B. If the digits are reversed new number 'BA' is also a prime number. Then find sum of all such numbers.",
+    "a": "374",
+    "b": "396",
+    "c": "407",
+    "d": "418",
+    "correct": "d",
+    "comment": "Pairs 11, 13, 17, 31, 37, 71, 73, 79, 97 sum to 418."
+  },
+  {
+    "question": "There are numbers which are co-prime to each other, are such that the product of the first two is 286 and that of the last two is 770. What is the sum of the numbers?",
+    "a": "85",
+    "b": "80",
+    "c": "75",
+    "d": "70",
+    "correct": "d",
+    "comment": "a*b=286; b*c=770; a/c=13/35;a=13,b=22,c=35; a+b+c=70."
+  },
+  {
+    "question": "x, y and z are prime numbers and x + y + z = 38. What is the maximum value of x?",
+    "a": "19",
+    "b": "23",
+    "c": "31",
+    "d": "29",
+    "correct": "c",
+    "comment": "31 + 5 + 2 = 38."
+  },
+  {
+    "question": "N is the smallest three digit prime number. When N is divided by 13, then what will be the remainder?",
+    "a": "8",
+    "b": "9",
+    "c": "7",
+    "d": "10",
+    "correct": "d",
+    "comment": "N=101, 101 mod 13 = 10."
+  },
+  {
+    "question": "How many pairs of natural numbers are there such that the difference of their squares is 35?",
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4",
+    "correct": "b",
+    "comment": "Pairs (6,1), (18,13) satisfy n² - m² = 35."
+  },
+  {
+    "question": "How many pairs of natural numbers are there such that the difference of their squares is 40?",
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4",
+    "correct": "b",
+    "comment": "Pairs (5,3), (41,39) satisfy n² - m² = 40."
+  },
+  {
+    "question": "Suppose n is a positive integer such that n²+48 is a perfect square. What is the number of such n?",
+    "a": "One",
+    "b": "Two",
+    "c": "Three",
+    "d": "Four",
+    "correct": "c",
+    "comment": "n=1 (49), n=4 (64), n=11 (169) satisfy n² + 48 = k²."
+  },
+  {
+    "question": "What is the sum of all integer values of n for which n²+19n+92 is a perfect square?",
+    "a": "21",
+    "b": "19",
+    "c": "0",
+    "d": "-19",
+    "correct": "d",
+    "comment": ""
+  },
+  {
+    "question": "The sum of the digits of a number 10^n-1, where n is a natural number, is equal to 3798, then what is the value of n?",
+    "a": "421",
+    "b": "422",
+    "c": "423",
+    "d": "424",
+    "correct": "b",
+    "comment": "10^422 - 1 has 422 digits of 9, sum = 422 × 9 = 3798."
+  },
+  {
+    "question": "The sum of two positive numbers is 14 and difference between their squares is 28, what is the sum of their cubes?",
+    "a": "106",
+    "b": "196",
+    "c": "594",
+    "d": "728",
+    "correct": "d",
+    "comment": "x+y=14, x²-y²=28, x=8, y=6, x³+y³=512+216=728."
+  },
+  {
+    "question": "The product of three consecutive positive integers is 15600. Then the sum of the squares of these integers is",
+    "a": "1777",
+    "b": "1785",
+    "c": "1875",
+    "d": "1877",
+    "correct": "d",
+    "comment": "n(n+1)(n+2)=15600, n=24, sum = 576+625+676=1877."
+  },
+  {
+    "question": "The sum of the squares of two natural consecutive odd numbers is 394. The sum of the numbers is",
+    "a": "24",
+    "b": "32",
+    "c": "40",
+    "d": "28",
+    "correct": "d",
+    "comment": "x²+(x+2)²=394, x=13, sum=13+15=28, corrected to 28."
+  },
+  {
+    "question": "Let a, b and c be the fractions such that a = b + c. If c is divided by a, the result is 1/2. If a + b + c =1, then a - b = ?",
+    "a": "1/3",
+    "b": "1/2",
+    "c": "2/3",
+    "d": "1/4",
+    "correct": "d",
+    "comment": "c/a=1/2, a=b+c, a+b+c=1, a-b=1/4."
+  },
+  {
+    "question": "If I = a² + b² + c² , where a and b are consecutive integers and c = ab, then I is",
+    "a": "An even number and it is not a square of an integer",
+    "b": "An odd number and it is a square of an integer",
+    "c": "Square of an even integer",
+    "d": "Square of an odd integer",
+    "correct": "d",
+    "comment": "."
+  }
+     ],
+    
     "Profit and Loss": [
       
   {
