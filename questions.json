@@ -1328,6 +1328,503 @@
     "correct": "a",
     "comment": "Total CP = 2X, SP1 = X × 1.12, SP2 = X × 0.92, Total SP = 2.04X, Profit % = (2.04X - 2X) / 2X × 100 = 2%."
   }
-  ]
+  ],
+    "Square Root": [
+      {
+        "question": "The value of √169 + √0.0144 − √5.76 is ______.",
+        "a": "10.72",
+        "b": "15.09",
+        "c": "15.76",
+        "d": "9.35",
+        "correct": "a",
+        "comment": "√169 = 13, √0.0144 = 0.12, √5.76 = 2.4. So, 13 + 0.12 − 2.4 = 10.72."
+      },
+      {
+        "question": "When all the students of a school are made to stand in lines to form a square, less than 10 students are left surplus. If the students of the school are 1230, how many students will stand on each line?",
+        "a": "32 Students",
+        "b": "35 Students",
+        "c": "34 Students",
+        "d": "36 Students",
+        "correct": "b",
+        "comment": "Largest perfect square ≤ 1230 with remainder < 10 is 1225 = 35², 1230 − 1225 = 5 < 10. So, 35 per line."
+      },
+      {
+        "question": "The square of a natural number subtracted from its cube is 48. The number is ______.",
+        "a": "6",
+        "b": "4",
+        "c": "5",
+        "d": "8",
+        "correct": "b",
+        "comment": "Let number be n. Solve n³ − n² = 48. For n = 4: 4³ = 64, 4² = 16, 64 − 16 = 48."
+      },
+      {
+        "question": "What is the least perfect square number which is exactly divisible by 3, 4, 7, 10, and 12?",
+        "a": "62500",
+        "b": "44100",
+        "c": "8100",
+        "d": "17600",
+        "correct": "b",
+        "comment": "LCM of 3,4,7,10,12 = 420. Smallest square: 420 = 2² × 3 × 5 × 7, multiply by 3×5×7 = 105, so 420 × 105 = 44100 = 210²."
+      },
+      {
+        "question": "What is the least number to be subtracted from 696 to make it a perfect square?",
+        "a": "2",
+        "b": "6",
+        "c": "35",
+        "d": "20",
+        "correct": "d",
+        "comment": "√696 ≈ 26.38, 26² = 676, 696 − 676 = 20."
+      },
+      {
+        "question": "What is the least number to be added to 4523 to make it a perfect square?",
+        "a": "101",
+        "b": "105",
+        "c": "110",
+        "d": "238",
+        "correct": "a",
+        "comment": "√4523 ≈ 67.25, 68² = 4624, 4624 − 4523 = 101."
+      },
+      {
+        "question": "If √14.44 + √(9 + x²) = 8.8, then find the value of x.",
+        "a": "5",
+        "b": "4",
+        "c": "7",
+        "d": "2",
+        "correct": "b",
+        "comment": "√14.44 = 3.8, so 3.8 + √(9 + x²) = 8.8, √(9 + x²) = 5, 9 + x² = 25, x² = 16, x = 4."
+      },
+      {
+        "question": "What is the square root of 9 + 2√14?",
+        "a": "1 + 2√2",
+        "b": "√3 + √6",
+        "c": "√2 + √7",
+        "d": "√2 + √5",
+        "correct": "c",
+        "comment": "Assume √(9 + 2√14) = √m + √n. Square: m + n + 2√(mn) = 9 + 2√14. So, m + n = 9, mn = 14. Solve t² − 9t + 14 = 0, t = 7,2. Thus, √2 + √7."
+      },
+      {
+        "question": "The value of √400 + √0.0400 + √0.0004 is ______.",
+        "a": "20.202",
+        "b": "20.022",
+        "c": "0.22",
+        "d": "20.22",
+        "correct": "d",
+        "comment": "√400 = 20, √0.0400 = 0.2, √0.0004 = 0.02. Sum: 20 + 0.2 + 0.02 = 20.22."
+      },
+      {
+        "question": "If x = √(3018 + √(36 + √169)), then what is the value of x?",
+        "a": "42",
+        "b": "44",
+        "c": "55",
+        "d": "45",
+        "correct": "c",
+        "comment": "√169 = 13, √(36 + 13) = √49 = 7, √(3018 + 7) = √3025 = 55."
+      },
+      {
+        "question": "Simplify: [(76 + 84)² − (76 − 84)²] / (76 × 84) = ?",
+        "a": "4",
+        "b": "9",
+        "c": "8",
+        "d": "6",
+        "correct": "a",
+        "comment": "Use (a+b)² − (a−b)² = 4ab. Numerator = 4×76×84, denominator = 76×84, so result = 4."
+      },
+      {
+        "question": "The square root of 27225 is ______.",
+        "a": "165",
+        "b": "175",
+        "c": "155",
+        "d": "145",
+        "correct": "a",
+        "comment": "165² = 160² + 2×160×5 + 5² = 25600 + 1600 + 25 = 27225."
+      },
+      {
+        "question": "The number of non-square numbers between 87² and 88² is ______.",
+        "a": "154",
+        "b": "184",
+        "c": "174",
+        "d": "164",
+        "correct": "c",
+        "comment": "Numbers between n² and (n+1)² = 2n. For n = 87, 2×87 = 174."
+      },
+      {
+        "question": "Square root of 0.9 is equal to ______.",
+        "a": "0.9487",
+        "b": "0.3",
+        "c": "0.9463",
+        "d": "0.03",
+        "correct": "a",
+        "comment": "√0.9 = √(9/10) ≈ 0.9487 (approximated for exam purposes)."
+      },
+      {
+        "question": "What is the square root of 5041?",
+        "a": "79",
+        "b": "81",
+        "c": "71",
+        "d": "69",
+        "correct": "c",
+        "comment": "71² = 70² + 2×70×1 + 1² = 4900 + 140 + 1 = 5041."
+      },
+      {
+        "question": "Which of the numbers given below is the square root of 16384?",
+        "a": "132",
+        "b": "128",
+        "c": "118",
+        "d": "122",
+        "correct": "b",
+        "comment": "128² = 100² + 2×100×28 + 28² = 10000 + 5600 + 784 = 16384."
+      },
+      {
+        "question": "The square root of which of the following numbers is irrational?",
+        "a": "2916",
+        "b": "4489",
+        "c": "1024",
+        "d": "7840",
+        "correct": "d",
+        "comment": "2916 = 54², 4489 = 67², 1024 = 32² are perfect squares. 7840 is not (88² = 7744, 89² = 7921)."
+      },
+      {
+        "question": "What is the square root of 9409?",
+        "a": "83",
+        "b": "87",
+        "c": "89",
+        "d": "97",
+        "correct": "d",
+        "comment": "97² = 100² − 2×100×3 + 3² = 10000 − 600 + 9 = 9409."
+      },
+      {
+        "question": "Which of the numbers given below is the square root of 15376?",
+        "a": "122",
+        "b": "124",
+        "c": "134",
+        "d": "128",
+        "correct": "b",
+        "comment": "124² = 120² + 2×120×4 + 4² = 14400 + 960 + 16 = 15376."
+      },
+      {
+        "question": "The square root of which of the following is a rational number?",
+        "a": "2361.96",
+        "b": "2758.28",
+        "c": "72568.4",
+        "d": "62504.9",
+        "correct": "a",
+        "comment": "2361.96 = 236196/100 = (486/10)² = 48.6². Others are not perfect squares."
+      },
+      {
+        "question": "The square root of which of the following is a rational number?",
+        "a": "6250.49",
+        "b": "1250.49",
+        "c": "5768.28",
+        "d": "1354.24",
+        "correct": "d",
+        "comment": "1354.24 = 135424/100 = (368/10)² = 36.8². Others are not."
+      },
+      {
+        "question": "The square root of 27 − 4√35 is ______.",
+        "a": "±(√5 + 2√7)",
+        "b": "±(√5 − 2√7)",
+        "c": "±(√7 − 2√5)",
+        "d": "±(√7 + 2√5)",
+        "correct": "c",
+        "comment": "Assume √(27 − 4√35) = √m − √n. Square: m + n − 2√(mn) = 27 − 4√35. So, m + n = 27, mn = 140. Solve t² − 27t + 140 = 0, t = 20,7. Adjust sign: √7 − 2√5."
+      },
+      {
+        "question": "A two-digit number has its tens digit as 4 less than thrice the units digit. If the units and tens digits are interchanged, its value decreases by 18. Find the square root of the two-digit number?",
+        "a": "4.69",
+        "b": "7.28",
+        "c": "9.1",
+        "d": "8.3",
+        "correct": "b",
+        "comment": "Let units = u, tens = t. t = 3u − 4, 10u + t = 10t + u − 18. Solve: u = t − 2, t = 5, u = 3. Number = 53, √53 ≈ 7.28."
+      },
+      {
+        "question": "The square roots of how many factors of 2250 will be natural numbers?",
+        "a": "15",
+        "b": "4",
+        "c": "5",
+        "d": "6",
+        "correct": "b",
+        "comment": "2250 = 2×3²×5³. Total factors = 24. Square factors: 1, 9, 25, 225 (even exponents), so 4."
+      },
+      {
+        "question": "What is the square root of 214 − 78√5?",
+        "a": "13 − 3√5",
+        "b": "17 − 4√5",
+        "c": "13 − 6√5",
+        "d": "17 − 3√5",
+        "correct": "a",
+        "comment": "Assume √(214 − 78√5) = √m − √n. Square: m + n − 2√(mn) = 214 − 78√5. So, m + n = 214, mn = 7605. Solve t² − 214t + 7605 = 0, t = 169,45. So, 13 − 3√5."
+      },
+      {
+        "question": "1.5625 = ?",
+        "a": "1.05",
+        "b": "1.25",
+        "c": "1.45",
+        "d": "1.55",
+        "correct": "b",
+        "comment": "1.5625 = 15625/10000 = (125/100)² = 1.25²."
+      },
+      {
+        "question": "The least perfect square, which is divisible by each of 21, 36, and 66 is ______.",
+        "a": "213444",
+        "b": "214344",
+        "c": "214434",
+        "d": "231444",
+        "correct": "a",
+        "comment": "LCM of 21,36,66 = 2²×3²×7×11 = 396. Multiply by 7×11 = 77 to make square: 396×77 = 30492, but 213444 = 462², where 462 = 2×3×7×11."
+      },
+      {
+        "question": "Find the square root of 289.",
+        "a": "17",
+        "b": "15",
+        "c": "19",
+        "d": "13",
+        "correct": "a",
+        "comment": "17² = 289."
+      },
+      {
+        "question": "Find the square root of 0.",
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "3",
+        "correct": "a",
+        "comment": "0² = 0."
+      },
+      {
+        "question": "Find the square root of 121.",
+        "a": "11",
+        "b": "12",
+        "c": "10",
+        "d": "13",
+        "correct": "a",
+        "comment": "11² = 121."
+      },
+      {
+        "question": "Find the square root of 256.",
+        "a": "16",
+        "b": "14",
+        "c": "18",
+        "d": "15",
+        "correct": "a",
+        "comment": "16² = 256."
+      },
+      {
+        "question": "Find the square root of 169.",
+        "a": "13",
+        "b": "12",
+        "c": "14",
+        "d": "15",
+        "correct": "a",
+        "comment": "13² = 169."
+      },
+      {
+        "question": "Find the square root of 49.",
+        "a": "7",
+        "b": "6",
+        "c": "8",
+        "d": "5",
+        "correct": "a",
+        "comment": "7² = 49."
+      },
+      {
+        "question": "Find the square root of 25.",
+        "a": "5",
+        "b": "4",
+        "c": "6",
+        "d": "7",
+        "correct": "a",
+        "comment": "5² = 25."
+      },
+      {
+        "question": "Find the square root of 196.",
+        "a": "14",
+        "b": "13",
+        "c": "15",
+        "d": "12",
+        "correct": "a",
+        "comment": "14² = 196."
+      },
+      {
+        "question": "Find the square root of 9.",
+        "a": "3",
+        "b": "2",
+        "c": "4",
+        "d": "5",
+        "correct": "a",
+        "comment": "3² = 9."
+      },
+      {
+        "question": "Find the square root of 100.",
+        "a": "10",
+        "b": "9",
+        "c": "11",
+        "d": "12",
+        "correct": "a",
+        "comment": "10² = 100."
+      },
+      {
+        "question": "Find the value of √0.64 + √1.44 + √0.0009.",
+        "a": "2.03",
+        "b": "2.01",
+        "c": "2.05",
+        "d": "2.00",
+        "correct": "a",
+        "comment": "√0.64 = 0.8, √1.44 = 1.2, √0.0009 = 0.03. Sum = 2.03."
+      },
+      {
+        "question": "Which is the smallest number, with which 600 should be multiplied so that it becomes a perfect square?",
+        "a": "6",
+        "b": "5",
+        "c": "4",
+        "d": "7",
+        "correct": "a",
+        "comment": "600 = 2³×3×5². Multiply by 2×3 = 6 for even powers."
+      },
+      {
+        "question": "In a class, each student contributed as many paise as the number of students. If the total collection was Rs. 169, what was the number of students?",
+        "a": "130",
+        "b": "13",
+        "c": "169",
+        "d": "16",
+        "correct": "b",
+        "comment": "n² = 169 (Rs. 169 = 16900 paise), so n = 13 students."
+      },
+      {
+        "question": "A person wants to arrange his colleagues in the form of a perfect square, but finds there are 9 persons too many. What will be the number of persons in the front row, if the total number is 2410?",
+        "a": "49",
+        "b": "50",
+        "c": "48",
+        "d": "51",
+        "correct": "a",
+        "comment": "k² + 9 = 2410, k² = 2401 = 49²."
+      },
+      {
+        "question": "If √15625 = 125, then the value of (√156.25 + √1.5625 + √0.015625 + √0.00015625) is ______.",
+        "a": "13.8875",
+        "b": "13.875",
+        "c": "13.85",
+        "d": "13.9",
+        "correct": "a",
+        "comment": "√156.25 = 12.5, √1.5625 = 1.25, √0.015625 = 0.125, √0.00015625 = 0.0125. Sum = 13.8875."
+      },
+      {
+        "question": "An army man wants to arrange his men in a perfect square, but finds there are 64 men too many. What will be the number of men in the front row, if the total number is 15440?",
+        "a": "124",
+        "b": "123",
+        "c": "125",
+        "d": "126",
+        "correct": "a",
+        "comment": "k² + 64 = 15440, k² = 15376 = 124²."
+      },
+      {
+        "question": "How many natural numbers lie between 9² and 10²?",
+        "a": "36",
+        "b": "27",
+        "c": "9",
+        "d": "18",
+        "correct": "d",
+        "comment": "Between n² and (n+1)²: 2n numbers. For n = 9, 2×9 = 18."
+      },
+      {
+        "question": "Which of the following is a perfect square number?",
+        "a": "222222",
+        "b": "23453",
+        "c": "1681",
+        "d": "1057",
+        "correct": "c",
+        "comment": "1681 = 41². Others are not perfect squares."
+      },
+      {
+        "question": "Find the perfect square number between 30 and 40.",
+        "a": "36",
+        "b": "49",
+        "c": "25",
+        "d": "none of these",
+        "correct": "a",
+        "comment": "6² = 36 is between 30 and 40."
+      },
+      {
+        "question": "Without doing any calculation, find the numbers which are surely perfect squares.",
+        "a": "441",
+        "b": "408",
+        "c": "153",
+        "d": "257",
+        "correct": "a",
+        "comment": "Squares cannot end in 2,3,7,8. 441 ends in 1, 21² = 441."
+      },
+      {
+        "question": "Without adding, find the sum 1 + 3 + 5 + 7 + 9.",
+        "a": "16",
+        "b": "36",
+        "c": "9",
+        "d": "25",
+        "correct": "d",
+        "comment": "Sum of first n odd numbers = n². For 5 odds, 5² = 25."
+      },
+      {
+        "question": "The square root of 16641 is ______.",
+        "a": "129",
+        "b": "121",
+        "c": "211",
+        "d": "229",
+        "correct": "a",
+        "comment": "129² = 130² − 2×130×1 + 1² = 16900 − 260 + 1 = 16641."
+      },
+      {
+        "question": "Find the greatest perfect square of 5 digits.",
+        "a": "99825",
+        "b": "99856",
+        "c": "90825",
+        "d": "90856",
+        "correct": "b",
+        "comment": "Largest 5-digit number = 99999, √99999 ≈ 316.2, 316² = 99856."
+      },
+      {
+        "question": "None of the square numbers end with _________ at unit’s place.",
+        "a": "3",
+        "b": "2",
+        "c": "7",
+        "d": "2, 3, 7, or 8",
+        "correct": "d",
+        "comment": "Possible units digits for squares: 0,1,4,5,6,9."
+      },
+      {
+        "question": "If 5278 is squared, then what will be at unit place?",
+        "a": "4",
+        "b": "7",
+        "c": "6",
+        "d": "8",
+        "correct": "a",
+        "comment": "Units digit of 5278 is 8, 8² = 64, units digit = 4."
+      },
+      {
+        "question": "Find the greatest 4-digit number which is a perfect square.",
+        "a": "9990",
+        "b": "9801",
+        "c": "9999",
+        "d": "none of these",
+        "correct": "b",
+        "comment": "Largest 4-digit number = 9999, √9999 ≈ 99.99, 99² = 9801."
+      },
+      {
+        "question": "How many numbers lie between square of 12 and 13.",
+        "a": "22",
+        "b": "23",
+        "c": "24",
+        "d": "25",
+        "correct": "c",
+        "comment": "Between n² and (n+1)²: 2n numbers. For n = 12, 2×12 = 24."
+      },
+      {
+        "question": "2025 plants are to be planted in a garden such that each row contains as many plants as the number of rows. Find the number of plants in each row.",
+        "a": "55",
+        "b": "65",
+        "c": "45",
+        "d": "none of these",
+        "correct": "c",
+        "comment": "√2025 = 45."
+      }
+    ]
   }
 }
