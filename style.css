@@ -324,19 +324,22 @@ button {
   transform: rotateY(180deg);
 }
 .card-face {
-  position:absolute;
-  width:100%;
-  height:100%;
-  backface-visibility: hidden;
-  border-radius: 12px;
-  border: 2px solid #6a8ef5;
-  box-shadow: 0 3px 10px #0002;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:18px;
-  font-family: 'Chilanka', cursive;
-  line-height:1.4;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 18px;
+  box-sizing: border-box;
+  overflow: auto;                /* <-- important: makes content scroll inside the box */
+  word-wrap: break-word;
+  overflow-wrap: break-word;         /* wrap long words */
+  white-space: pre-line !important;         /* respect newlines, but allow wrapping */
+  text-align: center; 
+  font-size: 18px;
+  font-family: 'Chilanka', cursive;           /* center short lines */
+  display: flex;
+  align-items: center;           /* center vertically when content is short */
+  justify-content: center;
+  flex-direction: column; 
 }
 .card-front {
   background: linear-gradient(135deg,#fff,#f7fbff);
