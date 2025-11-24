@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learn & Conquer - Where Practice Meets Performance</title>
-  <meta name="description" content=" Empower your learning journey with interactive practice sessions and challenging quizzes. Strengthen your skills, track your progress, and master concepts at your own pace">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Learn & Conquer — Quiz + Flashcards + Revision</title>
+  <link href='https://fonts.googleapis.com/css?family=Chilanka' rel='stylesheet'>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
     <div id="startPage" class="page card">
       <h1>👋 Welcome to Learn & Conquer!</h1>
       <h2>Where Practice Meets Performance</h2>
-      <h3>Empower your learning journey with interactive practice sessions and challenging quizzes. Strengthen your skills, track your progress, and master concepts at your own pace</h3>
+      <h3>Empower your learning journey with interactive practice sessions and challenging quizzes.</h3>
       <input type="text" id="userName" placeholder="Enter your name" />
       <button id="startBtn">Start</button>
     </div>
@@ -27,7 +27,7 @@
       <button class="backBtn" onclick="goBackToStart()">⬅ Back</button>
     </div>
 
-    <!-- CHAPTER PAGE -->
+    <!-- CHAPTER PAGE (list of chapters) -->
     <div id="chapterPage" class="page card" style="display:none;">
       <h2 id="subjectTitle"></h2>
       <h3>Select a Chapter</h3>
@@ -35,18 +35,94 @@
       <button class="backBtn" onclick="goBackToSubjects()">⬅ Back</button>
     </div>
 
+    <!-- CHAPTER ACTION PAGE (NEW) -->
+    <div id="chapterActionPage" class="page card" style="display:none;">
+      <h2 id="actionSubjectTitle"></h2>
+      <h3 id="actionChapterTitle"></h3>
+
+      <div style="margin:12px 0;">
+        <button id="startQuizBtn" class="listBtn">Start Quiz</button>
+        <button id="startFlashBtn" class="listBtn">Study Flashcards</button>
+        <button id="startRevisionBtn" class="listBtn">Revision Notes</button>
+        <button class="backBtn" onclick="goBackToChapters()">⬅ Back to Chapters</button>
+      </div>
+
+      <div style="margin-top:10px; color:#555;">
+        <small>Select "Start Quiz" to begin the chapter quiz, "Study Flashcards" for quick recall, or "Revision Notes" for short concept cards.</small>
+      </div>
+    </div>
+
     <!-- QUIZ PAGE -->
     <div id="quizPage" class="page card" style="display:none;">
       <div id="quiz"></div>
+      <br>
+      <button class="exitBtn" onclick="exitQuiz()">⏹ Exit</button>
+    </div>
+
+    <!-- FLASHCARD PAGE -->
+    <div id="flashcardPage" class="page card" style="display:none;">
+      <div class="flashcard-top">
+        <div id="flashMeta">
+          <span id="flashSubjectChapter"></span>
+          <span id="flashProgress"></span>
+        </div>
+        <div id="flashControls">
+          <button id="shuffleBtn">Shuffle</button>
+          <button id="flipBtn">Flip</button>
+        </div>
+      </div>
+
+      <div id="flashCardWrap">
+        <div id="flashCard" class="card-outer">
+          <div class="card-inner" id="cardInner">
+            <div class="card-face card-front" id="cardFront"></div>
+            <div class="card-face card-back" id="cardBack"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flash-nav">
+        <button id="prevFlashBtn">Previous</button>
+        <button id="nextFlashBtn">Next</button>
+        <button id="exitFlashBtn">Exit</button>
+      </div>
+
+      <div style="margin-top:12px;">
+        <small>Tip: Click the card or "Flip" to reveal the back. Use Next/Previous to navigate.</small>
+      </div>
+    </div>
+
+    <!-- REVISION NOTES PAGE (NEW) -->
+    <div id="revisionNotesPage" class="page card" style="display:none;">
+      <div class="revision-top">
+        <div id="revMeta"><span id="revSubjectChapter"></span> <span id="revProgress"></span></div>
+        <div style="margin-top:8px;">
+          <button id="exitRevBtn" class="listBtn">Exit Notes</button>
+        </div>
+      </div>
+
+      <div id="revCardWrap" style="margin-top:12px;">
+        <div id="revCard" class="rev-card">
+          <div id="revContent" style="white-space:pre-wrap;"></div>
+        </div>
+      </div>
+
+      <div class="flash-nav">
+        <button id="prevRevBtn">Previous</button>
+        <button id="nextRevBtn">Next</button>
+      </div>
+      <div style="margin-top:8px;"><small>Short notes — read quickly. Use Next/Prev or arrow keys.</small></div>
     </div>
 
     <br>
 
-    <div id="reviewPage" class="page card" style="display:grid;">
-      <h3> Switch to desktop view for better visualization</h3>
-      <h2>See <a href="https://drive.google.com/file/d/1U4p33Y8tCEkGtD3EW4kTru48Q1byKIwH/view?usp=sharing">User Manual</a></h2>
-       <h3>Please give your valuable feedback so that we can improve our platform <a href="https://docs.google.com/forms/d/e/1FAIpQLSehyShwdUJDnXAllB7YcY6L_rUX4EyDlW9sUCSLQiREZ0UE7w/viewform?usp=dialog">Feedback</a></h3>
-       <h3> For any Query or help you can contact us  <a href="mailto:nothingtoeverythingok@gmail.com">Send an email</a></h3>
+    <!-- REVIEW/INFO PAGE -->
+    <div id="reviewPage" class="page card" style="display:flex;">
+      <h2>Docs & Feedback</h2>
+      <h3>See <a href="https://drive.google.com/file/d/1U4p33Y8tCEkGtD3EW4kTru48Q1byKIwH/view?usp=sharing">User Manual</a></h3>
+      <h3>Please give feedback: <a href="https://docs.google.com/forms/d/e/1FAIpQLSehyShwdUJDnXAllB7YcY6L_rUX4EyDlW9sUCSLQiREZ0UE7w/viewform?usp=dialog">Feedback</a></h3>
+      <h3>Contact: <a href="mailto:nothingtoeverythingok@gmail.com">Send an email</a></h3>
+      <button class="backBtn" onclick="goBackToStart()">⬅ Back</button>
     </div>
 
   </div>
