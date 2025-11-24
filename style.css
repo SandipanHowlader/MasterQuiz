@@ -292,3 +292,215 @@ button {
   margin-top: 8px;
   border-radius: 6px;
 }
+
+/* ---------- Flashcards ---------- */
+.flashcard-top {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:12px;
+}
+#flashCardWrap {
+  display:flex;
+  justify-content:center;
+  margin: 8px 0 16px;
+}
+
+/* Card container */
+.card-outer {
+  perspective: 1200px;
+  width: 100%;
+  max-width: 600px;
+  height: 260px;
+}
+.card-inner {
+  width:100%;
+  height:100%;
+  position:relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+.card-inner.flipped {
+  transform: rotateY(180deg);
+}
+.card-face {
+  position:absolute;
+  width:100%;
+  height:100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  border: 2px solid #6a8ef5;
+  box-shadow: 0 3px 10px #0002;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:18px;
+  font-family: 'Chilanka', cursive;
+  line-height:1.4;
+}
+.card-front {
+  background: linear-gradient(135deg,#fff,#f7fbff);
+}
+.card-back {
+  background: linear-gradient(135deg,#fff8f0,#fff);
+  transform: rotateY(180deg);
+}
+
+/* flash nav */
+.flash-nav {
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  margin-top:12px;
+}
+.flash-nav button {
+  padding:10px 14px;
+  border-radius:8px;
+  border:none;
+  background:#5c6ef8;
+  color:#fff;
+  cursor:pointer;
+}
+
+/* flash controls */
+#flashControls button {
+  margin-left:8px;
+  padding:8px 12px;
+  border-radius:8px;
+  border:none;
+  cursor:pointer;
+  background:#4a5568;
+  color:#fff;
+}
+
+/* progress text */
+#flashProgress {
+  font-weight:600;
+  color:#444;
+}
+
+/* smaller responsiveness */
+@media (max-width:640px) {
+  .card-outer { height:220px; }
+  .card-face { font-size:16px; padding:14px; }
+}
+
+/* ---------- Flashcard slide animations (Flip + Slide Combo) ---------- */
+
+/* make flash card container positionable */
+.card-outer { position: relative; overflow: visible; }
+
+/* animation keyframes */
+@keyframes flashEnterFromRight {
+  from { transform: translateX(40px) scale(0.98); opacity: 0; }
+  to   { transform: translateX(0)     scale(1);    opacity: 1; }
+}
+@keyframes flashExitToLeft {
+  from { transform: translateX(0)     scale(1);    opacity: 1; }
+  to   { transform: translateX(-40px) scale(0.98); opacity: 0; }
+}
+@keyframes flashEnterFromLeft {
+  from { transform: translateX(-40px) scale(0.98); opacity: 0; }
+  to   { transform: translateX(0)     scale(1);    opacity: 1; }
+}
+@keyframes flashExitToRight {
+  from { transform: translateX(0)     scale(1);    opacity: 1; }
+  to   { transform: translateX(40px)  scale(0.98); opacity: 0; }
+}
+
+/* classes to trigger animations */
+.flash-anim-enter-right  { animation: flashEnterFromRight 360ms cubic-bezier(.22,.9,.35,1) forwards; }
+.flash-anim-exit-left    { animation: flashExitToLeft   300ms cubic-bezier(.22,.9,.35,1) forwards; }
+.flash-anim-enter-left   { animation: flashEnterFromLeft 360ms cubic-bezier(.22,.9,.35,1) forwards; }
+.flash-anim-exit-right   { animation: flashExitToRight  300ms cubic-bezier(.22,.9,.35,1) forwards; }
+
+/* layering so exit card is above during exit */
+.card-inner { position: relative; z-index: 1; /*will-change: transform, opacity; */}
+
+/* disable interactions while animating */
+.flash-animating { pointer-events: none; }
+
+/* subtle shadow change while animating (optional) */
+.flash-anim-enter-right .card-face,
+.flash-anim-enter-left  .card-face { box-shadow: 0 12px 30px rgba(0,0,0,0.12); }
+
+/* ensure front/back stacking during animation */
+.card-face { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+
+
+/* ---------- Revision card transformation animations ---------- */
+
+/* Make revision card positionable for animation */
+.rev-card {
+  background: #fdfdfd;
+  padding: 18px;
+  width: 95%;
+  min-height: 160px;
+  border-radius: 12px;
+  border: 2px solid #6a8ef5;
+  box-shadow: 0 3px 10px #0002;
+  font-size: 18px;
+  font-family: 'Chilanka', cursive;
+  color: #333;
+  text-align: left;
+}
+
+/* KEYFRAMES */
+@keyframes revEnterFromRight {
+  from { transform: translateX(40px) scale(0.98); opacity: 0; }
+  to   { transform: translateX(0)    scale(1);    opacity: 1; }
+}
+@keyframes revExitToLeft {
+  from { transform: translateX(0)    scale(1);    opacity: 1; }
+  to   { transform: translateX(-40px) scale(0.98); opacity: 0; }
+}
+
+@keyframes revEnterFromLeft {
+  from { transform: translateX(-40px) scale(0.98); opacity: 0; }
+  to   { transform: translateX(0)     scale(1);    opacity: 1; }
+}
+@keyframes revExitToRight {
+  from { transform: translateX(0)     scale(1);    opacity: 1; }
+  to   { transform: translateX(40px)  scale(0.98); opacity: 0; }
+}
+
+/* CLASSES to trigger animations */
+.rev-anim-enter-right {
+  animation: revEnterFromRight 360ms cubic-bezier(.22,.9,.35,1) forwards;
+}
+.rev-anim-exit-left {
+  animation: revExitToLeft 300ms cubic-bezier(.22,.9,.35,1) forwards;
+}
+
+.rev-anim-enter-left {
+  animation: revEnterFromLeft 360ms cubic-bezier(.22,.9,.35,1) forwards;
+}
+.rev-anim-exit-right {
+  animation: revExitToRight 300ms cubic-bezier(.22,.9,.35,1) forwards;
+}
+
+/* Slight hardware-acceleration helpers for smoothness */
+.rev-card,
+.rev-card * {
+  will-change: transform, opacity;
+}
+
+/* Disable pointer events while animating to avoid double clicks */
+.rev-animating { pointer-events: none; }
+
+
+.exitBtn {
+  background: #ff4d4d;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.exitBtn:hover {
+  background: #e60000;
+}
