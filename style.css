@@ -1,3 +1,8 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
 body {
   background: linear-gradient(135deg, #9048b4, #5474a6);
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -7,11 +12,13 @@ body {
   min-height: 100vh;
   padding: 40px;
   color: #333;
+  min-width: 580px;
 }
 
 .container {
   width: 100%;
   max-width: 500px;
+  min-width: 500px; 
 }
 
 /* Cards */
@@ -24,6 +31,17 @@ body {
   animation: fadeIn 0.3s ease-in-out;
 }
 
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 /* Headings */
 h1 {
   font-size: 22px;
@@ -329,13 +347,17 @@ button {
   height: 100%;
   padding: 18px;
   box-sizing: border-box;
+  border-radius: 12px;
+  border: 2px solid #6a8ef5;
+  box-shadow: 0 3px 10px #0002;
   overflow: auto;                /* <-- important: makes content scroll inside the box */
   word-wrap: break-word;
   overflow-wrap: break-word;         /* wrap long words */
   white-space: pre-line !important;         /* respect newlines, but allow wrapping */
   text-align: center; 
-  font-size: 18px;
-  font-family: 'Chilanka', cursive;           /* center short lines */
+  font-family: 'Chilanka', cursive;
+  font-size: 22px;
+  color: #333;           /* center short lines */
   display: flex;
   align-items: center;           /* center vertically when content is short */
   justify-content: center;
@@ -442,7 +464,7 @@ button {
   border-radius: 12px;
   border: 2px solid #6a8ef5;
   box-shadow: 0 3px 10px #0002;
-  font-size: 18px;
+  font-size: 22px;
   font-family: 'Chilanka', cursive;
   color: #333;
   text-align: left;
