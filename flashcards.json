@@ -3987,6 +3987,752 @@
         "front": "Quick constants & useful numbers (handy cheat-sheet).",
         "back": "m_e c² ≈ 511 keV. 1 u c² ≈ 931.494 MeV. α-particle energy ∼ few MeV. Electron charge e = 1.602×10⁻¹⁹ C. ħ ≈ 6.582×10⁻²² MeV·s (or 1.055×10⁻³⁴ J·s). Neutron mass ≈ 1.008665 u. Proton mass ≈ 1.007276 u."
       }
+    ],
+    "Electronics": [
+      {
+        "front": "What is electronics (basic definition)?",
+        "back": "Electronics is the branch of physics and engineering that studies the behavior of electrons in vacuum, gases and solid-state devices and the design of circuits that process and control electrical signals."
+      },
+      {
+        "front": "Difference between electrical and electronic engineering (short).",
+        "back": "Electrical: generation, transmission and large-scale distribution of power. Electronics: manipulation of signals and information using semiconductor devices (low-power, signal processing)."
+      },
+      {
+        "front": "Ohm's law (basic formula).",
+        "back": "V = I·R where V is voltage (V), I is current (A) and R is resistance (Ω)."
+      },
+      {
+        "front": "Current, charge and units.",
+        "back": "Electric current I = ΔQ / Δt. Charge unit: coulomb (C). 1 A = 1 C·s⁻¹."
+      },
+      {
+        "front": "Passive components: resistor, capacitor, inductor — roles.",
+        "back": "Resistor: limits current and forms voltage dividers. Capacitor: stores energy in electric field, blocks DC, passes AC, used for coupling/filters. Inductor: stores energy in magnetic field, resists change in current, used in filters and oscillators."
+      },
+      {
+        "front": "Reactance of capacitor and inductor (frequency dependence).",
+        "back": "X_C = 1 / (2·π·f·C). X_L = 2·π·f·L. Reactance changes with frequency f (Hz)."
+      },
+      {
+        "front": "Impedance Z (AC generalization of resistance).",
+        "back": "Z = R + jX (j = √(−1)). Magnitude |Z| = √(R² + X²). Use phasors for AC analysis."
+      },
+      {
+        "front": "Series and parallel combinations — quick rules.",
+        "back": "Series: resistances add. Parallel: 1/R_eq = Σ(1/R_i). Capacitors: series 1/C_eq = Σ(1/C_i), parallel C_eq = Σ C_i. Inductors: series add, parallel 1/L_eq = Σ(1/L_i)."
+      },
+      {
+        "front": "RC time constant τ and cutoff frequency.",
+        "back": "τ = R·C. In first-order RC circuits response ≈ 63.2% change in 1·τ. Cutoff f_c = 1 / (2·π·R·C)."
+      },
+      {
+        "front": "RL time constant τ and meaning.",
+        "back": "τ = L / R. Characteristic time for current change in RL circuit; controls transient response."
+      },
+      {
+        "front": "RLC resonance frequency and Q factor.",
+        "back": "ω₀ = 1 / √(L·C). f₀ = 1 / (2·π·√(L·C)). Quality factor Q = ω₀·L / R (series) or Q = R / (ω₀·L) (parallel form). Q = f₀ / Δf (bandwidth Δf)."
+      },
+      {
+        "front": "Diode — function and I–V behaviour (qualitative).",
+        "back": "Allows current primarily in one direction. Forward region: current rises exponentially with V. Reverse region: small leakage until breakdown (Zener/avalanche)."
+      },
+      {
+        "front": "Ideal diode vs practical diode (key differences).",
+        "back": "Ideal: zero forward drop, infinite reverse resistance. Practical: forward drop ≈ 0.7 V (Si) or ≈ 0.2–0.4 V (Schottky), finite reverse leakage, reverse breakdown at rated voltage."
+      },
+      {
+        "front": "Rectifiers: half-wave and full-wave (bridge).",
+        "back": "Half-wave: single diode, conducts only positive half-cycle → pulsating DC. Full-wave bridge: four diodes → both halves rectified, higher ripple frequency (2·f_line)."
+      },
+      {
+        "front": "Filter capacitor after rectifier — smoothing principle.",
+        "back": "Capacitor charges to peak and discharges into load between peaks reducing ripple. Ripple approx ΔV ≈ I_load / (f_ripple·C)."
+      },
+      {
+        "front": "Zener diode regulator — working idea.",
+        "back": "Zener diode in reverse breakdown at V_Z maintains nearly constant voltage across it when current flows, used for simple shunt voltage regulation/reference."
+      },
+      {
+        "front": "Bipolar junction transistor (BJT) — terminals and basic idea.",
+        "back": "Three terminals: Emitter (E), Base (B), Collector (C). NPN or PNP structure. Small base current controls larger collector current (I_C ≈ β·I_B)."
+      },
+      {
+        "front": "BJT regions: cutoff, active, saturation (short).",
+        "back": "Cutoff: both junctions reverse — transistor OFF. Active: base–emitter forward, base–collector reverse — transistor amplifies. Saturation: both junctions forward — transistor fully ON (V_CE small)."
+      },
+      {
+        "front": "Transistor as amplifier — gain and biasing necessity.",
+        "back": "Amplification requires biasing to set quiescent point (Q-point) so AC signal swings within linear region. Gain depends on configuration and small-signal parameters."
+      },
+      {
+        "front": "BJT small-signal parameter: transconductance g_m.",
+        "back": "g_m = I_C / V_T, where V_T ≈ 25–26 mV at room temperature. Small change δV_BE → δI_C ≈ g_m·δV_BE."
+      },
+      {
+        "front": "Common-emitter, common-collector, common-base — features.",
+        "back": "Common-emitter: high gain, phase inversion. Common-collector (emitter follower): unity voltage gain ≈ 1, high input impedance, low output impedance. Common-base: low input impedance, no voltage gain but high-frequency use."
+      },
+      {
+        "front": "Field-effect transistors (FET): JFET and MOSFET basics.",
+        "back": "JFET: channel controlled by gate reverse-bias. MOSFET: insulated gate; n-channel/p-channel; enhancement/depletion types. High input impedance and widely used in digital/power circuits."
+      },
+      {
+        "front": "MOSFET regions: cutoff, triode (linear), saturation (for enhancement n-channel).",
+        "back": "Cutoff: V_GS < V_TH → OFF. Triode: V_GS > V_TH and V_DS small → behaves like variable resistor. Saturation: V_GS > V_TH and V_DS ≥ V_GS − V_TH → current approximately controlled by V_GS."
+      },
+      {
+        "front": "MOSFET as switch — advantages for power electronics.",
+        "back": "Voltage-driven gate, very fast switching, low conduction loss when fully ON (low R_DS(on)), used in PWM and power converters."
+      },
+      {
+        "front": "Operational amplifier (op-amp) — ideal assumptions.",
+        "back": "Infinite open-loop gain, infinite input impedance, zero output impedance, infinite bandwidth, zero input offset. Real op-amps approximate these."
+      },
+      {
+        "front": "Inverting and non-inverting op-amp configurations (gain formulas).",
+        "back": "Inverting: V_out = −(R_f / R_in)·V_in. Non-inverting: V_out = (1 + R_f / R_g)·V_in."
+      },
+      {
+        "front": "Op-amp integrator and differentiator (ideal forms).",
+        "back": "Integrator: capacitor in feedback → V_out(t) ∝ −(1 / R·C)·∫ V_in dt. Differentiator: capacitor at input → V_out(t) ∝ −R·C·dV_in/dt (sensitive to noise)."
+      },
+      {
+        "front": "Comparator vs linear op-amp use (difference).",
+        "back": "Comparator is intended to switch output rails based on input comparison (digital), whereas op-amp in linear regime amplifies small differential signals. Using op-amp as comparator may be slower or unstable."
+      },
+      {
+        "front": "Feedback: negative vs positive (qualitative).",
+        "back": "Negative feedback stabilizes gain, increases bandwidth, reduces distortion. Positive feedback creates hysteresis and bistable behavior (used in Schmitt triggers)."
+      },
+      {
+        "front": "Schmitt trigger — why use it?",
+        "back": "Provides hysteresis with two thresholds to avoid multiple transitions on noisy inputs; used to clean up signals into stable digital levels."
+      },
+      {
+        "front": "555 timer IC — modes and approximate formulas.",
+        "back": "Monostable (one-shot): pulse width T ≈ 1.1·R·C. Astable (oscillator): frequency f ≈ 1.44 / ((R_A + 2·R_B)·C) and duty cycle set by R_A, R_B."
+      },
+      {
+        "front": "Crystal oscillator vs RC oscillator (stability).",
+        "back": "Crystal oscillator (quartz) provides very stable, accurate frequency. RC oscillators (Wien-bridge etc.) are simpler but less stable and precise."
+      },
+      {
+        "front": "Diode clipping and clamping circuits — purpose.",
+        "back": "Clipper: limits waveform amplitude by clipping peaks with diode(s). Clamper: shifts DC level of waveform (adds DC offset) using capacitor and diode arrangement."
+      },
+      {
+        "front": "Small-signal vs large-signal analysis (concept).",
+        "back": "Small-signal: linearize device around Q-point and analyze AC behavior. Large-signal: analyze DC bias and nonlinear operation (switching, saturation)."
+      },
+      {
+        "front": "Rectifier + filter + regulator basic power supply chain.",
+        "back": "AC → Transformer (optional) → Rectifier (diode) → Filter capacitor → Regulator (Zener/linear/switching) → DC output with load."
+      },
+      {
+        "front": "Switching regulators (buck/boost) — basic idea.",
+        "back": "Use high-speed switching and energy storage elements (inductor/capacitor) to regulate voltage with high efficiency by chopping input and filtering output (buck reduces voltage, boost increases)."
+      },
+      {
+        "front": "Pulse-width modulation (PWM) — concept and average output.",
+        "back": "Fixed-frequency digital waveform with variable duty cycle. Average output V_avg = V_high × duty_cycle. Used for motor control, dimming, power converters."
+      },
+      {
+        "front": "H-bridge for DC motor control — purpose.",
+        "back": "Four switches arranged to apply either polarity across motor enabling forward and reverse rotation. Use PWM for speed control; ensure dead-time to prevent shoot-through."
+      },
+      {
+        "front": "Logic families: TTL vs CMOS (brief comparison).",
+        "back": "TTL: typically 5 V supply, lower input impedance, stronger output sourcing/sinking. CMOS: wide supply range, very high input impedance, low static power, commonly used in modern ICs."
+      },
+      {
+        "front": "Digital basics: logic gates and De Morgan's laws.",
+        "back": "NOT, AND, OR, NAND, NOR, XOR. De Morgan: (A·B)' = A' + B', (A + B)' = A'·B'. NAND and NOR are universal gates (can implement any logic)."
+      },
+      {
+        "front": "Combinational vs sequential circuits (difference).",
+        "back": "Combinational: outputs depend only on present inputs. Sequential: outputs depend on present inputs and past history (memory elements like flip-flops)."
+      },
+      {
+        "front": "Flip-flops: D, SR, JK, T — short descriptions.",
+        "back": "D: data latch captures input on clock edge. SR: set/reset latch (S and R inputs). JK: versatile flip-flop with no invalid state (J=K=1 toggles). T: toggles state when T=1."
+      },
+      {
+        "front": "Counters and registers — purpose.",
+        "back": "Counter: sequence generator counting pulses (binary/BCD). Register: multi-bit storage using flip-flops for parallel data storage and transfer."
+      },
+      {
+        "front": "Multiplexer (MUX) and demultiplexer (DEMUX) — function.",
+        "back": "MUX selects one of many inputs to route to single output using select lines. DEMUX routes single input to one of many outputs. Useful for time-sharing signals and routing."
+      },
+      {
+        "front": "ADC and DAC basics — role in interfacing analog/digital.",
+        "back": "ADC: converts analog voltage to digital code (types: flash, SAR, sigma-delta). DAC: converts digital code to analog voltage/current (R-2R ladder common)."
+      },
+      {
+        "front": "Sampling theorem (Nyquist) — statement.",
+        "back": "A bandlimited signal with maximum frequency f_max can be reconstructed without aliasing if sampled at f_s > 2·f_max (Nyquist rate)."
+      },
+      {
+        "front": "Aliasing and anti-aliasing filter purpose.",
+        "back": "Aliasing: high-frequency components fold into lower frequencies when undersampled. Anti-aliasing low-pass filter removes components above f_s/2 before sampling."
+      },
+      {
+        "front": "Transmission lines and impedance matching — why it matters.",
+        "back": "At high frequency or fast edges, signal propagation along transmission line characterized by characteristic impedance Z₀. Mismatch causes reflections; terminate with Z₀ to avoid distortion."
+      },
+      {
+        "front": "Characteristic impedance Z₀ (lossless line).",
+        "back": "Z₀ = √(L'/C') where L' and C' are per-unit-length inductance and capacitance. For lossless lines voltage and current waves travel with Z₀ ratio."
+      },
+      {
+        "front": "Decibels (dB) — power and voltage relations.",
+        "back": "Power ratio (dB) = 10·log₁₀(P2/P1). Voltage ratio (same impedance): 20·log₁₀(V2/V1). +3 dB ≈ double power; −3 dB ≈ half power."
+      },
+      {
+        "front": "Filters: low-pass, high-pass, band-pass, band-stop — basics.",
+        "back": "Low-pass passes low frequencies, attenuates high. High-pass passes high frequencies. Band-pass allows a band around f₀. Band-stop (notch) rejects a narrow band."
+      },
+      {
+        "front": "Active filters advantage over passive.",
+        "back": "Active filters (op-amp based) can provide gain, buffering, precise cutoff and do not require inductors for low-frequency designs."
+      },
+      {
+        "front": "Sallen–Key second-order filter — concept.",
+        "back": "A common active topology using op-amp as buffer to implement second-order low-pass or high-pass with selectable Q and cutoff f_c determined by R and C."
+      },
+      {
+        "front": "Signal integrity: ground, decoupling and layout basics.",
+        "back": "Good layout: short return paths, ground plane, decoupling caps close to IC supply pins (0.1 μF ceramic + bulk electrolytic), separate analog/digital domains carefully to minimize noise coupling."
+      },
+      {
+        "front": "Decoupling capacitor purpose and placement.",
+        "back": "Provides local charge for transient currents and filters high-frequency noise on supply rails. Place small ceramic cap close to IC Vcc–GND pins; larger caps nearby for low-frequency support."
+      },
+      {
+        "front": "EMI/EMC basics and mitigation (short list).",
+        "back": "EMI reduction: shielding, filtering, proper grounding, twisted pairs, common-mode chokes, spread-spectrum clocking, careful PCB routing. Compliance tests measure emissions and susceptibility."
+      },
+      {
+        "front": "Oscillators: LC, RC and crystal types — trade-offs.",
+        "back": "LC: used at RF, good Q, requires inductors. RC: low-frequency, easy implementation, lower stability. Crystal: very stable frequency, high Q, used for clocks and precision timing."
+      },
+      {
+        "front": "Mixer and heterodyne principle (frequency translation).",
+        "back": "Mixer multiplies two signals producing sum and difference frequencies (f1 ± f2). Heterodyne receivers use mixing to downconvert RF to IF for filtering/amplification."
+      },
+      {
+        "front": "A/D practical: resolution, quantization and ENOB.",
+        "back": "Resolution N bits → step Δ = V_ref / 2^N. Quantization error ≤ ±Δ/2. ENOB (effective number bits) accounts for noise and distortion (ENOB ≤ N)."
+      },
+      {
+        "front": "Basic power electronics: MOSFET vs BJT advantages.",
+        "back": "MOSFET: voltage-driven gate, fast switching, low R_DS(on) suitable for modern power converters. BJT: current-driven, can have lower V_sat in some cases but slower and needs base drive."
+      },
+      {
+        "front": "Thermal management basics for power devices.",
+        "back": "Heat sinks, thermal interface materials, proper mounting, forced air cooling, and derating help maintain junction temperature within safe limits. Power dissipation P = I²·R or V_drop·I."
+      },
+      {
+        "front": "Common test equipment: multimeter, oscilloscope, logic analyzer, spectrum analyzer — uses.",
+        "back": "Multimeter: DC/AC voltage, current, resistance. Oscilloscope: view time-domain waveforms, timing. Logic analyzer: capture digital buses. Spectrum analyzer: frequency-domain signal analysis."
+      },
+      {
+        "front": "Safety basics working with electronics.",
+        "back": "Disconnect power before modifications, discharge capacitors, use isolation for mains work, respect mains voltage, use proper fusing, eye protection and ESD precautions when handling semiconductors."
+      },
+      {
+        "front": "Common mistakes students make in electronics problems.",
+        "back": "Mixing peak vs RMS values, forgetting reactance frequency dependence, ignoring input/output impedances, sign errors with polarity, improper biasing of transistors/op-amps."
+      },
+      {
+        "front": "Quick formula cheat-sheet (essential electronics).",
+        "back": "V = I·R; P = V·I = I²·R = V² / R; X_C = 1/(2·π·f·C); X_L = 2·π·f·L; Z = R + jX; τ_RC = R·C; f_c = 1/(2·π·R·C); f_0 = 1/(2·π·√(L·C)); dB_power = 10·log₁₀(P2/P1); dB_voltage = 20·log₁₀(V2/V1); I_C ≈ β·I_B; g_m ≈ I_C / V_T."
+      },
+      {
+        "front": "Exam strategy for electronics chapter (short checklist).",
+        "back": "1) Identify DC bias (find Q-point) before small-signal. 2) Use phasors for steady-state AC. 3) Check units and convert peak↔RMS when needed. 4) Draw clear circuit diagrams and mark polarities. 5) Verify limiting cases (f→0, f→∞) to sanity-check answers."
+      }
+    ],
+    "Scientific Instruments": [
+      {
+        "front": "What is the purpose of a scientific instrument (short)?",
+        "back": "To measure physical quantities accurately and precisely, convert a physical quantity into a readable signal, or to analyse physical phenomena for experiments and applications."
+      },
+      {
+        "front": "What are accuracy and precision (definitions)?",
+        "back": "Accuracy: closeness of measured value to true value. Precision: repeatability or scatter of repeated measurements (how close measurements are to each other)."
+      },
+      {
+        "front": "What is systematic error and random error (short)?",
+        "back": "Systematic error: reproducible bias affecting measurements in same direction (calibration, zero error). Random error: unpredictable fluctuations causing scatter (reduced by averaging)."
+      },
+      {
+        "front": "What is least count (definition)?",
+        "back": "Least count (LC) is the smallest scale division that can be read on an instrument. Measurement uncertainty often taken as ±1 LC (or ±½ LC depending on convention)."
+      },
+      {
+        "front": "How to compute true value with zero error present (procedure)?",
+        "back": "True reading = observed reading − zero error (if zero error positive, subtract; if negative, add). Determine sign of zero error from instrument scale alignment."
+      },
+      {
+        "front": "How to combine uncertainties (propagation for sums/differences)?",
+        "back": "For Q = A ± B: absolute uncertainty ΔQ = ΔA + ΔB (worst-case / conservative). For independent random errors, use ΔQ = √(ΔA² + ΔB²)."
+      },
+      {
+        "front": "How to combine uncertainties (propagation for products/quotients)?",
+        "back": "For Q = A·B or A/B: fractional uncertainty ΔQ/Q ≈ √((ΔA/A)² + (ΔB/B)²) for independent small uncertainties."
+      },
+      {
+        "front": "What is significant figures (rule of thumb)?",
+        "back": "Digits that carry meaning in a measured number: include all certain digits and the first uncertain digit. Round results to appropriate number of significant figures based on measurement uncertainty."
+      },
+      {
+        "front": "Vernier calipers — what does it measure and least count formula?",
+        "back": "Measures internal, external dimensions and depth. Least count LC = value of one main scale division − value of one vernier scale division = (1 main division − 1 vernier division). Commonly LC = 0.1 mm or 0.02 mm."
+      },
+      {
+        "front": "Vernier calipers — how to read (basic steps)?",
+        "back": "1) Read main scale just left of zero of vernier. 2) Find vernier mark aligning exactly with a main scale mark. 3) Total = main reading + (vernier index × LC). Account for zero error if present."
+      },
+      {
+        "front": "Micrometer screw gauge — purpose and main parts.",
+        "back": "Measures small thickness/diameter with high precision. Parts: anvil, spindle, sleeve (main scale), thimble (circular scale), ratchet stop (ensures constant force)."
+      },
+      {
+        "front": "Micrometer least count and reading method.",
+        "back": "LC = pitch / number of divisions on thimble. Example: pitch 0.5 mm, 50 divisions → LC = 0.01 mm. Reading = main scale reading + (thimble reading × LC) − zero error."
+      },
+      {
+        "front": "Zero error — how to determine for vernier and micrometer?",
+        "back": "Close instrument jaws gently. Observe offset: Vernier zero mark not aligned with main zero → note vernier division alignment (gives zero error). Micrometer: check thimble main scale alignment at zero; note extra thimble reading as zero error (positive/negative sign)."
+      },
+      {
+        "front": "Screw gauge pitch definition and typical values.",
+        "back": "Pitch is distance spindle moves per full rotation (e.g., 0.5 mm). Combined with thimble divisions gives LC. Common micrometer pitch 0.5 mm or 1 mm."
+      },
+      {
+        "front": "Beam balance — working principle and sensitivity.",
+        "back": "Comparison balance: mass compared against known standard masses. Sensitivity ≈ smallest mass causing a measurable deflection; depends on beam length and knife-edge geometry. Use equal-arm or steelyard arrangements for moments."
+      },
+      {
+        "front": "Spring balance (dynamometer) — principle and calibration.",
+        "back": "Measures force/weight by extension of spring (Hooke's law F = k·x). Calibration required; linear only within elastic limit of spring."
+      },
+      {
+        "front": "Manometer — types and use (U-tube simple formula).",
+        "back": "Measures pressure difference using column(s) of fluid (liquid column height). For U-tube with same liquid: Δp = ρ·g·Δh. For different fluids include densities accordingly."
+      },
+      {
+        "front": "Mercury barometer — principle and formula for atmospheric pressure.",
+        "back": "Atmospheric pressure p_atm = ρ_Hg·g·h where h is column height of mercury (approx 760 mm at sea level), ρ_Hg ≈ 13,600 kg·m⁻³."
+      },
+      {
+        "front": "Thermometer types — liquid-in-glass, thermocouple, RTD (short uses).",
+        "back": "Liquid-in-glass (mercury/alcohol) for moderate range; thermocouple (junction of two metals) for wide range and fast response; RTD (resistance temperature detector) uses resistance variation (usually platinum) for accurate lab measurements."
+      },
+      {
+        "front": "Thermocouple — working and Seebeck effect.",
+        "back": "Two dissimilar metal wires joined at a junction produce emf proportional to temperature difference (Seebeck effect). emf reference to known cold junction needed to infer absolute temperature."
+      },
+      {
+        "front": "Resistance thermometer (RTD) — typical material and relation.",
+        "back": "Platinum RTD common (Pt100 etc). Resistance increases with temperature approximately R = R_0·(1 + α·ΔT) for small ranges; α is temperature coefficient (≈ 0.00385 K⁻¹ for platinum)."
+      },
+      {
+        "front": "Thermistor — NTC vs PTC and applications.",
+        "back": "NTC (negative temperature coefficient): resistance decreases with T — used in temperature sensing. PTC: resistance increases with T — used as resettable fuses and heaters."
+      },
+      {
+        "front": "Pyrometer — optical method for high temperatures (concept).",
+        "back": "Non-contact temperature measurement by comparing brightness/colour (optical pyrometer) or by measuring thermal radiation using Planck-like calibrations; useful for very high temperatures where contact sensors fail."
+      },
+      {
+        "front": "Calorimeter — purpose and basic calorimetry formula.",
+        "back": "Measures heat transfer for specific heat and latent heat experiments. Energy balance: Σ m·c·ΔT (heat gained) + calorimeter heat capacity terms = Σ heat lost. Use Q = m·c·ΔT and Q = m·L for phase changes."
+      },
+      {
+        "front": "Potentiometer (accurate voltage/EMF measurement) — working principle.",
+        "back": "Null method: adjustable potential gradient along a long wire provides a balancing length where EMF under test produces no current. Since no current drawn from test cell at balance, measurements are precise and independent of internal resistance."
+      },
+      {
+        "front": "Meter bridge (Wheatstone bridge) — balance condition formula.",
+        "back": "For a uniform resistance wire of length L and balance point at x: R_x / R_std = x / (L − x). Derived from R1/R2 = R3/R4 in balanced Wheatstone configuration."
+      },
+      {
+        "front": "Wheatstone bridge — general balance condition and use.",
+        "back": "Bridge balanced when R1 / R2 = R3 / R4. Used for precise resistance measurement, strain gauge measurements (in bridge circuits) and sensor conditioning."
+      },
+      {
+        "front": "Galvanometer — working and conversion to ammeter/voltmeter.",
+        "back": "Moving-coil galvanometer: current causes torque on coil in magnetic field producing deflection proportional to current. Convert to ammeter by placing low shunt resistance in parallel. Convert to voltmeter by adding high series resistance."
+      },
+      {
+        "front": "Half-deflection method to find shunt resistance (concept).",
+        "back": "For galvanometer with full-scale current I_g, to extend range by factor n place shunt so that meter deflection at total current I_total gives half-deflection for I_g contribution; formulas derive shunt R_sh = (I_g·R_g) / (I_total − I_g)."
+      },
+      {
+        "front": "Ammeter and voltmeter ideal internal resistances and practical connection.",
+        "back": "Ideal ammeter R_A = 0 (connected in series). Ideal voltmeter R_V = ∞ (connected in parallel). Practical meters deviate; include internal resistance effects in circuit analysis."
+      },
+      {
+        "front": "Digital multimeter (DMM) — basic functions and safety.",
+        "back": "Measures voltage, current, resistance, often capacitance, frequency, diode test. Use correct range and input protection; observe CAT ratings for mains safety and fuse protection for current ranges."
+      },
+      {
+        "front": "CRO (cathode ray oscilloscope) — main controls and uses.",
+        "back": "Displays time-domain voltage waveforms. Key controls: time-base (s/div), volts/div, trigger (stabilises waveform), focus/brightness, vertical/horizontal position. Used to measure amplitude, frequency, phase, waveform shape."
+      },
+      {
+        "front": "CRO — measuring frequency and peak-to-peak voltage.",
+        "back": "Frequency f = 1 / period. Period = (number of divisions for one cycle) × (time/div). Peak-to-peak voltage V_pp = (number of vertical divisions) × (volts/div). Convert to V_rms for sinusoid: V_rms = V_pp / (2·√2)."
+      },
+      {
+        "front": "Lissajous figures on CRO (X–Y mode) — use for frequency ratio and phase.",
+        "back": "When two sinusoidal signals applied to X and Y inputs, stationary Lissajous pattern indicates frequency ratio and phase difference. If frequencies equal, ellipse orientation gives phase; if ratio m:n closed pattern indicates frequency ratio m:n."
+      },
+      {
+        "front": "Digital storage oscilloscopes (DSO) advantages over analog CRO.",
+        "back": "DSO capture, store and analyze waveforms, allow digital triggering, FFT, measurement cursors, deeper memory and screen freezing for transient capture; no cathode aging, better interfacing and portability."
+      },
+      {
+        "front": "Frequency counter — principle and accuracy considerations.",
+        "back": "Counts number of cycles in a gate time using stable timebase. Accuracy depends on reference clock stability; gate time and waveform amplitude/shape affect measurement."
+      },
+      {
+        "front": "Spectrometer (optical) — prism vs grating spectrometer basics.",
+        "back": "Prism spectrometer uses dispersion in prism, measures angle of minimum deviation to find wavelengths. Diffraction grating spectrometer uses grating equation d·sinθ = n·λ to obtain wavelengths with high resolution and order separation."
+      },
+      {
+        "front": "Diffraction grating — resolving power formula and meaning.",
+        "back": "Resolving power R = λ / Δλ = n·N where n is diffraction order and N number of illuminated slits. Higher N or higher order improves ability to resolve close wavelengths."
+      },
+      {
+        "front": "Spectroscope vs spectrometer (difference).",
+        "back": "Spectroscope: simple instrument to view spectral lines (qualitative). Spectrometer: instrument for quantitative measurement of wavelengths and intensities (includes calibrated angular scales and detectors)."
+      },
+      {
+        "front": "Refractometer — purpose and basic principle.",
+        "back": "Measures refractive index of liquids or solids by critical angle or prism methods; used in industry and lab for concentration and purity analysis."
+      },
+      {
+        "front": "Michelson interferometer — basic principle and main formula.",
+        "back": "Interference between two beams with variable path difference produces fringes. Change in path difference Δ leads to fringe shift m where m = 2·Δ / λ for two-beam interference. Used for precise length and wavelength measurements."
+      },
+      {
+        "front": "Newton's rings apparatus — use and formula for ring radii.",
+        "back": "Air film between plano-convex lens and glass plate produces concentric interference rings. Radius r_m for m-th dark ring: r_m² = m·λ·R (small-angle approx), where R is lens radius of curvature."
+      },
+      {
+        "front": "Photoelectric setup (laboratory) — what is measured and key relation.",
+        "back": "Measure stopping potential vs frequency to verify photoelectric equation: e·V_stop = h·ν − φ. Plot V_stop vs ν to find Planck constant h and work function φ."
+      },
+      {
+        "front": "Geiger–Müller counter — working and limitations.",
+        "back": "Gas-filled detector where ionizing radiation causes discharge pulses counted electronically. Limitations: dead time (cannot detect events during recovery), limited energy discrimination, requires high voltage and quench gas."
+      },
+      {
+        "front": "Scintillation detector — principle and advantage.",
+        "back": "Ionizing radiation produces light in scintillator material which is converted to electrical pulses by photomultiplier tube (PMT). Offers good sensitivity and energy information (pulse-height analysis)."
+      },
+      {
+        "front": "Semiconductor detectors (Si, Ge) — use for spectroscopy.",
+        "back": "Solid-state detectors provide high-resolution energy spectroscopy for X-rays and γ-rays via electron–hole pair collection; often cooled (Ge) to reduce noise for high resolution."
+      },
+      {
+        "front": "Ionization chamber — use for dosimetry and radiation measurement.",
+        "back": "Measures ionization current proportional to radiation dose rate; used in survey meters and dosimetry for continuous monitoring with large dynamic range."
+      },
+      {
+        "front": "Dosimeters — film, TLD, electronic (brief).",
+        "back": "Film badges record exposure via photographic film. Thermoluminescent dosimeters (TLD) store energy and release light when heated. Electronic dosimeters provide real-time dose readout."
+      },
+      {
+        "front": "Strain gauge — working principle and gauge factor.",
+        "back": "Resistive element whose resistance changes with mechanical strain ε. ΔR / R = G·ε where G is gauge factor (~2 for metal gauges). Often used in Wheatstone bridge for precision measurement."
+      },
+      {
+        "front": "LVDT (Linear Variable Differential Transformer) — basic operation.",
+        "back": "AC-excited primary coil with two secondary coils; core displacement changes differential secondary voltages producing linear output proportional to displacement (contactless, high resolution)."
+      },
+      {
+        "front": "Piezoelectric sensors — principle and typical applications.",
+        "back": "Piezoelectric materials generate charge under mechanical stress. Used in accelerometers, dynamic pressure sensors, pickups, and ultrasonic transducers; respond to fast changes, not static loads."
+      },
+      {
+        "front": "Hall-effect sensor — measurement principle and uses.",
+        "back": "Produces a transverse voltage proportional to magnetic field and current; used for magnetic field measurement, proximity sensing and as current sensors (with conductor through sensor)."
+      },
+      {
+        "front": "Optical encoders — incremental vs absolute (concept).",
+        "back": "Incremental encoder outputs pulses for motion counting (requires reference for absolute position). Absolute encoder provides unique code for each position enabling direct absolute measurement."
+      },
+      {
+        "front": "Balance of linearity and range in sensor selection (design trade-off).",
+        "back": "High sensitivity often reduces measurement range and linearity. Choose sensors and conditioning (gain, offset) to match expected signal range while maintaining acceptable linearity and noise performance."
+      },
+      {
+        "front": "Calibration — why and how often to perform?",
+        "back": "Calibration compares instrument output to standards to correct systematic errors and document performance. Frequency depends on instrument stability, use, regulatory requirements and criticality of measurements."
+      },
+      {
+        "front": "Traceability in calibration (concept).",
+        "back": "Measurements traceable to national/international standards via an unbroken chain of comparisons with stated uncertainties, ensuring comparability of results across labs and time."
+      },
+      {
+        "front": "Data acquisition basics — sampling, resolution, noise considerations.",
+        "back": "Choose sampling rate > 2·f_max (Nyquist), ensure ADC resolution matches signal dynamics, use proper grounding and shielding to minimize noise, apply anti-aliasing filters before sampling."
+      },
+      {
+        "front": "Shielding and grounding best practices for sensitive measurements.",
+        "back": "Use single-point grounding for low-frequency analog systems, shielding cables and enclosures, twisted-pair signal wiring, star ground where appropriate, and careful cable routing to avoid ground loops."
+      },
+      {
+        "front": "Practical tips for minimizing measurement errors in lab (short list).",
+        "back": "1) Zero instruments before measurement; 2) Use correct range and resolution; 3) Allow instruments to warm up; 4) Average repeated readings for random errors; 5) Calibrate regularly; 6) Maintain environmental controls (temperature, vibration) where necessary."
+      },
+      {
+        "front": "Common exam pitfalls about instruments (short list).",
+        "back": "1) Forgetting to correct for zero error; 2) Confusing precision with accuracy; 3) Using wrong least count in calculations; 4) Neglecting instrument loading (voltmeters, ammeters); 5) Mixing peak/RMS values for AC measurements."
+      },
+      {
+        "front": "Quick formula cheat-sheet for measurement instruments.",
+        "back": "Manometer: Δp = ρ·g·Δh. Vernier reading: R = main + (vernier index × LC). Micrometer: R = main + (thimble × LC). Potentiometer: ℰ_test / ℰ_standard = l_test / l_standard. Wheatstone: R_x / R_std = l / (L − l). CRO: f = 1 / (n_div·time/div). RC cutoff f_c = 1/(2·π·R·C)."
+      },
+      {
+        "front": "Final study tip for scientific instruments chapter.",
+        "back": "Understand principles and typical formulas, practice instrument reading problems (vernier/micro), know error handling and propagation, and familiarise with common lab setups (bridge, potentiometer, CRO, spectrometer) through diagrams and worked examples."
+      }
+    ],
+    "Invention and Important Discoveries in Physics": [
+      {
+        "front": "Who formulated the three laws of motion and the law of universal gravitation?",
+        "back": "Isaac Newton (1687).\nNewton's laws of motion: 1) Law of inertia. 2) F = m·a. 3) Action–reaction.\nLaw of universal gravitation: F = G·(m₁·m₂) / r² (G = gravitational constant)."
+      },
+      {
+        "front": "Who provided early experimental evidence for the falling bodies law and inertia (foundation of classical mechanics)?",
+        "back": "Galileo Galilei (early 1600s).\nInclined plane experiments and observations showing acceleration independent of mass (neglecting air resistance)."
+      },
+      {
+        "front": "Who discovered that planets move in elliptical orbits and formulated Kepler's laws?",
+        "back": "Johannes Kepler (1609–1619).\nThree laws: 1) Ellipses with Sun at focus. 2) Equal areas in equal times. 3) T² ∝ a³ (period squared ∝ semi-major axis cubed)."
+      },
+      {
+        "front": "Who discovered the electron and how (experiment & year)?",
+        "back": "J. J. Thomson (1897).\nCathode-ray tube experiments measured charge-to-mass ratio (e/m) showing existence of small negatively charged particles (electrons)."
+      },
+      {
+        "front": "Who measured the elementary charge e (oil-drop experiment)?",
+        "back": "Robert A. Millikan (1909).\nOil-drop experiment determined charge of electron e ≈ 1.602×10⁻¹⁹ C and supported quantization of charge."
+      },
+      {
+        "front": "Who discovered the nucleus and proposed nuclear model of atom (alpha scattering)?",
+        "back": "Ernest Rutherford (1911).\nGold-foil (α-scattering) experiment showed most mass concentrated in a small positive nucleus; led to planetary-like model of atom (later refined)."
+      },
+      {
+        "front": "Who discovered the proton and when (basic idea)?",
+        "back": "Ernest Rutherford (1917).\nTransmutation experiments showed hydrogen nucleus (proton) ejected in nuclear reactions; identified as fundamental positive charge carrier in nucleus."
+      },
+      {
+        "front": "Who discovered the neutron and its significance?",
+        "back": "James Chadwick (1932).\nBombarded beryllium with α-particles and detected neutral radiation → neutron discovery; explained isotopes and nuclear mass without extra charge."
+      },
+      {
+        "front": "Who discovered X-rays and what is their basic property?",
+        "back": "Wilhelm Röntgen (1895).\nX-rays are high-energy electromagnetic radiation that penetrates materials; used for imaging and diffraction."
+      },
+      {
+        "front": "Who discovered natural radioactivity and what was observed?",
+        "back": "Henri Becquerel (1896).\nSpontaneous emission of radiation from uranium salts observed on photographic plates — birth of radioactivity study."
+      },
+      {
+        "front": "Who discovered α, β and γ radiations and contributed to radioactivity research?",
+        "back": "Marie and Pierre Curie (late 1890s–early 1900s).\nCoined term radioactivity; discovered polonium and radium; differentiated types of radiation (α, β, γ)."
+      },
+      {
+        "front": "Who formulated Coulomb's law for electrostatic force?",
+        "back": "Charles-Augustin de Coulomb (1785).\nCoulomb's law: F = (1/(4·π·ε₀))·(q₁·q₂ / r²), where ε₀ is permittivity of free space."
+      },
+      {
+        "front": "Who established Ohm's law relating V, I and R?",
+        "back": "Georg Simon Ohm (1827).\nOhm's law: V = I·R for ohmic conductors (linear V–I behaviour)."
+      },
+      {
+        "front": "Who discovered electromagnetic induction and invented the first electric generator/motor experiments?",
+        "back": "Michael Faraday (1831).\nFaraday's law: induced emf ε = −dΦ_B/dt. Demonstrated generation of current by changing magnetic flux (basis of generators and transformers)."
+      },
+      {
+        "front": "Who formulated Ampère's law relating current and magnetic field?",
+        "back": "André-Marie Ampère (early 1820s).\nAmpère's circuital law (magnetostatics): ∮ B·dℓ = μ₀·I_enclosed (steady currents)."
+      },
+      {
+        "front": "Who unified electricity and magnetism into Maxwell's equations?",
+        "back": "James Clerk Maxwell (1860s).\nMaxwell's equations combine Gauss's laws, Faraday's law, and Ampère's law with displacement current → prediction of electromagnetic waves that travel at speed c."
+      },
+      {
+        "front": "Who experimentally demonstrated radio waves predicted by Maxwell?",
+        "back": "Heinrich Hertz (1887).\nProduced and detected electromagnetic waves in the laboratory confirming propagation and basic properties (wavelength, reflection, refraction)."
+      },
+      {
+        "front": "Who discovered the photoelectric effect explanation (photon concept) and its importance?",
+        "back": "Albert Einstein (1905).\nExplained photoelectric effect by light quanta (photons) with energy E = h·ν; supported particle nature of light and introduced Planck's constant in photoemission context."
+      },
+      {
+        "front": "Who introduced quantization of energy for blackbody radiation (Planck's hypothesis)?",
+        "back": "Max Planck (1900).\nProposed energy of oscillators quantized as E = n·h·ν leading to Planck's law for blackbody radiation and birth of quantum theory."
+      },
+      {
+        "front": "Who formulated special relativity and what are its key postulates?",
+        "back": "Albert Einstein (1905).\nPostulates: 1) Laws of physics same in all inertial frames. 2) Speed of light c constant in all inertial frames. Consequences: time dilation, length contraction, mass–energy equivalence E = m·c²."
+      },
+      {
+        "front": "Who formulated general relativity and main physical idea?",
+        "back": "Albert Einstein (1915).\nGravity is geometry: mass–energy curves spacetime; motion follows geodesics. Predicts gravitational time dilation, light bending and perihelion precession; field eqns G_{μν} = (8·π·G / c⁴)·T_{μν}."
+      },
+      {
+        "front": "What landmark experiment failed to detect 'aether' and paved way for relativity?",
+        "back": "Michelson–Morley experiment (1887).\nMeasured speed of light in different directions via interferometry; null result contradicted stationary aether idea → supported constancy of c."
+      },
+      {
+        "front": "Who proposed the Bohr model of the atom and key quantization rule?",
+        "back": "Niels Bohr (1913).\nElectrons in hydrogen-like atoms occupy quantized orbits with angular momentum m·v·r = n·ħ and energy levels E_n = −13.6 eV·(Z² / n²)."
+      },
+      {
+        "front": "Who discovered wave nature of matter (de Broglie hypothesis)?",
+        "back": "Louis de Broglie (1924).\nProposed matter waves with wavelength λ = h / p (wave–particle duality for electrons and other particles)."
+      },
+      {
+        "front": "Who experimentally observed electron diffraction proving wave nature of electrons?",
+        "back": "Clinton Davisson and Lester Germer (1927).\nElectron diffraction from crystal surfaces confirmed de Broglie hypothesis."
+      },
+      {
+        "front": "Who formulated the Schrödinger wave equation and its significance?",
+        "back": "Erwin Schrödinger (1926).\nTime-dependent equation i·ħ·∂ψ/∂t = Ĥ·ψ. Quantum mechanics wavefunction ψ gives probability amplitudes; central tool for bound-states and scattering problems."
+      },
+      {
+        "front": "Who formulated matrix mechanics and uncertainty principle simultaneously (complementary views)?",
+        "back": "Werner Heisenberg (matrix mechanics 1925; uncertainty principle 1927).\nUncertainty principle: Δx·Δp ≥ ħ / 2 (intrinsic quantum limit on simultaneous knowledge)."
+      },
+      {
+        "front": "Who proposed Pauli exclusion principle and its role in atomic structure?",
+        "back": "Wolfgang Pauli (1925).\nNo two electrons in an atom can have identical set of quantum numbers → explains electronic shell structure and chemical periodicity."
+      },
+      {
+        "front": "Who predicted antiparticles and contributed to quantum relativistic theory?",
+        "back": "Paul Dirac (1928).\nDirac equation combined quantum mechanics and special relativity; predicted existence of positron (antiparticle of electron)."
+      },
+      {
+        "front": "Who discovered the positron (first observed antiparticle)?",
+        "back": "Carl D. Anderson (1932).\nCloud-chamber observations of positively charged tracks consistent with electron mass → discovery of positron (e⁺)."
+      },
+      {
+        "front": "Who discovered the Compton effect and its significance?",
+        "back": "Arthur H. Compton (1923).\nX-ray scattering from electrons with wavelength shift Δλ = (h / (m_e·c))(1 − cosθ) — evidence for particle properties of photons (momentum transfer)."
+      },
+      {
+        "front": "Who discovered nuclear fission and why it's important?",
+        "back": "Otto Hahn and Fritz Strassmann (1938) experimentally; Lise Meitner and Otto Frisch explained process (1939).\nHeavy nucleus splits into lighter fragments releasing large energy → basis for nuclear reactors and weapons."
+      },
+      {
+        "front": "Who discovered superconductivity and what is the phenomenon?",
+        "back": "Heike Kamerlingh Onnes (1911).\nCertain materials exhibit zero electrical resistance and expel magnetic fields (Meissner effect) below critical temperature."
+      },
+      {
+        "front": "Who discovered the cosmic microwave background radiation (CMB) and its importance?",
+        "back": "Arno Penzias and Robert Wilson (1965).\nDetected isotropic microwave background ~2.7 K — strong evidence for Big Bang cosmology."
+      },
+      {
+        "front": "Who discovered the expansion of the Universe (Hubble's law)?",
+        "back": "Edwin Hubble (1929).\nObserved linear relation between recessional velocity v and distance d: v = H₀·d (Hubble constant), implying expanding universe."
+      },
+      {
+        "front": "Who developed the laser (concept & first demonstration)?",
+        "back": "Theoretical/conceptual foundations by Townes and Schawlow; first working laser by Theodore Maiman (1960).\nLaser = Light Amplification by Stimulated Emission of Radiation — coherent, monochromatic beam."
+      },
+      {
+        "front": "Who invented the transistor and why is it important?",
+        "back": "John Bardeen, Walter Brattain and William Shockley (Bell Labs, 1947).\nTransistor replaced vacuum tubes for amplification and switching; enabled miniaturization and modern electronics."
+      },
+      {
+        "front": "Who invented the integrated circuit and its impact?",
+        "back": "Jack Kilby (TI, 1958) and Robert Noyce (Fairchild, 1959) independently.\nIntegrated circuits pack many components on a single chip — foundation of modern computers and electronics."
+      },
+      {
+        "front": "Who discovered the neutron moderation principle crucial for nuclear reactors (moderator concept)?",
+        "back": "Concept developed historically via reactor pioneers; practical reactors (e.g., Fermi's Chicago Pile-1, 1942) used moderators (graphite, heavy water) to slow neutrons enabling controlled chain reaction."
+      },
+      {
+        "front": "Who discovered the phenomenon of Brownian motion theoretical explanation and its significance?",
+        "back": "Observed by Robert Brown (1827); Einstein (1905) provided theoretical explanation linking to molecular kinetics and allowing measurement of Avogadro's number — evidence for atoms."
+      },
+      {
+        "front": "Who discovered the principle of electron diffraction and interference confirming wave nature of matter?",
+        "back": "Davisson and Germer (electrons diffracting off crystal, 1927) and independently George Thomson (same year).\nConfirmed de Broglie's hypothesis and quantum wave nature of particles."
+      },
+      {
+        "front": "Who discovered the Hall effect and its use?",
+        "back": "Edwin H. Hall (1879).\nTransverse voltage develops across current-carrying conductor in magnetic field; used to measure magnetic fields, carrier density and sign."
+      },
+      {
+        "front": "Who invented the cloud chamber and its importance in particle detection?",
+        "back": "C. T. R. Wilson (1911).\nVisualizes charged particle tracks via condensation of supersaturated vapor — important early tool for cosmic-ray and particle discovery (e.g., positron tracks)."
+      },
+      {
+        "front": "Who discovered cosmic rays and how (basic result)?",
+        "back": "Victor Hess (1912).\nBalloon flights measuring ionization showed increased radiation at high altitude → existence of extraterrestrial (cosmic) radiation."
+      },
+      {
+        "front": "Who discovered the Mössbauer effect and its application?",
+        "back": "Rudolf Mössbauer (1958).\nResonant, recoil-free emission and absorption of γ-rays by nuclei in solids — precise probes of nuclear and solid-state properties (spectroscopy)."
+      },
+      {
+        "front": "Who discovered the Josephson effect in superconductivity?",
+        "back": "Brian D. Josephson (1962).\nTunnelling of Cooper pairs between superconductors leads to supercurrent across insulating barrier; Josephson junctions used in precision voltage standards and SQUIDs."
+      },
+      {
+        "front": "Who discovered nuclear magnetic resonance (NMR) and why important?",
+        "back": "Felix Bloch and Edward Purcell (1946).\nNMR: resonance of nuclear spins in magnetic field — basis of MRI in medicine and powerful spectroscopy technique."
+      },
+      {
+        "front": "Who discovered parity violation in weak interactions (experimental discovery)?",
+        "back": "Chien-Shiung Wu (experiment confirming theoretical work by Lee & Yang, 1956).\nParity is not conserved in weak interactions (β decay experiments showed asymmetric electron emission)."
+      },
+      {
+        "front": "Who discovered the quark model (theoretical proposal) and early experimental evidence?",
+        "back": "Murray Gell-Mann and George Zweig (1964) proposed quarks as fundamental hadron constituents; deep inelastic scattering experiments at SLAC (late 1960s) provided evidence for point-like constituents (partons/quarks)."
+      },
+      {
+        "front": "Who discovered the neutrino (postulated vs detected)?",
+        "back": "Neutrino postulated by Wolfgang Pauli (1930) to conserve energy in β decay; first detection by Clyde Cowan and Frederick Reines (1956) using reactor antineutrinos."
+      },
+      {
+        "front": "Who discovered the Higgs boson (experimental confirmation) and why important?",
+        "back": "Predicted by Peter Higgs and others (1964); experimentally discovered by ATLAS and CMS collaborations at CERN (2012).\nHiggs field explains mechanism of electroweak symmetry breaking and mass generation for W/Z bosons."
+      },
+      {
+        "front": "Who discovered gravitational waves (prediction vs detection)?",
+        "back": "Predicted by Einstein (1916) in general relativity; directly detected by LIGO collaboration (2015) — ripples in spacetime from merging black holes, opening gravitational-wave astronomy."
+      },
+      {
+        "front": "Who discovered Bose–Einstein condensation conceptually and first observed it?",
+        "back": "Predicted by Satyendra Nath Bose and Albert Einstein (1924–25); first observed in dilute atomic gases by Eric Cornell and Carl Wieman (1995).\nMacroscopic quantum state where bosons occupy ground state."
+      },
+      {
+        "front": "Who developed the theory of superconductivity (BCS theory)?",
+        "back": "Bardeen, Cooper and Schrieffer (1957).\nBCS theory: electrons form Cooper pairs via phonon-mediated attraction leading to superconductivity with energy gap and zero resistance."
+      },
+      {
+        "front": "Who invented the electron microscope and why is it significant?",
+        "back": "Ernst Ruska (co-inventor, 1931).\nElectron microscope uses electron beam with much shorter wavelength than visible light enabling much higher resolution imaging of small structures (cells, materials)."
+      },
+      {
+        "front": "What are some widely used practical inventions rooted in physics (short list)?",
+        "back": "Telescope (astronomy), Microscope (biology), Electric motor and generator (Faraday), Transistor and integrated circuit (electronics), Laser (communications/medicine), MRI (medical imaging), Atomic clock (time standards/GPS)."
+      },
+      {
+        "front": "Final exam tip for inventions & discoveries chapter.",
+        "back": "Remember discoverer, approximate year, basic experiment/idea, and significance. Practice concise one-line summaries and link each discovery to its fundamental principle (e.g., photoelectric → quantum photons, Michelson–Morley → constancy of c)."
+      }
     ]
   },
   "Chemistry": {
