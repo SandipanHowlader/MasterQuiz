@@ -3247,6 +3247,787 @@
       {
         "content": "### **18. Measuring Growth**\n\n**📏 CRESCOGRAPH**\nDevice used to measure growth of plants.\n\n**🇮🇳 INVENTOR**\nInvented by **Jagadish Chandra Bose**."
       }
+    ],
+     "Plant Diseases": [
+      {
+        "content": "### **1. Viral Diseases: Tobacco**\n\n**🍂 MOSAIC DISEASE**\nLeaves get shrinked and become small.\nChlorophyll gets destroyed.\n\n**🦠 PATHOGEN**\n**Tobacco Mosaic Virus (TMV)**.\n*(Note: Text states it is known as bacteriophage)*.\n\n\n**🔥 CONTROL**\nAffected plants should be burnt."
+      },
+      {
+        "content": "### **2. Viral Diseases: Banana & Okra**\n\n**🍌 BUNCHY TOP OF BANANA**\nCaused by **Banana virus**.\nPlants become dwarf; leaves accumulate like a **rose** on the branch.\n\n**🥬 YELLOW VEIN MOSAIC**\nAffects **Bhendi (Okra)**.\nTransmitted by **insects and white fly**."
+      },
+      {
+        "content": "### **3. Bacterial Diseases: Potato**\n\n**🥔 WILT OF POTATO**\nAlso known as **Ring Disease**.\nBrown ring is formed on the **xylem**.\n\n**🦠 PATHOGEN**\n*Pseudomonas solonacearum* bacteria.\n\n**⚠️ EFFECT**\nThe **conduction system** of the plant is affected.\n"
+      },
+      {
+        "content": "### **4. Bacterial Diseases: Cotton**\n\n**☁️ BLACK ARM OF COTTON**\nCaused by **Xanthomonas** Bacteria.\n\n**🍂 SYMPTOMS**\nWater-soaked **brown spots** formed on the leaves."
+      },
+      {
+        "content": "### **5. Bacterial Diseases: Rice**\n\n**🌾 BACTERIAL BLIGHT**\nCaused by **Xanthomonas oryzae** bacteria.\n\n**🍂 SYMPTOMS**\nYellow-greenish spots seen on both sides of leaves.\n**Vascular bundles** get blocked due to bacterial growth."
+      },
+      {
+        "content": "### **6. Bacterial Diseases: Citrus**\n\n**🍋 CITRUS CANKER**\nCaused by **Xanthomonas citri** bacteria.\n\n**🌏 ORIGIN**\nOriginated in **China**.\n\n**🍂 AFFECTS**\nLeaves, branches, and fruits are all affected.\n"
+      },
+      {
+        "content": "### **7. Bacterial & Nematode Disease**\n\n**🌾 TUNDU DISEASE OF WHEAT**\nCaused by **Corinobacterium titrici** bacteria and **Enzuina Titriki** Nematode.\n\n**🍂 SYMPTOMS**\nLower parts of the leaves are faded and turned yellow."
+      },
+      {
+        "content": "### **8. Fungal Diseases**\n\n**🌾 RUST OF WHEAT**\nCaused by fungi **Puccinia**.\n\n\n**🌱 DAMPING OFF**\nDisease of seedlings caused by fungus **Pythium debaryanum**.\n\n**🍬 RED ROT OF SUGARCANE**\nCaused by fungus **Colletotrichum falcatum**."
+      },
+      {
+        "content": "### **9. Insect Diseases**\n\n**🌾 SAHU DISEASE**\nDisease of **wheat** caused by insect."
+      },
+      {
+        "content": "### **10. Deficiency Diseases: Zinc & Copper**\n\n**🥭 LITTLE LEAF**\nMango and Brinjal: **Zinc (Zn)** deficiency.\nLemon: **Copper (Cu)** deficiency.\n\n**🍋 DIEBACK**\nDieback of Lemon: **Copper (Cu)** deficiency.\n\n**🌽 WHITE BUD**\nMaize: **Zinc (Zn)** deficiency.\n\n**🌾 KHAIRA DISEASE**\nPaddy: **Zinc (Zn)** deficiency."
+      },
+      {
+        "content": "### **11. Deficiency Diseases: Others**\n\n**🥔 BLACK HEART**\nPotato: **Oxygen ($O_2$)** deficiency.\n\n**🍈 MARSH DISEASE**\nPea: **Manganese (Mn)** deficiency.\n\n**🍒 BURNING OF LEAF**\nLitchi: **Potassium (K)** deficiency."
+      },
+      {
+        "content": "### **12. Deficiency Diseases: Rare**\n\n**🥗 MICROSIS**\nAmla: **Boron** deficiency.\n\n**🥬 KOTER SPOT**\nTurnip: **Calcium (Ca)** and **Molybdenum (Mo)** deficiency."
+      },
+      {
+        "content": "### **13. Botany Facts: Trees**\n\n**🌳 LARGEST ANGIOSPERM TREE**\n*Eucalyptus*.\n\n**🌲 LONGEST TREE**\n*Sequoia giganteum* (Coast Red Wood of California).\nHeight: **120 meters**.\nType: **Gymnosperm**."
+      },
+      {
+        "content": "### **14. Botany Facts: Small Plants**\n\n**🌱 SMALLEST ANGIOSPERM**\n*Lemna*.\nAquatic plant found in India.\n\n**🌿 SMALLEST PTERIDOPHYTA**\n*Azolla* (Aquatic plant).\n\n**🌲 SMALLEST GYMNOSPERM**\n*Zamia pygmea*."
+      },
+      {
+        "content": "### **15. Botany Facts: Leaves & Seeds**\n\n**🍃 LARGEST LEAF**\n*Victoria Regia*.\nAquatic plant found in West Bengal, India.\n\n\n**🥥 LARGEST SEED**\n*Lodoicea* (Double Coconut).\nFound in Kerala, India.\n\n**🌰 SMALLEST SEED**\n*Orchid*."
+      },
+      {
+        "content": "### **16. Botany Facts: Flowers**\n\n**🌸 SMALLEST FLOWER**\n*Wolfia*.\nDiameter: **0.1 millimeter**.\n\n**🌺 LARGEST FLOWER**\n*Rafflesia arnoldii*.\nDiameter: **1 meter**.\nWeight: **8 kilograms**."
+      },
+      {
+        "content": "### **17. Botany Facts: Parasites & Fossils**\n\n**🐛 SMALLEST PARASITE**\n*Arceuthobium*.\nAngiosperm parasite on stems of gymnosperms.\n\n**🦖 ALIVE FOSSIL**\n*Cycas*.\n\n**🌴 CYCAS FACTS**\nLargest male couplet (gamete).\nLargest seed-egg."
+      },
+      {
+        "content": "### **18. Botany Facts: Chromosomes**\n\n**📉 SMALLEST CHROMOSOMES**\nFound in **Algae**.\n\n**📈 LONGEST CHROMOSOMES**\nFound in **Trillium**.\n\n**🔢 MAX CHROMOSOMES**\n*Ophioglossum* (Fern).\nCount: **1266** chromosomes.\n\n**1️⃣ LEAST CHROMOSOMES**\n*Heplapapopus gracilis* (Haplopappus)."
+      },
+      {
+        "content": "### **19. Botany Facts: Wood**\n\n**🪵 HEAVIEST WOOD**\n*Hardwichia binata*.\n\n**🪶 LIGHTEST WOOD**\n*Ochroma lagopus* (Balsa)."
+      },
+      {
+        "content": "### **20. Botany Facts: Special Plants**\n\n**🍽️ CARNIVOROUS PLANTS**\nSundew, Venus flytrap, Pitcher plant.\n\n\n**🎾 TENNIS BALL FRUIT**\n*Kenth*.\n\n**🔥 FIRE OF FOREST**\n*Dhak*.\n\n**🦠 SMALLEST CELL**\n*Mycoplasma gallisepticum*."
+      },
+      {
+        "content": "### **21. Economic Botany: Beverages**\n\n**☕ COFFEE**\n*Coffea arabica*.\nContains **Caffeine**.\n\n**🍫 COCOA**\n*Theobroma cocoa*.\nContains **Theobromine** and **Caffeine**."
+      },
+      {
+        "content": "### **22. Economic Botany: Drugs**\n\n**💊 MORPHINE**\nObtained from **Opium plant** (*Papaver somniferum*).\nExtracted from **fruit coat (pod)**."
+      },
+      {
+        "content": "### **23. Economic Botany: Spices**\n\n**🧂 CLOVE**\nObtained from **Bud of flower**.\n\n**🍂 SAFFRON**\nObtained from **Stigma of flower**.\n"
+      },
+      {
+        "content": "### **24. Nutrients & Manure**\n\n**💩 GREEN MANURE**\nDecomposing green legume.\n\n**🔩 ZINC**\nMicronutrient supplied by soil to plants.\n\n**🛡️ PRIMARY NUTRIENTS**\nNitrogen, Phosphorus, and Potassium (NPK)."
+      },
+      {
+        "content": "### **25. Recap: Bacterial Pathogens**\n\n**🥔 POTATO**\n*Pseudomonas solonacearum*\n\n**☁️ COTTON**\n*Xanthomonas* bacteria\n\n**🌾 RICE**\n*Xanthomonas oryzae*"
+      },
+      {
+        "content": "### **26. Recap: Fungal Pathogens**\n\n**🌾 WHEAT RUST**\n*Puccinia*\n\n**🍬 SUGARCANE RED ROT**\n*Colletotrichum falcatum*\n\n**🌱 SEEDLING DAMPING**\n*Pythium debaryanum*"
+      }
+    ],
+    "Ecology": [
+      {
+        "content": "### **1. Introduction to Ecology**\n\n**🌍 DEFINITION**\nStudy of inter-relationship between living organisms and their environment.\n\n**🏞️ ENVIRONMENT**\nIncludes both **Biotic** (living) and **Abiotic** (non-living) factors.\n\n**🏘️ BIOTIC COMMUNITY**\nVarious populations of living organisms in a definite geographical region."
+      },
+      {
+        "content": "### **2. The Ecosystem**\n\n**📛 TERMINOLOGY**\nThe word 'Ecosystem' or 'Ecological system' was first coined by **Tansley**.\n\n**🧩 COMPONENTS**\nEvery ecosystem is made up of two components:\n1. **Biotic Component** (Living)\n2. **Abiotic Component** (Non-living)\n"
+      },
+      {
+        "content": "### **3. Biotic Components**\n\n**🔢 DIVISIONS**\nDivided into three main parts:\n1. **Producer**\n2. **Consumer**\n3. **Decomposers**"
+      },
+      {
+        "content": "### **4. Producers**\n\n**🌱 DEFINITION**\nComponents that make their own food.\n\n**🌿 EXAMPLE**\nGreen plants.\n"
+      },
+      {
+        "content": "### **5. Consumers**\n\n**🍽️ DEFINITION**\nComponents that consume the food made by plants.\n\n**🔢 TYPES**\nConsumers are of three types:\n1. Primary\n2. Secondary\n3. Tertiary"
+      },
+      {
+        "content": "### **6. Primary Consumers**\n\n**🥗 HERBIVORES**\nOrganisms that live on **green plants** or some parts of them.\n\n**🐇 EXAMPLES**\nImplied: Goat, Cow, Deer (Animals that eat grass)."
+      },
+      {
+        "content": "### **7. Secondary Consumers**\n\n**🍖 CARNIVORES (Lower)**\nOrganisms that depend on the **primary consumers** as their food.\n\n**🦊 EXAMPLES**\nFox, Wolf, Peacock, etc."
+      },
+      {
+        "content": "### **8. Tertiary Consumers**\n\n**🦁 TOP CARNIVORES**\nOrganisms that depend on the **secondary consumers**.\n\n**🐅 EXAMPLES**\nTiger, Lion, Cheetah, etc."
+      },
+      {
+        "content": "### **9. Decomposers**\n\n**🍄 ROLE**\nDecompose dead producers and consumers and change them into physical elements.\n\n**🦠 EXAMPLES**\nMainly **Fungi** and **Bacteria**.\n"
+      },
+      {
+        "content": "### **10. Abiotic Components**\n\n**🪨 CATEGORIES**\n1. Carbonic substance\n2. Non-carbonic substance\n3. Climatic factor\n\n**☀️ EXAMPLES**\nWater, sun-light, temperature, air, humidity, soil, minerals, etc."
+      },
+      {
+        "content": "### **11. Food Chain**\n\n**🔗 DEFINITION**\nTransfer of energy from the producer through a series of organisms.\n\n\n**📝 EXAMPLE**\nGrass ➝ Goat ➝ Human."
+      },
+      {
+        "content": "### **12. Food Chain Roles**\n\n**🌾 GRASS**\nProducer.\n\n**🐐 GOAT**\nPrimary Consumer.\n\n**🧍 HUMAN**\nPrimary as well as Secondary Consumer."
+      },
+      {
+        "content": "### **13. Global Ecology Facts**\n\n**🌾 STEPPE**\nTerm associated with bio-region **grasslands**.\n\n**🌧️ RAINFOREST**\nAbout **2%** of the world's land area is Tropical Rainforest.\n\n**🐮 DEFORESTATION**\n**Beef** (growing appetite for food product) is the leading cause of tropical deforestation."
+      },
+      {
+        "content": "### **14. Resources & Diversity**\n\n**🧬 BIOTIC RESOURCES**\nResources obtained by biosphere which have life.\n\n**📊 B-DIVERSITY**\nAlso known as **Ecosystem Diversity**."
+      },
+      {
+        "content": "### **15. Conservation**\n\n**🏞️ BIOSPHERE RESERVE**\nAn ecosystem with plants and animals protected by law.\n\n**🎯 PURPOSE**\nConservation of natural resources, learning, and research for sustainable development."
+      },
+      {
+        "content": "### **16. Key Figures & Books**\n\n**👨‍🔬 DR. DHRUBAJYOTI GHOSH**\nAssociated with ecology. Worked on the **East Kolkata Wetland** and its wise use.\n\n**📕 RED DATA BOOK**\nDeals with plants on the verge of **extinction**."
+      }
+    ],
+    "Nitrogen Cycle": [
+      {
+        "content": "### **1. Nitrogen Fixation**\n\n**🔄 DEFINITION**\nProcess in which **free atmospheric nitrogen** is converted into nitrogenous compounds.\n\n\n**🦠 AGENTS**\nCarried out by **living organisms**.\n\n**🌱 PURPOSE**\nTo create compounds that can be used by plants."
+      },
+      {
+        "content": "### **2. Ammonification**\n\n**⚗️ DEFINITION**\nFormation of **Ammonia** from organic compounds.\n\n**🥩 SOURCE**\nDerived from **Proteins** and **Nucleic Acids**.\n\n**🦠 AGENTS**\nCarried out by micro-organisms."
+      },
+      {
+        "content": "### **3. Nitrification**\n\n**🔄 PROCESS**\nAmmonia is converted into **Nitrites** and **Nitrates**.\n\n**🦠 BACTERIA**\nProcess is carried out by **Nitrobacter**."
+      },
+      {
+        "content": "### **4. Plant Consumption**\n\n**🥗 PREFERRED FORM**\nPlants use nitrogen mostly in the form of **Nitrate** ($NO_3^-$)."
+      },
+      {
+        "content": "### **5. Denitrification**\n\n**🔙 DEFINITION**\nProcess of converting fixed nitrogen (Nitrates, Nitrites, Ammonia) back into **free nitrogen**.\n\n\n**🦠 BACTERIA**\nCarried out by denitrifying bacteria like **Pseudomonas**."
+      }
+    ],
+    "Pollution": [
+      {
+        "content": "### **1. Introduction to Pollution**\n\n**🌫️ DEFINITION**\nUnwanted changes in chemical/physical features of air, water, and land that are dangerous to life.\n\n**🖐️ MAIN TYPES**\n1. Air pollution\n2. Water pollution\n3. Sound pollution\n4. Soil pollution\n5. Nuclear pollution"
+      },
+      {
+        "content": "### **2. Air Pollution Basics**\n\n**☁️ DEFINITION**\nWhen pollutants are present in the atmosphere and the quality of the atmosphere reduces.\n\n**🏭 MAIN POLLUTANTS**\nCarbon Monoxide (CO), Sulphur Dioxide ($SO_2$), Hydrogen Sulphide ($H_2S$), Nitrogen Oxides ($NO, NO_2$), Hydrocarbons, Ammonia, Tobacco smoke, Fluorides, Aerosols."
+      },
+      {
+        "content": "### **3. Specific Air Pollutants**\n\n**🩸 CARBON MONOXIDE (CO)**\nCombines with **hemoglobin** more rapidly than oxygen (causes suffocation).\n\n**🏠 INDOOR POLLUTION**\nThe most important indoor air pollutant is **Radon gas**."
+      },
+      {
+        "content": "### **4. Acid Rain**\n\n**⚗️ CHEMISTRY**\n$SO_2, SO_3$, and $NO$ react with environmental water.\n\n**🌧️ FORMATION**\nThey form **Sulphuric acid** and **Nitric acid**, reaching earth with rain water.\n"
+      },
+      {
+        "content": "### **5. Bhopal Gas Tragedy**\n\n**🗓️ DATE**\n3rd December, 1984.\n\n**☠️ GAS LEAKED**\nMethyl Isocyanate (**MIC**).\n\n**🏭 LOCATION**\nUnion Carbide Factory (Fertilizer maker), Bhopal."
+      },
+      {
+        "content": "### **6. Photochemical Smog**\n\n**🏙️ LOCATION**\nFormed in congested metropolitan cities.\n\n**🧪 COMPOSITION**\nConsists mainly of **Ozone**, **Peroxyacetyl nitrate (PAN)**, and **$NO_2$**.\n"
+      },
+      {
+        "content": "### **7. Bio-Indicators & Nature**\n\n**🌋 NATURAL POLLUTION**\nSource: Volcanic eruptions.\n\n**🍄 LICHEN**\nThe best indicator of **$SO_2$ pollution**."
+      },
+      {
+        "content": "### **8. Water Pollution Basics**\n\n**💧 DEFINITION**\nMixing of unwanted substances in water.\n\n**📉 SCARCITY**\nOnly **2.5% to 3%** of water present on earth is usable.\n\n**🌊 SEA POLLUTION**\nCaused by heavy metals, hydrocarbons, and petroleum."
+      },
+      {
+        "content": "### **9. Water Contaminants**\n\n**🧪 CHEMICALS**\nCarbonates, Sulphates of Mg/K, Ammonia, CO, $CO_2$, Industrial remains.\n\n**☠️ ARSENIC**\nFound as a pollutant in drinking water in some parts of **India**."
+      },
+      {
+        "content": "### **10. Water Diseases & Issues**\n\n**🐟 MINIMATA DISEASE**\nCaused by contaminated water containing **Mercury**.\n\n**🛢️ OIL SPILL**\nOil from tankers spreads on sea surface (blocks oxygen)."
+      },
+      {
+        "content": "### **11. Water Measurement & Care**\n\n**📏 MEASUREMENT**\nPollution of river water is measured by **Oxygen dissolved** in it (DO/BOD).\n\n**🧼 DISINFECTANTS**\nOzone, Chlorine dioxide, and Chloramines are used to disinfect water."
+      },
+      {
+        "content": "### **12. Sound Pollution**\n\n**🔊 DEFINITION**\nUnwanted and undesirable sound scattered in the atmosphere.\n\n**📢 SOURCES**\nLoud sound or noise.\n\n**🌳 GREEN MUFFLER**\nTechnique/Plantation used against **noise pollution**."
+      },
+      {
+        "content": "### **13. Soil Pollution**\n\n**🌍 DEFINITION**\nDistorted form of soil which changes its chemical nature.\n\n**🚮 SOURCES**\nAcid rain, mine water, excessive fertilizers, germicides, garbage.\n\n**➕ POSITIVE POLLUTION**\nDue to excessive use of **fertilizers**."
+      },
+      {
+        "content": "### **14. Nuclear Pollution**\n\n**☢️ DEFINITION**\nCreated by radioactive rays.\n\n**🏭 SOURCES**\nMedical treatment rays, Atomic reactor fuels, Nuclear weapons, Atomic power-house waste."
+      },
+      {
+        "content": "### **15. Ozone Depletion**\n\n**🕳️ OZONE HOLE**\nPollutant responsible is **CFC** (Chlorofluorocarbon).\n"
+      },
+      {
+        "content": "### **16. Waste Management**\n\n**♻️ RECYCLING**\nBest solution for non-biodegradable wastes.\n\n**🪱 VERMI COMPOSTING**\nDone by **worms**.\n\n**🚫 DDT**\nA non-biodegradable pollutant."
+      },
+      {
+        "content": "### **17. Population Terms I**\n\n**👥 POPULATION**\nGroup of individuals of same species occupying same area at a given time.\n\n**🏘️ DENSITY**\nTotal number of individuals present per unit area.\n\n**👶 NATALITY**\nIncrease in number by **birth**."
+      },
+      {
+        "content": "### **18. Population Terms II**\n\n**☠️ MORTALITY**\nNumber of individuals removed due to **death**.\n\n**📈 BIOTIC POTENTIAL**\nMaximum inherent capacity of an organism to reproduce."
+      },
+      {
+        "content": "### **19. Population Dynamics**\n\n**🛑 ENVIRONMENTAL RESISTANCE**\nFactors which put a check on the growth of population.\n\n**💣 POPULATION EXPLOSION**\nDramatic increase in population size over a short period."
+      },
+      {
+        "content": "### **20. Demographic Transition**\n\n**⚖️ BALANCE**\nIf **Birth Rate = Death Rate**.\n\n**🏁 RESULT**\nZero population growth.\nCalled Demographic Transition."
+      },
+      {
+        "content": "### **21. Biological Interactions**\n\n**🤝 MUTUALISM**\nFunctional association where **both** species are benefited.\n\n**🤷 COMMENSALISM**\nAssociation where **one** is benefited and the other is neither benefited nor affected.\n"
+      },
+      {
+        "content": "### **22. Health & Society**\n\n**🧠 PSYCHOSIS**\nA mild form of mental illness (prolonged emotional reaction).\n\n**💊 DRUG ABUSE**\nIntake of drugs impairing physical, physiological, and psychological functions."
+      },
+      {
+        "content": "### **23. Biosphere & Energy**\n\n**🌍 BIOSPHERE**\nThe space retaining life in any form.\n\n**🔥 BIOGAS**\n**Methane** released from biogas plant used as fuel gas."
+      },
+      {
+        "content": "### **24. Conservation Solutions**\n\n**🌲 AFFORESTATION**\nPrevents soil erosion.\n\n**🗑️ NON-BIODEGRADABLE**\nBest solution is recycling."
+      }
+    ],
+    "Classification of Animal Kingdom": [
+      {
+        "content": "### **1. Kingdom Divisions**\n\n**🌍 TWO SUB-KINGDOMS**\n1. **Non-Chordata:** (Invertebrates)\n2. **Chordata:** (Vertebrates)\n\n**🔬 CELLULARITY**\n*Protozoa:* Unicellular animals.\n*Metazoa:* Multi-cellular animals."
+      },
+      {
+        "content": "### **2. Phylum Protozoa**\n\n**🦠 MAIN FEATURES**\nUnicellular (body made of one cell).\nParasitic or free-living.\n\n**🌬️ PHYSIOLOGY**\nRespiration and excretion take place by **diffusion**.\n\n**📝 EXAMPLES**\n*Amoeba, Euglena, Trypanosoma*.\n"
+      },
+      {
+        "content": "### **3. Phylum Porifera (Sponges)**\n\n**🌊 HABITAT**\nFound in marine water.\n\n**🕳️ PORES**\nNumerous pores on body wall known as **Ostia**.\n\n**🧱 SKELETON**\nMade of minute calcareous or silicon spicules.\n\n**🔊 USE**\nSponges are used as sound absorbers.\n"
+      },
+      {
+        "content": "### **4. Phylum Coelenterata (Cnidaria)**\n\n**🧱 ORGANIZATION**\nFirst **tissue grade** organisation is found.\n\n**🐙 TENTACLES**\nThread-like structures around the mouth for catching food.\nContains specialized **Cnidoblast** cells.\n\n**⭕ SYMMETRY**\nRadial symmetry.\n\n**📝 EXAMPLES**\n*Hydra, Jellyfish, Sea Anemone*."
+      },
+      {
+        "content": "### **5. Phylum Platyhelminthes**\n\n**🪱 FLAT WORMS**\nDorso-ventrally flattened animals.\nTriploblastic with **no body cavity** (Acoelomate).\n\n**🔥 EXCRETION**\nTakes place by **Flame Cells**.\n\n**👫 GENDER**\nHermaphrodite (Bisexual).\n\n**🤒 DISEASE**\n*Taeniasis* is caused by Tapeworm.\n"
+      },
+      {
+        "content": "### **6. Phylum Aschelminthes**\n\n**🪱 ROUND WORMS**\nLong, cylindrical, unsegmented worms.\n\n**🚽 EXCRETION**\nTakes place through **Protonephridia**.\n\n**🦠 DISEASES**\n*Ascaris* causes Ascariasis.\n*Enterobius* (Pinworm) found in anus of children.\n*Wuchereria bancrofti* causes Filarial disease.\n"
+      },
+      {
+        "content": "### **7. Phylum Annelida**\n\n**💍 SEGMENTATION**\nBody bears **ring-like** structures (Annulus).\nMetamerically segmented.\n\n**🏃 LOCOMOTION**\nTakes place through **Setae** made of Chitin.\n\n**❤️ CIRCULATION**\nRed blood (Iron present).\nEarthworm has **4 pairs of hearts**.\n\n**🚽 EXCRETION**\nBy **Nephridia**."
+      },
+      {
+        "content": "### **8. Phylum Arthropoda**\n\n**🏆 LARGEST PHYLUM**\nThe largest phylum of Animalia.\n\n**🦀 FEATURES**\n**Jointed legs**.\nBody covered with **Chitinous exoskeleton**.\nOpen circulatory system (Haemocoel).\n\n**🚽 EXCRETION**\nMain organ: **Malpighian tubules**.\n"
+      },
+      {
+        "content": "### **9. Arthropoda Facts**\n\n**🪳 COCKROACH**\nHeart has **13 chambers**.\nBlood is white (lack of pigment) called **Hemolymph**.\n\n**🐜 SOCIAL INSECTS**\nAnts and Termites live in colonies (labour division).\n\n**🐛 SILK**\nObtained from pupa of silkworm."
+      },
+      {
+        "content": "### **10. Phylum Mollusca**\n\n**🐚 FEATURES**\nSoft bodies, often covered by a hard calcareous shell secreted by the **Mantle**.\n\n**🩸 BLOOD**\nBlue colour due to **Hemocyanin** (Copper-containing pigment).\n\n**🚽 EXCRETION**\nThrough Kidneys.\n\n**🦑 GIANT SQUID**\nLargest spineless invertebrate."
+      },
+      {
+        "content": "### **11. Mollusca Examples**\n\n**🐙 OCTOPUS**\nDevil fish. Has **three hearts**.\n\n**🦑 SEPIA**\nCuttle-fish.\n\n**🐌 PILA**\nApple Snail."
+      },
+      {
+        "content": "### **12. Phylum Echinodermata**\n\n**🌟 SPINY SKIN**\nAll animals are marine.\n\n**💧 SYSTEM**\n**Water vascular system** is present.\nTube feet used for locomotion.\n\n**🏮 ARISTOTLE'S LANTERN**\nChewing apparatus found in **Sea Urchin**.\n\n**⭐ REGENERATION**\nSpecial capacity of regeneration (e.g., Star fish).\n"
+      },
+      {
+        "content": "### **13. Phylum Chordata Basics**\n\n**🧬 MAIN FEATURES**\n1. Notochord present.\n2. Dorsal hollow nerve cord.\n3. Pharyngeal gill slits.\n\n**🔢 DIVISIONS**\n(a) Protochordates\n(b) Vertebrata"
+      },
+      {
+        "content": "### **14. Class Pisces (Fish)**\n\n**🐟 FEATURES**\nAquatic, Cold-blooded.\nRespiration through **Gills**.\n\n**❤️ HEART**\n**Two chambers**. Pumps only impure (deoxygenated) blood.\n\n**📝 EXAMPLES**\n*Scoliodon* (Dog fish), *Torpedo* (Electric ray), *Exocoetus* (Flying fish), *Hippocampus* (Sea horse).\n"
+      },
+      {
+        "content": "### **15. Class Amphibia**\n\n**🐸 DUAL LIFE**\nLive on land and water.\nCold-blooded.\n\n**❤️ HEART**\n**Three chambers** (2 Auricles, 1 Ventricle).\n\n**🌬️ RESPIRATION**\nGills, Skin, and Lungs.\n*Note:* During hibernation, frogs respire through **skin**."
+      },
+      {
+        "content": "### **16. Class Reptilia**\n\n**🦎 CRAWLING ANIMALS**\nCold-blooded, terrestrial or aquatic.\n\n**🦴 SKELETON**\nFlexible. Contains two pairs of limbs.\n\n**🥚 EGGS**\nCovered with shell made of Calcium Carbonate.\n\n**🦖 ERA**\nMesozoic era is called the **Era of Reptiles**."
+      },
+      {
+        "content": "### **17. Reptile Facts**\n\n**🐍 SNAKES**\n*Cobra:* Only snake that makes nests.\n*Hydrophis:* Sea snake, world's most poisonous.\n\n**🦎 LIZARD**\n*Heloderma:* The only poisonous lizard.\n\n**☠️ VENOM**\nCobras emit venom through fangs."
+      },
+      {
+        "content": "### **18. Class Aves (Birds)**\n\n**🦅 FEATURES**\nWarm-blooded tetrapods.\nFore-feet modified into **wings**.\n\n**🦴 BONES**\n**Pneumatic bones** (hollow/air-filled) to help in flight.\n\n\n**🦷 TEETH**\nBirds have no teeth. Beak helps in feeding.\n\n**❤️ HEART**\nFour chambers."
+      },
+      {
+        "content": "### **19. Bird Facts**\n\n**📉 SMALLEST**\nHumming-bird.\n\n**📈 LARGEST**\nOstrich (Alive).\n\n**🏃 FLIGHTLESS**\nKiwi and Emu.\n\n**🦜 COLORFUL**\nCoppersmith Barbet is a bird with a well-patterned face."
+      },
+      {
+        "content": "### **20. Class Mammalia**\n\n**🐒 FEATURES**\nWarm-blooded.\nSkin has **hair**, **sweat glands**, and **oil glands**.\nExternal ear (**Pinna**) present.\n\n**❤️ HEART**\nFour chambers.\n\n**🩸 RBC**\nNo nucleus in RBC (Except Camel and Lama)."
+      },
+      {
+        "content": "### **21. Mammal Sub-classes**\n\n**🥚 PROTOTHERIA**\nLays eggs.\n*Ex:* Echidna, Platypus.\n\n**🦘 METATHERIA**\nBears immature child.\n*Ex:* Kangaroo.\n\n**👶 EUTHERIA**\nBears well-developed child.\n*Ex:* Human."
+      },
+      {
+        "content": "### **22. Mammal Facts**\n\n**🌡️ TEMPERATURE**\nHighest body temp: **Goat** (Avg 39°C).\n\n**🧠 APES**\nSmallest man-like ape: **Gibbon** (Note: Text says 'Orangutam' in facts section but Gibbon is generally smallest; preserving text 'Orangutam' as smallest man-like ape if strictly following image).\n\n**🐋 DOLPHIN**\nGroup of dolphins is called a **Pod**."
+      },
+      {
+        "content": "### **23. Human Biological Facts**\n\n**⚖️ pH RANGE**\nHuman body pH is between **7.35 to 7.45**.\n\n**🌬️ RESPIRATION**\n*Allantois* of mammalian embryo helps in respiration.\n\n**👪 FAMILY**\nMan belongs to the family of **'Hominidae'**."
+      },
+      {
+        "content": "### **24. Scientific Names: Pets & Farm**\n\n**🐕 DOG**\n*Canis lupus familiaris*\n\n**🐈 CAT**\n*Felis catus*\n\n**🐎 HORSE**\n*Equus caballus*\n\n**🐖 PIG**\n*Artiodactyla suidae* (Family name used in text)\n\n**🐮 COW**\n*Bos indicus* (implied from prev chapters)"
+      },
+      {
+        "content": "### **25. Scientific Names: Wild Animals**\n\n**🐆 CHEETAH**\n*Acinonyx jubatus*\n\n**🦁 LION**\n*Panthera leo*\n\n**🐅 TIGER**\n*Panthera tigris*\n\n**🐘 ELEPHANT**\n*Proboscidea elephantidae*\n\n**🦒 GIRAFFE**\n*Giraffa camelopardalis*"
+      },
+      {
+        "content": "### **26. Scientific Names: Reptiles & Amphibians**\n\n**🐸 FROG**\n*Anura ranidae*\n\n**🐍 COBRA**\n*Naja naja*\n\n**🦎 LIZARD**\n*Sauria lacetidae*\n\n**🐊 CROCODILE**\n(Group Reptilia)"
+      },
+      {
+        "content": "### **27. Scientific Names: Small Creatures**\n\n**🐁 MOUSE**\n*Rodentia muridae*\n\n**🦟 HOUSEFLY**\n*Musca domestica*\n\n**🐜 ANT**\n*Hymenopetrous formicidae*\n\n**🕷️ EARTHWORM**\n*Pheretima posthuma* (General knowledge, text lists Earthworm in Annelida)."
+      },
+      {
+        "content": "### **28. Scientific Names: Birds & Others**\n\n**🐦 CROW**\n*Corvus splendens*\n\n**🦘 KANGAROO**\n*Macropus macropodidae*\n\n**🦏 RHINOCEROS**\n*Perrissodanctyl rthinocerotidae*\n\n**🦓 ZEBRA**\n*Equidae burcheli*"
+      }
+    ],
+    "Animal Tissue": [
+      {
+        "content": "### **1. Classification of Tissues**\n\n**🔢 CATEGORIES**\nAnimal tissues are divided into four main categories:\n1. **Epithelial Tissue**\n2. **Connective Tissue**\n3. **Muscular Tissue**\n4. **Nervous Tissue**\n"
+      },
+      {
+        "content": "### **2. Epithelial Tissue: Structure**\n\n**🛡️ COVERING**\nCovers external body surface and internal free surface of organs.\n\n**🧱 ARRANGEMENT**\nCells are arranged very close to each other.\n\n**🩸 AVASCULAR**\n**No blood vessels** supply nourishment. They receive nutrients from underlying connective tissue."
+      },
+      {
+        "content": "### **3. Epithelial Tissue: Functions**\n\n**🛡️ PROTECTION**\nPrinciple functions are **covering** and **lining** of free surfaces.\n\n**📍 EXAMPLES**\nSkin, Intestine, Glands, Hollow organs (Fallopian tube, Nasal passage, Bronchioles, Trachea)."
+      },
+      {
+        "content": "### **4. Special Epithelium**\n\n**🧹 CILIATED EPITHELIUM**\nLines the inner surface of:\n* Fallopian tubes\n* Bronchioles\n* Bronchi"
+      },
+      {
+        "content": "### **5. Connective Tissue: Overview**\n\n**🔗 FUNCTION**\nConnects and binds different tissues or organs.\n\n**🏗️ SUPPORT**\nProvides structural framework and mechanical support.\n\n**🛡️ ROLES**\nDefense tissue, repair, and fat storage."
+      },
+      {
+        "content": "### **6. Connective Tissue: Types**\n\n**🥓 ADIPOSE**\nFound beneath the skin (Fat storage).\n\n**🦴 SKELETAL**\nCartilage and Bone.\n\n**🩸 FLUID**\nBlood is a connective tissue.\n\n**🧵 FIBROUS**\nLigaments."
+      },
+      {
+        "content": "### **7. Ligaments**\n\n**🦴 CONNECTION**\nConnects **Bone to Bone**.\n\n**🧱 NATURE**\nA fibrous connective tissue.\n"
+      },
+      {
+        "content": "### **8. Tendons**\n\n**💪 CONNECTION**\nAttaches **Muscle to Bone**.\n\n**🧱 NATURE**\nFlexible, inelastic cord of strong fibrous tissue."
+      },
+      {
+        "content": "### **9. Muscular Tissue: Basics**\n\n**🏃 MOVEMENT**\nResponsible for movement in the body.\n\n**🧱 COMPOSITION**\nAlso known as **Contractile Tissue**.\nContains special **Contractile Protein** which helps in muscle movement."
+      },
+      {
+        "content": "### **10. Types of Muscles**\n\n**🔢 THREE TYPES**\n1. **Unstriped** (Smooth/Involuntary)\n2. **Striped** (Skeletal/Voluntary)\n3. **Cardiac** (Heart)"
+      },
+      {
+        "content": "### **11. Unstriped Muscles**\n\n**🚫 INVOLUNTARY**\nNot controlled by will.\nControl motions of organs that move on their own.\n\n**📛 ALIAS**\nAlso known as **Smooth Muscles**.\n"
+      },
+      {
+        "content": "### **12. Unstriped Muscle Locations**\n\n**📍 FOUND IN**\n* Alimentary Canal\n* Rectum\n* Ureter\n* Blood Vessels\n* Iris of Eye\n* Bronchi of lung"
+      },
+      {
+        "content": "### **13. Striped Muscles**\n\n**🙋 VOLUNTARY**\nFound in parts of the body that move voluntarily.\n\n**🦴 ATTACHMENT**\nNormally one or both ends connect with **bones** by tendons.\n"
+      },
+      {
+        "content": "### **14. Cardiac Muscles**\n\n**❤️ LOCATION**\nFound only in the **wall of the heart**.\n\n**⚡ ENDURANCE**\nContraction and expansion occur throughout life **without fail**.\n"
+      },
+      {
+        "content": "### **15. Arrector Pili**\n\n**🥶 GOOSEBUMPS**\nMuscles found in the **skin**.\n\n**👻 FUNCTION**\nMake hair on the skin stand up straight when cold or frightened."
+      },
+      {
+        "content": "### **16. Muscle Facts: Count & Size**\n\n**🔢 TOTAL**\nOver **650** skeletal muscles in the human body.\n\n**🐘 LARGEST**\n**Gluteus Maximus** (Muscle of the hip)."
+      },
+      {
+        "content": "### **17. Muscle Facts: Small & Strong**\n\n**🤏 SMALLEST**\n**Stapedius**.\n\n**🦷 STRONGEST**\nFound in the **Jaw** (based on weight)."
+      },
+      {
+        "content": "### **18. Biological Note: Ions**\n\n**🧪 CONCENTRATION**\nIn vertebrates, inside the cell and tissues:\n* Low concentration of **$K^+$** (Potassium).\n* High concentration of **$Na^+$** (Sodium).\n*(Note: Based on source text).* "
+      },
+      {
+        "content": "### **19. Nervous Tissue: Overview**\n\n**🧠 SENSORY**\nAlso called **Sensory Tissue**.\nForms the nervous system of organisms.\n"
+      },
+      {
+        "content": "### **20. Nervous Tissue Components**\n\n**🧱 CELLS**\nMade up of two specific cells:\n1. **Nerve cell** or **Neurons**\n2. **Neuroglia**"
+      },
+      {
+        "content": "### **21. Nervous Tissue Function**\n\n**🎮 CONTROL**\nControls all the **voluntary** and **involuntary** activities of the body."
+      }
+    ],
+    "Human Blood": [
+      {
+        "content": "### **1. Blood: General Facts**\n\n**🩸 TISSUE TYPE**\nBlood is a **Connective Tissue**.\n\n**⚖️ QUANTITY**\nConstitutes about **7%** of the total body weight.\n\n**💧 VOLUME**\nApproximately **5 to 6 liters** of blood in an adult human."
+      },
+      {
+        "content": "### **2. Blood: pH and Composition**\n\n**🧪 pH**\nBlood pH is **7.4**, which is **Alkaline** in nature.\n\n**⚖️ COMPONENTS**\n1. **Plasma** (55-60%)\n2. **Blood Corpuscles / Cells** (40-45%)"
+      },
+      {
+        "content": "### **3. Plasma Composition**\n\n**💧 WATER**\nPlasma is mostly **90% water**.\n\n**🥩 PROTEIN**\nContains about **7% Protein**.\n\n**🍬 OTHERS**\nContains **0.9% Salt** and **0.1% Glucose**."
+      },
+      {
+        "content": "### **4. Plasma Proteins**\n\n**🛡️ CLOTTING FACTORS**\n**Prothrombin** and **Fibrinogen** (Help in clotting).\n\n**🩺 OTHERS**\n**Albumin** and **Globulin**."
+      },
+      {
+        "content": "### **5. Blood Corpuscles (Cells)**\n\n**🔢 THREE TYPES**\n1. **RBC** (Red Blood Corpuscles)\n2. **WBC** (White Blood Corpuscles)\n3. **Blood Platelets** (Thrombocytes)"
+      },
+      {
+        "content": "### **6. RBC (Erythrocytes): Structure**\n\n**⚫ NUCLEUS**\n**Absent** in RBC (Except in Camel and Lama).\n\n**🧱 FORMATION**\nFormed in the **Bone Marrow**."
+      },
+      {
+        "content": "### **7. RBC: Hemoglobin**\n\n**🔴 COLOR**\nContains **Hemoglobin** (Iron-containing protein) which gives blood its red color.\n\n**💨 FUNCTION**\nHemoglobin is responsible for the transport of **Oxygen** in the body."
+      },
+      {
+        "content": "### **8. RBC: Count and Lifespan**\n\n**🔢 COUNT**\nAbout **5 million** per cubic millimeter ($mm^3$).\n\n**🗓️ LIFESPAN**\n**120 days**."
+      },
+      {
+        "content": "### **9. RBC: Destruction**\n\n**⚰️ DESTRUCTION SITE**\nDestroyed in the **Spleen**.\n\n**🦴 NICKNAME**\nSpleen is known as the **Graveyard of RBC**."
+      },
+      {
+        "content": "### **10. WBC (Leukocytes): Basics**\n\n**⚪ NUCLEUS**\n**Present** in WBC.\n\n**🗓️ LIFESPAN**\nVery short lifespan: **2 to 4 days**."
+      },
+      {
+        "content": "### **11. WBC: Count and Formation**\n\n**🔢 COUNT**\nAbout **8,000 to 10,000** per cubic millimeter ($mm^3$).\n\n**📊 RATIO**\nRBC : WBC ratio is **600 : 1**.\n\n**🧱 FORMATION**\nFormed in Bone Marrow, Lymph nodes, and Spleen."
+      },
+      {
+        "content": "### **12. WBC: Function**\n\n**🛡️ IMMUNITY**\nMain function is **Defense** (Immunity) against diseases.\n\n**🦠 MECHANISM**\nEngulfs the bacteria, acting as the body's defensive system."
+      },
+      {
+        "content": "### **13. WBC: Granulocytes**\n\n**🔬 GRANULAR TYPES**\n1. **Neutrophils** (60-70%)\n2. **Eosinophils** (2-4%)\n3. **Basophils** (0.5-1%)"
+      },
+      {
+        "content": "### **14. WBC: Agranulocytes**\n\n**🔬 NON-GRANULAR TYPES**\n1. **Lymphocytes** (20-25%)\n2. **Monocytes** (3-8%)"
+      },
+      {
+        "content": "### **15. Blood Platelets (Thrombocytes)**\n\n**⚫ NUCLEUS**\n**Absent** in Blood Platelets.\n\n**🧱 FORMATION**\nFormed in the **Bone Marrow**.\n\n**🗓️ LIFESPAN**\nShort lifespan of **3 to 5 days**."
+      },
+      {
+        "content": "### **16. Platelets: Clotting & Count**\n\n**🩹 FUNCTION**\nHelps in the **clotting** of blood.\n\n**🔢 COUNT**\nAbout **2 to 5 lakhs** per cubic millimeter ($mm^3$)."
+      },
+      {
+        "content": "### **17. Blood Clotting Process**\n\n**🧪 STEP 1**\n**Fibrinogen** is changed into **Fibrin** in the presence of **Thrombin**.\n\n**🧪 STEP 2**\n**Prothrombin** is changed into **Thrombin** by **Thromboplastin** and **Calcium ions** ($Ca^{++}$)."
+      },
+      {
+        "content": "### **18. Serum Definition**\n\n**💧 SERUM**\nWhen blood is clotted, the remaining clear fluid is called **Serum**.\n\n**⚗️ COMPOSITION**\nSerum is equivalent to **Plasma minus Fibrinogen**."
+      },
+      {
+        "content": "### **19. Blood Groups Discovery**\n\n**👨‍🔬 DISCOVERER**\nDiscovered by **Landsteiner** in **1900**.\n\n**🧬 COMPONENTS**\nGroup classification is based on **Antigens** on RBC and **Antibodies** in Plasma."
+      },
+      {
+        "content": "### **20. Blood Group Antigens**\n\n**🅰️ GROUP A**\nAntigen **A** (on RBC surface).\nAntibody **b** (in Plasma).\n\n**🅱️ GROUP B**\nAntigen **B**.\nAntibody **a**."
+      },
+      {
+        "content": "### **21. Blood Group O and AB**\n\n**🅾️ GROUP O**\n**No Antigen**.\nAntibodies **a and b**.\n\n**🆎 GROUP AB**\nAntigens **A and B**.\n**No Antibody**."
+      },
+      {
+        "content": "### **22. Universal Donor & Recipient**\n\n**🎁 UNIVERSAL DONOR**\nBlood group **O** (due to having no antigens).\n\n**📥 UNIVERSAL RECIPIENT**\nBlood group **AB** (due to having no antibodies)."
+      },
+      {
+        "content": "### **23. Rh Factor**\n\n**🐒 DISCOVERY**\nDiscovered by **Landsteiner and Wiener** in **1940**.\n\n**🧪 ORIGIN**\nFirst found in the **Rhesus monkey**.\n\n**🤰 IMPORTANCE**\nVery important for blood transfusion and pregnancy management."
+      },
+      {
+        "content": "### **24. Blood Storage**\n\n**🏥 BLOOD BANK**\nBlood is stored in a **low temperature** to keep it fresh.\n\n**🧪 ANTI-CLOTTING AGENTS**\n**Sodium citrate** or **Sodium Oxalate** is added to prevent clotting."
+      }
+    ],
+    "System of the Human Body": [
+      {
+        "content": "### **1. Digestive System: Overview**\n\n**🔄 5 STAGES**\n1. **Ingestion:** Taking food into mouth.\n2. **Digestion:** Converting non-absorbable food to absorbable.\n3. **Absorption:** Digested food mixing into blood.\n4. **Assimilation:** Use of absorbed food.\n5. **Defecation:** Removal of waste."
+      },
+      {
+        "content": "### **2. Digestion in Mouth**\n\n**🤤 SALIVA**\nSecreted by salivary glands. pH is slightly acidic (**6.8 to 7.3**).\nDaily secretion: Approx **1.5 litres**.\n\n**🧪 ENZYME**\n**Ptyalin** (Salivary Amylase): Converts Starch ➝ Simple Sugar (Maltose).\n\n**🦷 TEETH**\n**Molars** are used for grinding food."
+      },
+      {
+        "content": "### **3. Digestion in Stomach**\n\n**⏳ TIME**\nFood lies for approximately **4 hours**.\n\n**⚗️ GASTRIC JUICE**\nLight yellow acidic liquid (pH **1.5 to 3.5**).\nContains **HCl** (Hydrochloric Acid) secreted by **Oxyntic cells** to kill bacteria.\n\n**🧪 ENZYMES**\n1. **Pepsin:** Breaks Protein ➝ Peptones.\n2. **Renin:** Breaks Caseinogen (Milk) ➝ Casein."
+      },
+      {
+        "content": "### **4. Digestion in Intestine**\n\n**📏 SMALL INTESTINE**\nSub-divided into **Duodenum**, **Jejunum**, and **Ileum**.\nDigestion is completed here.\n\n**🟢 BILE**\nComes from Liver. Turns acidic food **Alkaline**.\n\n**🧱 ABSORPTION**\nTakes place through **Villi** found in the wall of Ileum."
+      },
+      {
+        "content": "### **5. Pancreatic Juice**\n\n**🧪 ENZYMES (TAL)**\n1. **Trypsin:** Protein/Peptone ➝ Polypeptides.\n2. **Amylase:** Starch ➝ Soluble Sugar.\n3. **Lipase:** Emulsified Fats ➝ Glycerol/Fatty Acids.\n\n**🍽️ APPETITE SUPPRESSOR**\n**Cholecystokinin** induces release of digestive enzymes."
+      },
+      {
+        "content": "### **6. Intestinal Juice**\n\n**🧪 ENZYMES**\n1. **Erepsin:** Protein ➝ Amino acids.\n2. **Maltase:** Maltose ➝ Glucose.\n3. **Sucrase:** Sucrose ➝ Glucose + Fructose.\n4. **Lactase:** Lactose ➝ Glucose + Galactose.\n\n**💧 QUANTITY**\nHealthy humans secrete **2 litres** daily."
+      },
+      {
+        "content": "### **7. The Liver**\n\n**🏆 LARGEST GLAND**\nWeight: Approx **1500 gram**.\n\n**🟢 BILE PRODUCTION**\nSecretes Bile (pH 7.7, Alkaline). Stored in **Gall Bladder**.\n\n**🛡️ FUNCTIONS**\n* Converts excess Amino acid ➝ Ammonia ➝ **Urea** (Ornithine cycle).\n* Produces **Fibrinogen** & **Heparin** (Clotting proteins).\n* Destroys dead RBCs."
+      },
+      {
+        "content": "### **8. The Pancreas**\n\n**✌️ DUAL NATURE**\nActs as simultaneously **Endocrine** and **Exocrine** gland.\n\n**🏝️ ISLETS OF LANGERHANS**\n* **Beta cells:** Secrete **Insulin**.\n* **Alpha cells:** Secrete **Glucagon**.\n* **Delta cells:** Secrete **Somatostatin**.\n"
+      },
+      {
+        "content": "### **9. Insulin & Diabetes**\n\n**💉 INSULIN**\nDiscovered by **Banting and Best** (1921).\nControls conversion of Glucose ➝ Glycogen.\n\n**🍭 DIABETES**\nCaused by **deficiency** of Insulin.\n\n**📉 HYPOGLYCEMIA**\nCaused by **excessive flow** of Insulin (Visual disturbance/loss of consciousness)."
+      },
+      {
+        "content": "### **10. Respiratory System**\n\n**🌬️ ORGANS**\nNasal passage ➝ Pharynx ➝ Larynx (Voice box) ➝ Trachea ➝ Bronchi ➝ Lungs.\n\n**🫁 LUNGS**\nRight lung is larger than left. Covered by **Pleural Membrane**.\n\n**👃 NASAL PASSAGE**\nLined with mucous membrane. Regulates air temperature (AC of body)."
+      },
+      {
+        "content": "### **11. Mechanism of Breathing**\n\n**😤 INSPIRATION**\nDiaphragm is **flattened**. Air enters lungs.\n\n**😮‍💨 EXPIRATION**\nDiaphragm is **arched**. Air leaves lungs.\n\n**⏱️ RATE**\nAdult breathes **12-16 times** per minute.\n"
+      },
+      {
+        "content": "### **12. Cellular Respiration**\n\n**🔄 TYPES**\n1. **Anaerobic:** Without Oxygen. Produces **Lactic Acid** (in muscles) or Ethyl Alcohol. (2 ATP).\n2. **Aerobic:** With Oxygen. Complete oxidation of glucose. (38 ATP).\n\n**🧬 GLYCOLYSIS**\nOccurs in **Cytoplasm**. Also called **EMP path**.\n\n**⚙️ KREB'S CYCLE**\nOccurs in **Mitochondria**. Also called **Citric Acid Cycle**."
+      },
+      {
+        "content": "### **13. Circulatory System: Heart**\n\n**❤️ STRUCTURE**\nFour chambers (2 Auricles, 2 Ventricles).\nEnclosed in **Pericardial membrane**.\nWeight: **300 grams**.\n\n**🚪 VALVES**\n*Right Side:* **Tricuspid** Valve.\n*Left Side:* **Bicuspid** Valve.\n"
+      },
+      {
+        "content": "### **14. Heart Function**\n\n**💓 HEART BEAT**\nBeats **72 times/min**.\nContraction = **Systole**. Relaxation = **Diastole**.\n\n**⚡ PACEMAKER**\n**SA Node** (Sinoatrial node) generates cardiac impulses.\n\n**🩸 BLOOD PRESSURE**\nNormal: **120/80**. Measured by **Sphygmomanometer**."
+      },
+      {
+        "content": "### **15. Blood Vessels**\n\n**🔴 ARTERIES**\nCarry blood **from heart** to body.\nCarry **Pure (Oxygenated)** blood (Except Pulmonary Artery).\n\n**🔵 VEINS**\nCarry blood **from body** to heart.\nCarry **Impure (Deoxygenated)** blood (Except Pulmonary Vein)."
+      },
+      {
+        "content": "### **16. Excretory System**\n\n**🚿 EXCRETION**\nRemoval of nitrogenous waste (Urea, Ammonia).\nMain organs: **Kidneys**, Skin, Liver, Lungs.\n\n**🩹 HEMODIALYSIS**\nArtificial kidney used to remove excess urea from blood."
+      },
+      {
+        "content": "### **17. The Kidney**\n\n**⚖️ SPECS**\nWeight: **140g**. Two parts: **Cortex** (Outer) & **Medulla** (Inner).\n\n**🌀 NEPHRON**\nFunctional unit of kidney. Contains **Bowman's Capsule** and **Glomerulus**.\n\n**💧 URINE**\nLight yellow due to **Urochrome**.\npH is **6** (Acidic).\nStones are made of **Calcium Oxalate**."
+      },
+      {
+        "content": "### **18. Nervous System Overview**\n\n**🧠 UNIT**\n**Neuron** (Nerve cell).\n\n**⚡ DIVISIONS**\n1. **Central** (Brain + Spinal Cord)\n2. **Peripheral** (Cranial + Spinal nerves)\n3. **Autonomic** (Sympathetic + Parasympathetic)"
+      },
+      {
+        "content": "### **19. The Brain: Forebrain**\n\n**🧠 CEREBRUM**\nLargest part. Seat of **wisdom, memory, will power**.\n\n**🌡️ THALAMUS**\nCentre of pain, cold, and heat.\n\n**🌡️ HYPOTHALAMUS**\nControls **body temperature**, hunger, thirst, and emotional reactions."
+      },
+      {
+        "content": "### **20. The Brain: Hindbrain**\n\n**🌳 CEREBELLUM**\nControls **body balance** and muscular coordination.\n\n**⚙️ MEDULLA OBLONGATA**\nControls **involuntary actions** (Heart beat, respiration, BP).\nConnects brain to spinal cord."
+      },
+      {
+        "content": "### **21. Nervous System Facts**\n\n**⚡ REFLEX ACTION**\nControlled by **Spinal Cord**. Discovered by **Marshall Hall**.\n\n**📈 EEG**\nElectroencephalography. Used to know the function of the **Brain**.\n\n**😴 CRANIAL NERVES**\n12 Pairs.\n\n**⚡ SPINAL NERVES**\n31 Pairs."
+      },
+      {
+        "content": "### **22. Autonomic Nervous System**\n\n**😡 SYMPATHETIC**\nActive in fear/pain/anger.\nIncreases heart beat, respiration, BP.\n\n**😌 PARASYMPATHETIC**\nActive in rest/joy.\nCreates contraction in pupil and bladder."
+      },
+      {
+        "content": "### **23. Skeletal System**\n\n**🦴 BONE COUNTS**\nAdult: **206**.\nChildhood: **270**.\nHead: **29**.\nVertebral Column: **33** (initially) ➝ **26** (developed).\nRibs: **24**."
+      },
+      {
+        "content": "### **24. Specific Bones**\n\n**🦵 FEMUR**\nLongest and strongest bone (Thigh).\n\n**👂 STAPES**\nSmallest bone (Ear).\n\n**💀 FORAMEN MAGNUM**\nAperture found in the skull.\n\n**🦴 ATLAS**\nFirst vertebra holding the skull."
+      },
+      {
+        "content": "### **25. Endocrine System: Pituitary**\n\n**👑 MASTER GLAND**\nSituated in Sella-turcica (Forehead).\n\n**🧪 HORMONES**\n**STH:** Growth hormone (Gigantism/Dwarfism).\n**TSH:** Thyroid stimulating.\n**Oxytocin:** Milk release & Birth contraction.\n**ADH:** Water balance."
+      },
+      {
+        "content": "### **26. Thyroid & Parathyroid**\n\n**🦋 THYROID**\nSecretes **Thyroxine** (Contains Iodine).\nDeficiency: **Goitre**, Cretinism (in children).\n\n**🦴 PARATHYROID**\nRegulates **Calcium** level in blood.\nDeficiency causes Tetany."
+      },
+      {
+        "content": "### **27. Adrenal Glands**\n\n**🚨 EMERGENCY GLAND**\nSecretes **Adrenaline** (Epinephrine).\n\n**🚀 FIGHT OR FLIGHT**\nPrepares body for emergency. Increases heartbeat and BP.\nLocated on top of kidneys."
+      },
+      {
+        "content": "### **28. Gonads (Sex Hormones)**\n\n**👩 OVARY**\n**Estrogen:** Reproductive development.\n**Progesterone:** Uterus thickening.\n**Relaxin:** Widens cervix during birth.\n\n**👨 TESTIS**\n**Testosterone:** Secondary sexual characters in males."
+      }
+    ],
+    "Nutrients": [
+      {
+        "content": "### **1. Basics of Nutrition**\n\n**🍽️ DEFINITION**\nProcess by which organisms perform basic functions of life (intake, digestion, absorption, assimilation, egestion).\n\n**🧪 NUTRIENTS**\nSubstances by which an organism gets **energy** or uses for **biosynthesis**.\n\n**🔋 ENERGY SOURCE**\nCarbohydrates and Fats.\n\n**🏗️ BIOSYNTHESIS**\nProteins and Minerals."
+      },
+      {
+        "content": "### **2. Carbohydrates**\n\n**⚗️ RATIO**\nCarbon, Hydrogen, Oxygen (**1 : 2 : 1**).\n\n**🔋 IMPORTANCE**\nMajor intake in animals and humans (50-75% energy obtained).\n1 gram = **4.2 Kcal** energy.\n\n**⚛️ CHEMISTRY**\nAldehyde group = **Aldose**.\nKetone group = **Ketose**.\n"
+      },
+      {
+        "content": "### **3. Classification of Carbs**\n\n**1️⃣ MONOSACCHARIDES**\nSimple sugar. Most abundant is **Glucose** ($C_6H_{12}O_6$).\nSweetest sugar is **Fructose**.\n\n**2️⃣ OLIGOSACCHARIDES**\n2 to 10 monosaccharides. Sweet and crystalline.\n*Ex:* Maltose, Sucrose, Lactose.\n\n**3️⃣ POLYSACCHARIDES**\nInsoluble and tasteless.\n*Ex:* Starch, Glycogen, Cellulose, Chitin."
+      },
+      {
+        "content": "### **4. Carbohydrate Functions**\n\n**⛽ FUEL**\nGlucose breaks into $CO_2$ and $H_2O$ releasing energy (Respiration).\n\n**🧬 GENETICS**\nNucleic acids are polymers containing **Pentose sugar**.\n\n**🥛 LACTOSE**\nSugar formed from Glucose and Galactose (found in milk).\n\n**🏗️ EXOSKELETON**\nCarbon skeleton used to form fatty acids, chitin, cellulose."
+      },
+      {
+        "content": "### **5. Proteins: Structure**\n\n**🧱 AMINO ACIDS**\nComplex organic compound made of **20 types** of amino acids.\n**Nitrogen** is essential for protein synthesis.\n\n**🗓️ HISTORY**\nWord first used by **J. Berzelius**.\n\n**🧬 SYNTHESIS**\n12 synthesized by body.\n8 obtained from food (**Essential Amino Acids**)."
+      },
+      {
+        "content": "### **6. Protein Types**\n\n**1️⃣ SIMPLE**\nConsists only of amino acids.\n*Ex:* Albumins, Globulins, Histones.\n\n**2️⃣ CONJUGATED**\nHas another chemical compound added.\n*Ex:* Chromo protein, Glyco protein.\n\n**3️⃣ DERIVED**\nDerived from partial digestion/hydrolysis.\n*Ex:* Peptone, Peptide."
+      },
+      {
+        "content": "### **7. Protein Facts**\n\n**🥇 FIRST CLASS**\nAnimal protein is called first class because it contains **all essential amino acids**.\n\n**💅 KERATIN**\nProtein that protects epithelial cells from damage (found in nails).\n\n**🌱 SOYABEAN**\nRichest source of protein."
+      },
+      {
+        "content": "### **8. Protein Deficiency Diseases**\n\n**🧒 KWASHIORKOR**\nHands/legs get slimmed, stomach comes out.\n\n**💀 MARASMUS**\nMuscles of children are loosened.\n"
+      },
+      {
+        "content": "### **9. Fats (Lipids)**\n\n**⚗️ CHEMISTRY**\nEster of **Glycerol** and **Fatty Acid**.\n\n**🌡️ STATE**\nSolid at 20°C = Fat.\nLiquid at 20°C = Oil.\n\n**⚡ ENERGY**\n**9.3 Kcal** energy liberated from 1 gram fat (Maximum energy per gram)."
+      },
+      {
+        "content": "### **10. Types of Fatty Acids**\n\n**🛑 SATURATED**\nCoconut oil, Palm oil.\n\n**💧 UNSATURATED**\nFish oil, Vegetable oil.\n\n**🤢 RANCIDITY**\nOxidation of fat/oils changing taste and smell."
+      },
+      {
+        "content": "### **11. Vitamins Overview**\n\n**👨‍🔬 DISCOVERY**\nInvented by **Sir F.G. Hopkins**.\nTerm coined by **Funk**.\n\n**⚖️ NATURE**\nOrganic compound required in minute quantities.\n**No calorie** obtained, but regulates metabolism."
+      },
+      {
+        "content": "### **12. Classification of Vitamins**\n\n**💧 WATER SOLUBLE**\nVitamin **B** and **C**.\n\n**🥓 FAT SOLUBLE**\nVitamin **A, D, E,** and **K**."
+      },
+      {
+        "content": "### **13. Vitamin A**\n\n**🧪 CHEMICAL NAME**\n**Retinol**.\n\n**👁️ DEFICIENCY**\nColour blindness, **Xerophthalmia**, Night blindness.\n\n**🥕 SOURCES**\nCarrot, Milk, Egg, Cod liver oil.\n*Note:* Mainly stored in **Liver**."
+      },
+      {
+        "content": "### **14. Vitamin B1 & B2**\n\n**1️⃣ B1 (THIAMINE)**\nDeficiency: **Beriberi**.\nSource: Groundnut, Rapeseed.\n*Note:* Polished rice diet causes Beriberi.\n\n**2️⃣ B2 (RIBOFLAVIN)**\nDeficiency: Cracking of skin, reddish eye, mouth ulcers."
+      },
+      {
+        "content": "### **15. Vitamin B3, B5, B6**\n\n**3️⃣ B3 (NIACIN)**\nDeficiency: Whitening of hair, **Pellagra**.\n\n**5️⃣ B5 (PANTOTHENIC ACID)**\nDeficiency: Insomnia, burning feet.\n\n**6️⃣ B6 (PYRIDOXINE)**\nDeficiency: Anaemia, skin disease, depression."
+      },
+      {
+        "content": "### **16. Vitamin B7, B11, B12**\n\n**7️⃣ B7 (BIOTIN)**\nDeficiency: Paralysis, hair falling.\n\n**1️⃣1️⃣ B11/B9 (FOLIC ACID)**\nDeficiency: Anaemia, dysentery.\n\n**1️⃣2️⃣ B12 (CYANOCOBALAMIN)**\nDeficiency: **Pernicious Anaemia**, Jaundice.\n*Fact:* Contains **Cobalt**."
+      },
+      {
+        "content": "### **17. Vitamin C**\n\n**🧪 CHEMICAL NAME**\n**Ascorbic Acid**.\n\n**🦷 DEFICIENCY**\n**Scurvy**, swelling of gums, bleeding gums.\n\n**🍋 SOURCES**\nSour substances (Lemon, Orange), Chilly.\n*Fact:* Amla is the richest source."
+      },
+      {
+        "content": "### **18. Vitamin D**\n\n**🧪 CHEMICAL NAME**\n**Calciferol**.\n\n**🦴 DEFICIENCY**\n**Rickets** (Children), **Osteomalacia** (Adults).\n\n**☀️ SYNTHESIS**\nSynthesized by sunlight through cholesterol (**Ergosterol**) of skin."
+      },
+      {
+        "content": "### **19. Vitamin E & K**\n\n**✨ VITAMIN E (TOCOPHEROL)**\nDeficiency: **Less fertility**.\nSource: Wheat germ oil, leafy vegetables.\n\n**🩸 VITAMIN K (PHYLLOQUINONE)**\nDeficiency: **Non-clotting of blood**.\n*Fact:* Synthesized in colon by bacteria."
+      },
+      {
+        "content": "### **20. Minerals: Na & K**\n\n**🧂 SODIUM (Na)**\nSource: Salt.\nFunction: Nerve impulse transmission, blood pressure control.\n\n**🍌 POTASSIUM (K)**\nSource: All edibles.\nFunction: Heart beat regulation, nerve conduction."
+      },
+      {
+        "content": "### **21. Minerals: Ca & P**\n\n**🦴 CALCIUM (Ca)**\nSource: Milk, Cheese, Eggs.\nFunction: Strength to bones/teeth, **Blood clotting**, Muscle contraction.\n\n**🦴 PHOSPHORUS (P)**\nSource: Green leafy vegetables.\nFunction: Strength to bones/teeth."
+      },
+      {
+        "content": "### **22. Minerals: Iron & Iodine**\n\n**🩸 IRON (Fe)**\nSource: Spinach, Apple, Banana.\nFunction: Formation of **Hemoglobin** (RBC).\n\n**🦋 IODINE (I)**\nSource: Sea food, Iodized salt.\nFunction: Synthesis of **Thyroxin** (Thyroid gland)."
+      },
+      {
+        "content": "### **23. Trace Minerals & Facts**\n\n**🦷 FLUORINE**\nExcess causes **Fluorosis**. Deficiency leads to mottling of teeth.\n\n**🌱 MOLYBDENUM**\nAffects Nitrogenase activity in plants.\n\n**🤰 PREGNANCY**\nDeficiency of Calcium and Iron is common in pregnant women."
+      },
+      {
+        "content": "### **24. Water**\n\n**⚖️ QUANTITY**\n**65-75%** of body weight.\n\n**🌡️ FUNCTIONS**\nControls body temperature (sweating/vaporizing).\nImportant way of excretion.\nMedium for hydrolysis reactions."
+      },
+      {
+        "content": "### **25. Balanced Diet**\n\n**🥗 DEFINITION**\nNutrition in which all important nutrients are available in sufficient quantity.\n"
+      },
+      {
+        "content": "### **26. Calorie Requirements**\n\n**🛌 LIGHT WORKER**\nMale: 2000 | Female: 2100\n\n**🏢 8 HOURS WORK**\nMale: 3000 | Female: 2500\n\n**🏗️ HARD WORKER**\nMale: **3600** | Female: **3000**"
+      },
+      {
+        "content": "### **27. Food Facts**\n\n**🍆 BT-BRINJAL**\nGenetically modified vegetable in India.\n\n**🥫 PRESERVATIVE**\n**Sodium Benzoate** is used to preserve food items.\n\n**🥛 MILK**\nNot a complete food due to lack of **Vitamin C** and **Iron**."
+      }
+    ],
+    "Human Diseases": [
+      {
+        "content": "### **1. Protozoan Diseases: Malaria**\n\n**🦟 VECTOR**\nFemale **Anopheles** mosquito.\n\n**🦠 PARASITE**\n*Plasmodium*.\n\n**🤒 SYMPTOMS**\nFever with shivering. Affects **RBC & Liver**.\n\n**🩸 PERNICIOUS MALARIA**\nMalignant malaria caused by *Plasmodium falciparum*."
+      },
+      {
+        "content": "### **2. Malaria History & Cure**\n\n**👨‍🔬 DISCOVERY**\nParasite discovered by **Charles Leveran** (1880).\nTransmission confirmed by **Ronald Ross** (1897).\n\n**💊 CURE**\n**Quinine**: Effective medicine obtained from the bark of **Cinchona** tree.\n"
+      },
+      {
+        "content": "### **3. Protozoan Diseases: Others**\n\n**🦷 PYORRHOEA**\nParasite: *Entamoeba gingivalis*. Affects **Gums** (Bleeding).\n\n**😴 SLEEPING SICKNESS**\nParasite: *Trypanosoma*. Carrier: **Tse-Tse flies**. Affects **Brain**.\n\n**🦴 KALA-AZAR**\nParasite: *Leishmania donovani*. Carrier: **Sand flies**. Affects **Bone Marrow**."
+      },
+      {
+        "content": "### **4. Protozoan Diseases: Diarrhoea**\n\n**🦠 PARASITE**\n*Entamoeba histolytica*.\n\n**🏠 TRANSMISSION**\nSpread through **house flies**.\n\n**⚠️ EFFECT**\nCauses wounds in intestine. Destroys protein-digesting enzyme **Trypsin**.\nMostly found in children."
+      },
+      {
+        "content": "### **5. Bacterial Diseases: Respiratory**\n\n**🫁 TUBERCULOSIS (TB)**\nBacteria: *Mycobacterium tuberculosis*.\nAffects: Lungs.\nAlso known as **White Plague**.\n\n**🗣️ WHOOPING COUGH**\nBacteria: *Hemophilus pertussis*.\nSymptom: Continuous coughing.\n\n**🌡️ PNEUMONIA**\nBacteria: *Streptococcus pneumoniae*.\nSymptom: High fever, swelling in lungs."
+      },
+      {
+        "content": "### **6. Bacterial Diseases: Intestinal**\n\n**🤢 CHOLERA**\nBacteria: *Vibrio cholerae*.\nSymptom: Continuous stool and vomiting.\n\n**🤒 TYPHOID**\nBacteria: *Salmonella typhi*.\nSymptom: High fever, headache.\nProbability increases with contaminated drinking water."
+      },
+      {
+        "content": "### **7. Bacterial Diseases: Skin & Nerves**\n\n**😬 TETANUS**\nBacteria: *Clostridium tetani*.\nAffects: Nervous system (Lockjaw/Spasm).\n\n**🤕 LEPROSY**\nBacteria: *Mycobacterium leprae*.\nAffects: Nervous System, Skin (Spots on body)."
+      },
+      {
+        "content": "### **8. Bacterial Diseases: Sexual/Urinary**\n\n**🚻 GONORRHEA**\nBacteria: *Neisseria gonorrhoeae*.\nAffects: Urinary path (Swelling).\n\n**🔞 SYPHILIS**\nBacteria: *Treponema pallidum*.\nAffects: Urinogenital tract (Wounds)."
+      },
+      {
+        "content": "### **9. Bacterial Diseases: Others**\n\n**🐀 PLAGUE**\nBacteria: *Pasteurella pestis*.\nAffects: Lungs, area between two legs.\n\n**👁️ TRACHOMA**\nBacteria: *Chlamydia trachomatis*.\nAffects: Eye (Red eyes, pain).\n\n**👃 DIPHTHERIA**\nBacteria: *Corynebacterium diphtheriae*.\nAffects: Respiratory tube (Suffocation)."
+      },
+      {
+        "content": "### **10. Bacterial Discovery Facts**\n\n**👨‍🔬 ROBERT KOCH**\nGerman scientist who discovered bacteria of **Cholera** and **TB** (1882).\n\n**🐔 BIRD FLU**\nAffects human beings and spreads through **poultry**.\n\n**🦠 ANTHRAX**\nDisease caused by bacteria."
+      },
+      {
+        "content": "### **11. Viral Diseases: Poxes**\n\n**🐔 CHICKEN POX**\nVirus: *Varicella-Zoster Virus (VZV)*.\nSymptom: Itchy rashes, fluid blisters.\n\n**🤒 SMALL POX**\nVirus: *Variola Virus*.\nSymptom: Eruption of boils. (Eradicated)."
+      },
+      {
+        "content": "### **12. Viral Diseases: Fevers**\n\n**🦟 DENGUE**\nTransmitted by **Aedes aegypti** mosquito.\nAlso known as **Break Bone Fever**.\n\n**🦠 MEASLES**\nVirus: *Morbilli Virus*.\nSymptom: Red rashes, runny nose."
+      },
+      {
+        "content": "### **13. Viral Diseases: Organs**\n\n**🧠 MENINGITIS**\nAffects: Brain and Spinal cord.\n\n**🥃 HEPATITIS (JAUNDICE)**\nAffects: **Liver**.\nSymptom: Dark yellow urine, yellow eyes.\n\n**😮 MUMPS**\nAffects: **Salivary gland**.\nSymptom: Swelling, pain."
+      },
+      {
+        "content": "### **14. Viral Diseases: Nervous**\n\n**🐕 RABIES (HYDROPHOBIA)**\nTransmitted by **dog bite**.\nSymptom: Fear of water, high fever, mental confusion.\n\n**♿ POLIO**\nVirus: *Polio Virus*.\nAffects: Throat, Intestine ➝ Brain/Spinal cord ➝ Paralysis."
+      },
+      {
+        "content": "### **15. AIDS / HIV**\n\n**🦠 FULL FORM**\n**A**cquired **I**mmuno **D**eficiency **S**yndrome.\n\n**🛡️ EFFECT**\nHIV infects **helper lymphocytes**, making immune system weak.\n\n**🧪 TEST**\n**ELISA** Test (Enzyme-Linked Immunosorbent Assay).\n"
+      },
+      {
+        "content": "### **16. COVID-19 & Recent Viruses**\n\n**🦠 COVID-19**\nCaused by **SARS-CoV-2**. Affects respiratory system.\nVaccines: **Covishield** (Serum Institute).\n\n**🦇 NIPAH**\nAntibody found in bats from **Mahabaleshwar cave**.\n\n**🐷 H1N1**\nRelated to **Swine Flu**.\n\n**🦟 ZIKA**\nTransmitted by daytime active *Aedes* mosquito."
+      },
+      {
+        "content": "### **17. Vaccines & Immunization**\n\n**💉 DPT**\nDiptheria, Pertussis, Tetanus.\n\n**💉 BCG**\nBacillus Calmette-Guerin (For TB).\n\n**💧 OPV**\nOral Polio Vaccine.\n\n**🇮🇳 MISSION INDRADHANUSH**\nLaunched in 2014 to cover partially/unvaccinated children."
+      },
+      {
+        "content": "### **18. Fungal Diseases: Skin**\n\n**🦶 ATHLETE'S FOOT**\nFungus: *Tenia Pedis*.\nCracking of feet skin.\n\n**🧴 SCABIES**\nFungus: *Acarus scabies*.\nItching and white spots on skin.\n\n**💍 RINGWORM**\nFungus: *Trichophyton Lerucosum*.\nRound red spots on skin."
+      },
+      {
+        "content": "### **19. Fungal Diseases: Others**\n\n**🫁 ASTHMA**\nFungus: *Aspergillus fumigatus*.\nSpores form a net in lungs, obstructing function.\n\n**👨‍🦲 BALDNESS**\nFungus: *Taenia capitis*.\nHair of the head falls."
+      },
+      {
+        "content": "### **20. Helminthic Disease**\n\n**🦟 FILARIA**\nPathogen: *Wuchereria bancrofti* (Worm).\nVector: **Culex mosquitoes**.\nSymptom: Swelling in legs (Elephantiasis) and testes.\n"
+      },
+      {
+        "content": "### **21. Medical Instruments I**\n\n**💓 PACEMAKER**\nSmall device placed in chest to control **abnormal heart beat**.\n\n**🩻 CT SCAN**\nComputed Tomography Scan. Investigates abnormal body function.\n\n**📉 ECG**\nElectro Cardiograph. Detects heart abnormality."
+      },
+      {
+        "content": "### **22. Medical Instruments II**\n\n**🧠 EEG**\nElectro Encephalogram. Detects **brain malfunctioning**.\n\n**🧲 MRI**\nMagnetic Resonance Imaging. Finds abnormality in whole body.\n\n**👃 RHINOSCOPE**\nInstrument for examining the **nose**.\n\n**👶 ULTRASONIC WAVES**\nUsed to know growth of **fetus**."
+      },
+      {
+        "content": "### **23. Eye Defects**\n\n**👓 MYOPIA**\nShort-sightedness. Corrected by **Concave lens**.\n\n**👓 HYPERMETROPIA**\nLong-sightedness. Corrected by **Convex lens**.\n\n**👴 PRESBYOPIA**\nLoss of flexibility of lens due to age. Corrected by **Bifocal lens**.\n\n**👀 DIPLOPIA**\nParalysis of eye muscles causes **double image**."
+      },
+      {
+        "content": "### **24. Cancer Types**\n\n**🦀 CARCINOMA**\nSkin/Epithelial cancer caused by **UV rays**.\n\n**🍖 SARCOMA**\nCancer of connective tissue, bones, cartilage, muscles.\n\n**🩸 LEUKAEMIA**\nAbnormal growth of **leucocytes** (Blood cancer).\n\n**💊 CHEMOTHERAPY**\nUsed in treatment of cancer."
+      },
+      {
+        "content": "### **25. Heart & Blood Conditions**\n\n**🩸 HAEMOPHILIA**\nGenetic disease where blood **loses ability to clot**.\n\n**💓 ATHEROSCLEROSIS**\nDeposition of cholesterol in arteries preventing blood flow.\n\n**🪵 ARTERIOSCLEROSIS**\nCalcium salts make arteries stiff/rigid (loss of elasticity)."
+      },
+      {
+        "content": "### **26. Blood Sugar Disorders**\n\n**🍬 HYPERGLYCEMIA**\nHigh concentration of glucose in blood.\n\n**📉 HYPOGLYCEMIA**\nVery low concentration of glucose in blood.\n\n**🚽 GLYCOSURIA**\nPresence of excess glucose in **urine**."
+      },
+      {
+        "content": "### **27. Bone & Joint Diseases**\n\n**🔥 ARTHRITIS**\nInflammation of joints.\n\n**🦴 OSTEOPOROSIS**\nAge-dependent disorder. Low bone mass and increased fragility.\n\n**🤕 RHEUMATISM**\nFever with joint pain."
+      },
+      {
+        "content": "### **28. Mental & Neurological**\n\n**🧠 SCHIZOPHRENIA**\nPatient considers imagination as truth. Found in youth.\n\n**⚡ EPILEPSY**\nAbnormal electrical discharge in brain causing **seizures** and foaming.\n\n**😵 DELIRIUM**\nMental disturbance under influence of poisonous drugs."
+      },
+      {
+        "content": "### **29. Respiratory Conditions**\n\n**🌬️ BRONCHITIS**\nInflammation of tubes leading to lungs.\n\n**🫁 EMPHYSEMA**\nLoss of elasticity in alveoli. Caused by **cigarette smoke**.\n\n**🤒 PNEUMONIA**\nAcute inflammation of alveoli."
+      },
+      {
+        "content": "### **30. Dietary & Metabolic**\n\n**⚖️ OBESITY**\nExcessive fatness measured by **BMI**.\n\n**🍔 BULIMIA**\nDisorder where man does not know when to **stop eating**.\n\n**🍌 HYPOKALEMIA**\nDeficiency of mineral **Potassium**."
+      },
+      {
+        "content": "### **31. Miscellaneous Diseases I**\n\n**😖 COLIC**\nSevere abdominal pain caused by spasm of internal organs.\n\n**🤧 ALLERGY**\nReaction to substances (dust, smoke) causing itching/pimples.\n\n**🤕 PARALYSIS**\nNerves become inactive due to high BP bursting blood vessels."
+      },
+      {
+        "content": "### **32. Miscellaneous Diseases II**\n\n**🧱 SIDEROSIS**\nCaused by inhalation of **Iron dust**.\n\n**🚽 PILES**\nVaricose veins in rectum due to constipation.\n\n**🚽 UREMIA**\nExcess **urea** in blood due to kidney malfunction."
+      }
+    ],
+    "Miscellaneous": [
+      {
+        "content": "### **1. Cell Biology: Introduction**\n\n**🧱 CELL**\nBasic structural and functional unit of life.\n\n**👑 NUCLEUS**\nBrain of the cell. Contains **DNA/Chromosomes**.\n\n**📏 SIZES**\n*Largest Cell:* **Ostrich egg**.\n*Smallest Cell:* **P.P.L.O.** (Mycoplasma) / **Mycoplasma Gallisepticum**."
+      },
+      {
+        "content": "### **2. Cell Organelles I**\n\n**📦 GOLGI BODY**\nPackaging, modification, and transport of proteins/lipids.\n\n**🔬 RIBOSOME**\nSite of **Protein Synthesis** (also called Protein factory).\n\n**⚙️ MITOCHONDRIA**\nSite of aerobic respiration (**Power House of the Cell**)."
+      },
+      {
+        "content": "### **3. Cell Organelles II**\n\n**🛡️ CELL WALL**\nOuter covering of plant cell. Provides **protection and support**.\n\n**🧪 PLASTIDS**\nFound in plant cells. Stores or synthesizes food.\n*Ex:* Chloroplast (Photosynthesis).\n\n**🗑️ LYSOSOME**\nContains hydrolytic enzymes. Known as the **Suicide Bag of the Cell**."
+      },
+      {
+        "content": "### **4. Genetics & Chromosomes**\n\n**🧬 GENE**\nSegment of **DNA** that determines a specific trait.\n\n**👫 HUMAN**\n**46** Chromosomes (23 pairs).\n\n**🦟 MOSQUITO**\n**6** Chromosomes (3 pairs).\n\n**🥔 POTATO**\n**48** Chromosomes (24 pairs)."
+      },
+      {
+        "content": "### **5. Animal Tissues Overview**\n\n**🧱 TISSUES**\nGroup of cells performing a specific function.\n\n**🛡️ EPITHELIAL**\nCovering/Lining tissue.\n\n**🔗 CONNECTIVE**\nBinding/Support tissue (e.g., Bone, Blood).\n\n**💪 MUSCULAR**\nContractile tissue (Movement).\n\n**🧠 NERVOUS**\nSensory tissue (Control/Coordination)."
+      },
+      {
+        "content": "### **6. Evolution Theories**\n\n**🦒 LAMARCKISM**\nTheory of **Inheritance of Acquired Characters**.\n\n**🌳 DARWINISM**\nTheory of **Natural Selection**.\n\n**🐛 MUTATION THEORY**\n**Hugo de Vries** proposed evolution by sudden changes (mutations)."
+      },
+      {
+        "content": "### **7. Classification Systems**\n\n**5️⃣ FIVE KINGDOMS**\nProposed by **R. H. Whittaker** (Monera, Protista, Fungi, Plantae, Animalia).\n\n**3️⃣ THREE DOMAINS**\nProposed by **Carl Woese** (Archaea, Bacteria, Eukaryota)."
+      },
+      {
+        "content": "### **8. Virus & Subviral Agents**\n\n**🦠 VIRUS**\nNon-living entity outside host. Made of **Protein** and **Nucleic Acid** (DNA or RNA).\n\n**🦠 BACTERIOPHAGE**\nVirus that infects **Bacteria**.\n\n**🧠 PRION**\nInfectious agent made only of **Protein**.\n\n**🌱 VIROID**\nInfectious agent made only of **RNA**."
+      },
+      {
+        "content": "### **9. Human Body: Largest**\n\n**🧪 GLAND**\n**Liver** (Largest gland).\n\n**🦴 BONE**\n**Femur** (Longest bone).\n\n**💪 MUSCLE**\n**Gluteus Maximus** (Largest muscle).\n\n**⚪ CELL**\n**Neuron** (Longest cell)."
+      },
+      {
+        "content": "### **10. Human Body: Smallest**\n\n**🦴 BONE**\n**Stapes** (Smallest bone in the ear).\n\n**💪 MUSCLE**\n**Stapedius** (Smallest muscle).\n\n**⚪ WBC**\n**Lymphocyte** (Smallest WBC).\n\n**🔴 CELL**\n**RBC** (Smallest cell)."
+      },
+      {
+        "content": "### **11. Human Body: Other Facts**\n\n**❤️ HEART BEAT**\n**72** times per minute.\n\n**💧 BLOOD VOLUME**\n**5 to 6 litres**.\n\n**🦴 BONE COUNT**\n**206** in adults.\n\n**🧠 ORGAN**\n**Skin** (Largest Organ).\n\n**💧 GLAND**\n**Thyroid** (Largest Endocrine Gland)."
+      },
+      {
+        "content": "### **12. Animal Kingdom Facts**\n\n**🐘 MAMMAL**\n*Largest:* **Blue Whale**.\n*Smallest:* **Shrew**.\n\n**🐦 BIRD**\n*Largest:* **Ostrich**.\n*Smallest:* **Hummingbird**.\n\n**🐊 REPTILE**\n**Crocodile** (Largest reptile)."
+      },
+      {
+        "content": "### **13. Lifespan Facts**\n\n**🐘 LONGEST**\n**Tortoise** (Lifespan: 150 years).\n\n**🐕 SHORTEST**\n**Dog** (Lifespan: 16 years).\n\n**🦋 INSECT**\n**Mayfly** (Shortest lifespan: 1 day)."
+      },
+      {
+        "content": "### **14. Venomous Animals**\n\n**🐍 SEA SNAKE**\nMost venomous snake in the world.\n\n**🐍 COBRA**\nVenom contains **Neurotoxins** (affects nerves).\n\n**🐍 KRAIT**\nVenom is fast-acting and highly lethal.\n\n**🕷️ SPIDER**\n**Black Widow** (Venomous spider)."
+      },
+      {
+        "content": "### **15. Plant Kingdom Facts**\n\n**🌳 LARGEST**\n**Sequoia** (Largest plant).\n\n**🌸 FLOWER**\n*Largest:* **Rafflesia**.\n*Smallest:* **Wolffia**.\n\n**🧬 CROP**\n**Triticum aestivum** (Wheat) is a **Hexaploid** plant."
+      },
+      {
+        "content": "### **16. Biotechnology: Transgenics**\n\n**🐑 DOLLY**\nFirst sheep created by **Cloning**.\n\n**🧬 CLONING**\nProduction of an exact copy of a gene or an organism.\n\n**🌱 BT-COTTON**\nGenetically modified crop resistant to **pests**."
+      },
+      {
+        "content": "### **17. Biotechnology: Agriculture**\n\n**🍚 GOLDEN RICE**\nGenetically engineered to produce **Vitamin A**.\n\n**🌾 HYBRID**\nOffspring produced by the cross between **two distinct varieties**.\n\n**🍚 COMPLETE FOOD**\n**Milk** is considered a complete food for infants."
+      },
+      {
+        "content": "### **18. Bio-fertilizers**\n\n**🦠 BACTERIA**\n**Rhizobium** (for pulses) and **Azotobacter** (for cereals).\n\n**🌿 ALGAE**\n**Anabaena** and **Nostoc** (used in paddy fields).\n\n**🌱 FUNCTION**\nIncrease fertility by fixing atmospheric **Nitrogen**."
+      },
+      {
+        "content": "### **19. Ecology & Environment Day**\n\n**🌳 WORLD ENVIRONMENT DAY**\nObserved on **5th June** every year.\n\n**📚 ECOLOGY**\nStudy of the relationship between organisms and their environment."
+      },
+      {
+        "content": "### **20. Ozone Layer Depletion**\n\n**🛡️ OZONE LAYER**\nAbsorbs harmful **UV rays** from the sun.\n\n**💨 CAUSE**\nMainly destroyed by **Chlorofluorocarbons (CFCs)**.\n\n**❄️ CFC SOURCE**\nMostly released from **Refrigerators** and **Air Conditioners**."
+      },
+      {
+        "content": "### **21. Historical Discoveries I**\n\n**🔬 MICROSCOPE**\nDiscovered by **Janssen** (Simple) & **Leeuwenhoek** (Compound).\n\n**🌡️ X-RAY**\nDiscovered by **Wilhelm Conrad Röntgen**.\n\n**🧪 VITAMINS**\nDiscovered by **F. G. Hopkins** and named by **Funk**."
+      },
+      {
+        "content": "### **22. Historical Discoveries II**\n\n**💉 VACCINATION**\nDiscovered by **Edward Jenner** (Smallpox).\n\n**💊 PENICILLIN**\nFirst antibiotic, discovered by **Alexander Fleming**.\n\n**👂 STETHOSCOPE**\nDiscovered by **Rene Laennec**."
+      }
     ]
   }
 }
