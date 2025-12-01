@@ -4,10 +4,42 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=580, initial-scale=0.5, minimum-scale=0.1, maximum-scale=5.0, user-scalable=yes">
   <title>Learn & Conquer — Quiz + Flashcards + Revision</title>
+         <!-- PWA Meta Tags -->
+    <meta name="description" content="Empower your learning journey with interactive practice sessions and challenging quizzes.">
+    <meta name="theme-color" content="#667eea">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Learn & Conquer">
+    
+    <!-- Apple Touch Icons (for iOS home screen) -->
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="icon.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon.png">
+    
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="manifest.json">
   <link href='https://fonts.googleapis.com/css?family=Chilanka' rel='stylesheet'>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Splash Screen -->
+  <div id="splash-screen">
+    <svg class="splash-logo" viewBox="0 0 5 5" xmlns="http://www.w3.org/2000/svg">
+      <image href="icon.png" width="5" height="5"/>
+    </svg>
+    <h1 class="splash-title">Learn & Conquer</h1>
+    <p class="splash-subtitle">Where Practice Meets Performance</p>
+    <div class="loader"></div>
+  </div>
+
   <div class="container">
 
     <!-- START PAGE -->
@@ -43,12 +75,12 @@
       <div style="margin:12px 0;">
         <button id="startQuizBtn" class="listBtn">Start Quiz</button>
         <button id="startFlashBtn" class="listBtn">Study Flashcards</button>
-        <button id="startRevisionBtn" class="listBtn">Quick Revision</button>
+        <button id="startRevisionBtn" class="listBtn">Revision Notes</button>
         <button class="backBtn" onclick="goBackToChapters()">⬅ Back to Chapters</button>
       </div>
 
       <div style="margin-top:10px; color:#555;">
-        <small>Select "Start Quiz" to begin the chapter quiz, "Study Flashcards" for quick recall, or "Quick Revision" for short concept cards.</small>
+        <small>Select "Start Quiz" to begin the chapter quiz, "Study Flashcards" for quick recall, or "Revision Notes" for short concept cards.</small>
       </div>
     </div>
 
@@ -125,6 +157,13 @@
       <h3>Please give feedback: <a href="https://docs.google.com/forms/d/e/1FAIpQLSehyShwdUJDnXAllB7YcY6L_rUX4EyDlW9sUCSLQiREZ0UE7w/viewform?usp=dialog">Feedback</a></h3>
       <h3>Contact: <a href="mailto:nothingtoeverythingok@gmail.com">Send an email</a></h3>
       <button class="backBtn" onclick="goBackToStart()">⬅ Back</button>
+    </div>
+
+              <!-- Install Prompt (for supported browsers) -->
+    <div id="install-prompt" class="install-prompt">
+        <p style="margin-bottom: 15px; color: #555; font-weight: 600;">📱 Install this app for quick access!</p>
+        <button id="install-btn" class="install-btn">Install App</button>
+        <button id="dismiss-btn" class="dismiss-btn">Not Now</button>
     </div>
 
   </div>
