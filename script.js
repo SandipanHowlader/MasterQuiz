@@ -854,3 +854,54 @@ function exitQuiz() {
   // Optional: Reset quiz state so new quiz starts fresh
   currentQuiz = 0;
 }
+
+ // Splash screen logic
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        const splash = document.getElementById('splash-screen');
+        const container = document.querySelector('.container');
+        
+        splash.classList.add('fade-out');
+        container.classList.add('visible');
+        
+        setTimeout(function() {
+          splash.style.display = 'none';
+        }, 500);
+      }, 2000); // 2 second splash screen
+    });
+
+    // PWA Install Prompt
+    let deferredPrompt;
+    const installPrompt = document.getElementById('install-prompt');
+    const installBtn = document.getElementById('install-btn');
+    const dismissBtn = document.getElementById('dismiss-btn');
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      
+      // Show install prompt after splash screen
+      setTimeout(() => {
+        installPrompt.classList.add('show');
+      }, 3000);
+    });
+
+    installBtn.addEventListener('click', async () => {
+      if (!deferredPrompt) {
+        return;
+      }
+      deferredPrompt.prompt();
+      const { outcome } = await deferredPrompt.userChoice;
+      console.log(`User response: ${outcome}`);
+      deferredPrompt = null;
+      installPrompt.classList.remove('show');
+    });
+
+    dismissBtn.addEventListener('click', () => {
+      installPrompt.classList.remove('show');
+    });
+
+    window.addEventListener('appinstalled', () => {
+      console.log('PWA installed successfully!');
+      installPrompt.classList.remove('show');
+    });
