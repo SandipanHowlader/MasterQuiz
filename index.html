@@ -29,6 +29,21 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+      <!-- About Icon (Top-Right Corner) -->
+  <button class="about-icon" id="aboutIconBtn" title="About Learn & Conquer" aria-label="Open About">About ℹ️</button>
+
+  <!-- About Modal Overlay -->
+  <div class="about-modal-overlay" id="aboutModalOverlay">
+    <div class="about-modal" id="aboutModal">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close">×</button>
+      <div class="about-modal-content" id="aboutModalContent">
+        <div style="text-align: center; padding: 40px;">
+          <div class="loader"></div>
+          <p style="margin-top: 20px; color: #667eea;">Loading about page...</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Splash Screen -->
   <div id="splash-screen">
@@ -80,7 +95,7 @@
       </div>
 
       <div style="margin-top:10px; color:#555;">
-        <small>Select "Start Quiz" to begin the chapter quiz, "Study Flashcards" for quick recall, or "Revision Notes" for short concept cards.</small>
+        <small>Select "Start Quiz" to begin the chapter quiz, "Study Flashcards" for quick recall, or "Quick Revisions" for short concept cards.</small>
       </div>
     </div>
 
