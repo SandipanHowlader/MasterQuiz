@@ -660,3 +660,153 @@ button {
             position: absolute;
             left: 0;
         }
+
+  /* About Icon in Top-Right Corner */
+    .about-icon {
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      height: 45px;
+      padding: 0 18px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border-radius: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+      z-index: 1000;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      border: 2px solid white;
+    }
+
+    .about-icon:hover {
+      transform: scale(1.1) rotate(10deg);
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+    }
+
+    .about-icon:active {
+      transform: scale(0.95);
+    }
+
+    /* About Modal Overlay */
+    .about-modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(5px);
+      z-index: 100000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .about-modal-overlay.show {
+      display: flex;
+      animation: fadeIn 0.3s ease forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* About Modal Container */
+    .about-modal {
+      background: white;
+      border-radius: 20px;
+      width: 90%;
+      max-width: 800px;
+      max-height: 85vh;
+      overflow-y: auto;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+      position: relative;
+      transform: translateY(50px) scale(0.9);
+      opacity: 0;
+      animation: slideUpScale 0.4s ease forwards;
+    }
+
+    @keyframes slideUpScale {
+      to {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+      }
+    }
+
+    .about-modal-overlay.closing .about-modal {
+      animation: slideDownScale 0.3s ease forwards;
+    }
+
+    @keyframes slideDownScale {
+      to {
+        transform: translateY(30px) scale(0.95);
+        opacity: 0;
+      }
+    }
+
+    /* Close Button */
+    .modal-close-btn {
+      position: sticky;
+      top: 10px;
+      right: 10px;
+      float: right;
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border: none;
+      border-radius: 50%;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+      z-index: 10;
+      margin: 10px 10px 0 0;
+    }
+
+    .modal-close-btn:hover {
+      transform: rotate(90deg) scale(1.1);
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+    }
+
+    .modal-close-btn:active {
+      transform: rotate(90deg) scale(0.95);
+    }
+
+    /* Modal Content */
+    .about-modal-content {
+      padding: 20px 30px 30px;
+    }
+
+    /* Scrollbar Styling */
+    .about-modal::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .about-modal::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 10px;
+    }
+
+    .about-modal::-webkit-scrollbar-thumb {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border-radius: 10px;
+    }
+
+    .about-modal::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    }
