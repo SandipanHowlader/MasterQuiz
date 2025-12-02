@@ -905,3 +905,89 @@ function exitQuiz() {
       console.log('PWA installed successfully!');
       installPrompt.classList.remove('show');
     });
+
+ // About Modal Functionality
+    const aboutIconBtn = document.getElementById('aboutIconBtn');
+    const aboutModalOverlay = document.getElementById('aboutModalOverlay');
+    const aboutModal = document.getElementById('aboutModal');
+    const modalCloseBtn = document.getElementById('modalCloseBtn');
+    const aboutModalContent = document.getElementById('aboutModalContent');
+
+    // Open About Modal
+    async function openAboutModal() {
+      aboutModalOverlay.classList.add('show');
+      document.body.style.overflow = 'hidden'; // Prevent background scrolling
+
+      try {
+        // Fetch about.html content
+        const response = await fetch('about.html');
+        if (!response.ok) throw new Error('Failed to load about page');
+        
+        const html = await response.text();
+        
+        // Extract body content from about.html
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+        const bodyContent = doc.body.innerHTML;
+        
+        // Remove particles script if exists (we don't need it in modal)
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = bodyContent;
+        const scripts = tempDiv.querySelectorAll('script');
+        scripts.forEach(script => script.remove());
+        
+        // Remove particles div if exists
+        const particles = tempDiv.querySelector('.particles');
+        if (particles) particles.remove();
+        
+        // Inject content
+        aboutModalContent.innerHTML = tempDiv.innerHTML;
+        
+        // Update any links to close modal instead of navigating
+        const backLinks = aboutModalContent.querySelectorAll('a[href="index.html"]');
+        backLinks.forEach(link => {
+          link.href = '#';
+          link.onclick = (e) => {
+            e.preventDefault();
+            closeAboutModal();
+          };
+        });
+        
+      } catch (error) {
+        console.error('Error loading about page:', error);
+        aboutModalContent.innerHTML = `
+          <div style="text-align: center; padding: 40px;">
+            <h2 style="color: #667eea;">📚 About Learn & Conquer</h2>
+            <p style="color: #555; margin-top: 20px;">Could not load about page. Please check that about.html exists in the same directory.</p>
+          </div>
+        `;
+      }
+    }
+
+    // Close About Modal
+    function closeAboutModal() {
+      aboutModalOverlay.classList.add('closing');
+      setTimeout(() => {
+        aboutModalOverlay.classList.remove('show', 'closing');
+        document.body.style.overflow = ''; // Restore scrolling
+      }, 300);
+    }
+
+    // Event Listeners
+    aboutIconBtn.addEventListener('click', openAboutModal);
+    modalCloseBtn.addEventListener('click', closeAboutModal);
+    
+    // Close when clicking overlay (but not the modal itself)
+    aboutModalOverlay.addEventListener('click', (e) => {
+      if (e.target === aboutModalOverlay) {
+        closeAboutModal();
+      }
+    });
+
+    // Close with Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && aboutModalOverlay.classList.contains('show')) {
+        closeAboutModal();
+      }
+    });
+
